@@ -12,6 +12,10 @@ body {
 }
 
 /* Headings and logo */
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
 h1 {
     color: #4a7c59;
@@ -29,28 +33,29 @@ h1 {
 }
 
 /* Navigation links */
-#menu {
+
+header #nav-menu {
     font-size: 130%;
     letter-spacing: 3px;
-    text-align: right;
+    display: flex; 
     }
 
-    #menu, #logo {
+    #logo, #nav-menu {
         line-height: 75px;
     } 
 
-    #menu li {
+    #nav-menu li {
         list-style-type: none;
         display: inline-block;
         margin-right: 30px;
     }
 
-    #menu a {
+    #nav-menu a {
         text-decoration: none;
         color: inherit;
     }
 
-    #menu a:hover {
+    #nav-menu a:hover {
         border-top: 1px solid #4a7c59;
         background-color: #faf3dd;
     }
