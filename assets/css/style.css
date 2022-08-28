@@ -7,6 +7,7 @@
 }
 
 body {
+    font-size: 100%;
     font-family: 'Roboto Slab', sans-serif;
     color: c8d5b9;
 }
@@ -65,8 +66,10 @@ header #nav-menu {
     }
 
     /* Main Image */
+
     #main-image {
         height: 600px;
         width: 100%;
-        background-image: url("../images/main-image.jpg") no-repeat center center;
+        background: url("../images/main-image.jpg") no-repeat center center;
+        background-size: cover;
     }
