@@ -25,18 +25,18 @@ h1 {
 }
 
  h2 {
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
 }
 
 #logo {
-    margin-left: 50px;
+    margin-left: 3.125rem;
     font-size: 260%;
 }
 
 /* Navigation links */
 
 header #nav-menu {
-    font-size: 130%;
+    font-size: 120%;
     letter-spacing: 3px;
     display: flex; 
     }
@@ -54,6 +54,7 @@ header #nav-menu {
     #nav-menu a {
         text-decoration: none;
         color: inherit;
+        font-weight: bold;
     }
 
     #nav-menu a:hover {
@@ -65,11 +66,32 @@ header #nav-menu {
         border-bottom: 1px solid #4a7c59;
     }
 
-    /* Main Image */
+    /* Main Image and overlay text*/
 
     #main-image {
-        height: 600px;
+        height: 37.5rem;
         width: 100%;
         background: url("../images/main-image.jpg") no-repeat center center;
         background-size: cover;
+        object-fit: cover;
+        /* object-position: bottom; */
+    }
+
+    #overlay-text, #overlay-text h2 {
+        color: #4a7c59;
+    }
+
+    #overlay-text {
+        font-size: 1.5rem;
+        font-family: Roboto, sans-serif;
+        /* letter-spacing: 0.25rem; */
+        width: 18.75rem;
+        height: 12.5rem;
+        padding-top: 2.5rem;
+        padding-left: 0.75rem;
+        position: absolute;
+        background-color: 7DD181;
+        bottom: 2rem;
+        left: 9.4rem;
+
     }
