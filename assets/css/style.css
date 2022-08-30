@@ -63,8 +63,9 @@ header #nav-menu {
     }
 
     #nav-menu a:hover {
-        border-top: 1px solid #4a7c59;
-        background-color: #faf3dd;
+        border: 1px solid #4a7c59;
+        background-color: #4a7c59;
+        color: white;
     }
 
     .active {
