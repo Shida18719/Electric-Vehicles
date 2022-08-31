@@ -108,6 +108,10 @@ header #nav-menu {
 
     /* Home page feature content*/
 
+    #intro {
+        height: 35rem;  
+    }
+
     #intro-heading {
         padding-top: 2.5rem;
         text-align: center;
@@ -122,13 +126,13 @@ header #nav-menu {
      #intro-content {
         line-height: 1.6; 
         margin-right: 1.125rem;
-        padding-top: 5rem;
+        padding-top: 2.5rem;
     }
 
     .feat-content {
         width: 100%;
         margin: 3rem;
-        height: 33.5rem;
+        /* height: 33.5rem; */
        } 
 
     #chart-header {
