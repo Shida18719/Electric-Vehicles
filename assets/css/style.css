@@ -47,7 +47,7 @@ header #nav-menu {
     }
 
     #logo, #nav-menu {
-        line-height: 4.5rem;
+        line-height: 4.53rem;
     } 
 
     #nav-menu li {
@@ -79,7 +79,7 @@ header #nav-menu {
     }
 
     #main-image {
-        height: 35rem;
+        height: 36.25rem;
         width: 100%;
         background: url("../images/main-image.jpg") no-repeat center center;
         background-size: cover;
@@ -104,6 +104,33 @@ header #nav-menu {
         background-color: rgba(0, 0, 0, 0.5);
         bottom: 2rem;
         left: 9.4rem;
+    }
+
+    /* Home page */
+    #about {
+        height: 9.06rem;
+        padding-top: 4.5rem;
+        text-align: center;
+    }
+
+    p #contact-link {
+        padding-top: 4rem;
+        font-style: oblique;
+    }
+
+    #check-out {
+        height: 36.25rem;
+        display: flex;
+    }
+
+    #check-out-inner {
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    #check-out-list  {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        list-style-type: none;
     }
 
     /* Insights page feature content*/
@@ -141,6 +168,12 @@ header #nav-menu {
 
     #chart-bar > iframe {
         overflow-y: hidden;
+    }
+
+    /* Footer */
+
+    footer {
+        height: 4.53rem;
     }
 
     
