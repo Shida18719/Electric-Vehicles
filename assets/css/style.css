@@ -106,7 +106,7 @@ header #nav-menu {
         left: 9.4rem;
     }
 
-    /* About page */
+    /* About */
     #about {
         height: 9.06rem;
         padding-top: 4.5rem;
@@ -118,26 +118,42 @@ header #nav-menu {
         font-style: oblique;
     }
 
-    /* Checkout page*/
+    /* Checkout */
 
-    #check-out {
+    #check-container {
         height: 36.25rem;
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-around; 
+        align-items: center;
+        /* background-color:; */
     }
 
     #check-out-inner {
         text-transform: uppercase;
         font-style: italic;
+        letter-spacing: .2rem;
+        line-height: 1.8;
     }
 
-    #checklist-box {
-        
+    #check-out-inner > #checklist {
+        width: 100%; 
     }
 
-    #check-out-list  {
+    .check-out-list {
         border: 1px solid rgba(0, 0, 0, 0.5);
-        list-style-type: none;
+        list-style-type: none; 
+        width: 25.125rem;
+    }
+
+    #checklist li {
+        list-style-type: none; 
+        line-height: 2; 
+        font-weight: 800;
+        margin: 1rem;
+    }
+
+    a .check-out-list  {
+        text-decoration: none;
     }
 
     /* Insights page feature content*/
