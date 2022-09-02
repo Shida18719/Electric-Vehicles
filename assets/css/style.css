@@ -9,8 +9,8 @@
 body {
     font-size: 100%;
     font-family: 'Open sans', sans-serif;
-    font-weight: 400;
-    color: rgb(60, 60, 60);
+    font-weight: 500;
+    color: #2A353C;
     background-color: #F4F4F9;
 }
 
@@ -25,7 +25,7 @@ header a {
 }
 
 h1, h2 {
-    color: #4a7c59;
+    color: #141414;
     font-family: Lato, sans-serif;
     letter-spacing: 25%;
 }
@@ -37,6 +37,7 @@ h1, h2 {
 #logo {
     margin-left: 3.125rem;
     font-size: 250%;
+    color: #045839;
 }
 
 /* Navigation links */
@@ -49,6 +50,7 @@ header #nav-menu {
 
     #logo, #nav-menu {
         line-height: 4.53rem;
+
     } 
 
     #nav-menu li {
@@ -59,18 +61,22 @@ header #nav-menu {
 
     #nav-menu a {
         text-decoration: none;
-        color: inherit;
+        color: #141414;
         font-weight: bold;
     }
 
     #nav-menu a:hover {
-        border: 1px solid #4a7c59;
-        background-color: #4a7c59;
-        color: white;
+        color: #045839;
+    }
+    #nav-menu a span {
+        border: 1px solid #141414;
+        border-radius: 10px;
+        background-color: #045839;
+        color: #F4F4F9;
     }
 
     .active {
-        border-bottom: 1px solid #4a7c59;
+        border-bottom: 3px solid #4a7c59;
     }
 
     /* Main Image and overlay text*/
