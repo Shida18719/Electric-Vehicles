@@ -9,7 +9,7 @@
 body {
     font-size: 100%;
     font-family: 'Open sans', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: #2A353C;
     background-color: #F4F4F9;
 }
@@ -27,12 +27,12 @@ header a {
 h1, h2 {
     color: #141414;
     font-family: Lato, sans-serif;
-    letter-spacing: 25%;
+    letter-spacing: 0.25rem;
 }
 
- /* h2 {
-    letter-spacing: .25rem;
-} */
+.ev-logo > i {
+    color: #141414;
+}
 
 #logo {
     margin-left: 3.125rem;
@@ -76,7 +76,7 @@ header #nav-menu {
     }
 
     .active {
-        border-bottom: 3px solid #4a7c59;
+        border-bottom: 2px solid #045839;
     }
 
     /* Main Image and overlay text*/
@@ -91,44 +91,45 @@ header #nav-menu {
         background: url("../images/main-image.jpg") no-repeat center center;
         background-size: cover;
         object-fit: cover;
-        /* object-position: bottom; */
     }
 
     #overlay-text, #overlay-text h2 {
-        color: #C9FFE2;
+        color: #B8DBD9;
     }
 
     #overlay-text {
         font-size: 1.5rem;
         font-family: Roboto, sans-serif;
         letter-spacing: 0.25rem; 
-        width: 18.75rem;
+        width: 26.5rem;
         height: 12rem;
-        padding-top: 2.5rem;
-        padding-left: 0.75rem;
+        padding: 1rem;
         position: absolute;
-        color: #C9FFE2;
-        background-color: rgba(0, 0, 0, 0.5);
+        color: #B8DBD9;
+        background-color: rgba(0, 0, 0, 0.4);
         bottom: 2rem;
         left: 9.4rem;
+        box-sizing: border-box;
     }
 
     /* About */
     #about {
-        height: 9.06rem;
+        height: 9.375rem;
         padding-top: 4.5rem;
         text-align: center;
     }
 
-    p #contact-link {
+     #contact-link {
         padding-top: 4rem;
         font-style: oblique;
+        color: #045839;
+        font-weight: bold;
     }
 
     /* Checkout */
 
     #check-container {
-        height: 36.25rem;
+        height: 37.5rem;
         display: flex;
         justify-content: space-around; 
         align-items: center;
@@ -150,6 +151,8 @@ header #nav-menu {
         border: 1px solid rgba(0, 0, 0, 0.5);
         list-style-type: none; 
         width: 25.125rem;
+        border-radius: 5px;
+        box-shadow: 0.75rem 0.75rem 0.3rem #141414;
     }
 
     #checklist li {
@@ -157,6 +160,7 @@ header #nav-menu {
         line-height: 2; 
         font-weight: 800;
         margin: 1rem;
+        font-family: Merriweather, Roboto, sans-serif;
     }
 
     a .check-out-list  {
@@ -203,7 +207,33 @@ header #nav-menu {
     /* Footer */
 
     footer {
-        height: 4.53rem;
+        height: 4.6875rem;
+        width: 100%;
+        background-color: #2A353C;
+        color: #F4F4F9;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        border-top: 3px solid #045839;
+    }
+
+    footer div {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    #social-links {
+        text-align: center;
+    }
+
+    #social-links > li {
+        display: inline;
+    }
+    #social-links i {
+        font-size: 1.6rem;
+        margin: 0.16rem;
+        padding: 0.8rem;
+        color: #F4F4F9;
     }
 
     
