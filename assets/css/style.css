@@ -206,6 +206,16 @@ header #nav-menu {
         overflow-y: hidden;
     }
 
+    /* Grid content */
+
+    .grid-container {
+        height: 37.5rem;
+    }
+
+    .grid-box {
+        padding-top: 3rem;
+    }
+
     /* Footer */
 
     footer {
