@@ -216,6 +216,12 @@ header #nav-menu {
         padding-top: 3rem;
     }
 
+    /* Location */
+
+    .location {
+        height: 18.75rem;
+    }
+
     /* Footer */
 
     footer {
