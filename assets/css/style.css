@@ -126,7 +126,7 @@ header #nav-menu {
         font-weight: bold;
     }
 
-    /* Checkout */
+    /* Checkout insight page */
 
     #check-container {
         height: 37.5rem;
@@ -163,7 +163,7 @@ header #nav-menu {
         font-family: Merriweather, Roboto, sans-serif;
     }
 
-    a .check-out-list  {
+     #checklist a {
         text-decoration: none;
     }
 
