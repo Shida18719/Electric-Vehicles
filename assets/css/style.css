@@ -133,7 +133,7 @@ header #nav-menu {
         display: flex;
         justify-content: space-around; 
         align-items: center;
-        /* background-color:; */
+        background-color: #B8DBD9;
     }
 
     #check-out-inner {
@@ -157,14 +157,16 @@ header #nav-menu {
 
     #checklist li {
         list-style-type: none; 
-        line-height: 2; 
+        line-height: 1.8; 
         font-weight: 800;
         margin: 1rem;
         font-family: Merriweather, Roboto, sans-serif;
+        text-align: center;
     }
 
      #checklist a {
         text-decoration: none;
+        color: #2A353C;
     }
 
     /* Insights page feature content*/
@@ -218,8 +220,9 @@ header #nav-menu {
     }
 
     footer div {
-        text-align: center;
-        padding: 0.5rem;
+        text-align: left;
+        margin-left: 5.5rem;
+        margin: auto, auto;
     }
 
     #social-links {
@@ -231,7 +234,7 @@ header #nav-menu {
     }
     #social-links i {
         font-size: 1.6rem;
-        margin: 0.16rem;
+        margin: 0.2rem;
         padding: 0.8rem;
         color: #F4F4F9;
     }
