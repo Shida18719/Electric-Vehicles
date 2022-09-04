@@ -24,7 +24,7 @@ header a {
     text-decoration: none; 
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #141414;
     font-family: Lato, sans-serif;
     letter-spacing: 0.25rem;
@@ -44,7 +44,7 @@ h1, h2 {
 
 header #nav-menu {
     font-size: 120%;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     display: flex; 
     }
 
@@ -169,6 +169,11 @@ header #nav-menu {
         color: #2A353C;
     }
 
+    #checklist a:hover {
+        color:#F4F4F9;
+        background-color: #141414;
+    }
+
     /* Insights page feature content*/
 
     #intro {
@@ -206,14 +211,16 @@ header #nav-menu {
         overflow-y: hidden;
     }
 
-    /* Grid content */
+    /* Grid contents */
 
     .grid-container {
-        height: 37.5rem;
+        height: 75rem;
     }
 
     .grid-box {
-        padding-top: 3rem;
+        /* padding-top: 3rem; */
+        border: 1px solid #141414;
+        margin: 4rem;
     }
 
     /* Location */
@@ -231,6 +238,7 @@ header #nav-menu {
         color: #F4F4F9;
         position: fixed;
         bottom: 0;
+        left: 0;
         z-index: 1;
         border-top: 3px solid #045839;
     }
@@ -253,6 +261,10 @@ header #nav-menu {
         margin: 0.2rem;
         padding: 0.8rem;
         color: #F4F4F9;
+    }
+
+    #social-links i:hover {
+        color: #045839;
     }
 
     
