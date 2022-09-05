@@ -15,7 +15,7 @@ body {
 }
 
 /* Headings and logo */
-header {
+.header {
     display: flex;
     justify-content: space-between;
 }
