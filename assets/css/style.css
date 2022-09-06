@@ -14,6 +14,7 @@ body {
     background-color: #F4F4F9;
     min-height: 100vh;
     font-size: 1.2rem;
+    scroll-behavior: smooth;
 }
 
 /* Headings and logo */
@@ -107,7 +108,8 @@ header #nav-menu {
         letter-spacing: 0.25rem; 
         width: 26.5rem;
         height: 12rem;
-        padding: 1rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
         position: absolute;
         color: #B8DBD9;
         background-color: rgba(0, 0, 0, 0.4);
@@ -191,14 +193,14 @@ header #nav-menu {
         background-color: #141414;
     }
 
-    /* Insights page feature content*/
+    /* Insights page feature content*/ 
+    /* ************************I have tweeked this part of the code for you. you can delete this comment ********************/
 
-    #insights-image {
-        height: 37.5rem;
+    #insights-image img{
+        /* height: 37.5rem; */
         width: 100%;
-        background: url("../images/insights-image.jpeg") no-repeat center center;
-        background-size: cover;
-        object-fit: cover;
+        padding: 0.5rem;
+        /* overflow: hidden; */
     }
 
     #intro {
@@ -284,13 +286,57 @@ header #nav-menu {
         box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
     }
 
+    .grid-box:nth-child(6) {
+        border-radius: 5px;
+        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+    }
+
+    .grid-box:nth-child(7) {
+        border-radius: 5px;
+        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+    }
+
+    .grid-box:nth-child(8){
+        border-style: none;
+        align-self: center;
+    }
+
+    .grid-box:nth-child(9) {
+        border-style: none;
+       align-self: center;
+    }
+
+    .grid-box:nth-child(10) {
+        border-radius: 5px;
+        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+    }
+
+    .grid-box:nth-child(11) {
+        border-radius: 5px;
+        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+    }
+
+    /* Grid box image*/
+    .grid-box img {
+    object-fit: cover;
+    width: 100%;
+    }
+
+    .podpoint {
+        text-decoration: underline;
+        margin-bottom: 1rem;
+    }
+
+    .grid-box9 ul li {
+        list-style-type: none;
+        text-align: center;
+        line-height: 1.6;
+    }
+
 
 
     /* Location */
 
-    .location {
-        height: 18.75rem;
-    }
 
     /* Footer */
 
