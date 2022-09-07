@@ -193,30 +193,20 @@ header #nav-menu {
         background-color: #141414;
     }
 
-    /* Insights page feature content*/ 
-    /* ************************I have tweeked this part of the code for you. you can delete this comment ********************/
-
-    #insights-image img{
-        /* height: 37.5rem; */
-        width: 100%;
-        padding: 0.5rem;
-        /* overflow: hidden; */
-    }
-
-    #intro {
-        /* border-style: none; */
-    }
+    /* #intro {
+        border-style: none;
+    } */
 
     #intro-heading {
         padding-top: 1rem;
         text-align: center;
     }
     
-    #intro-container {
-        /* display: flex;
+    /* #intro-container {
+        display: flex;
         justify-content: space-between; 
-        align-items: center;   */
-    }   
+        align-items: center;  
+    }    */
 
      #intro-content{
         line-height: 1.6; 
@@ -224,9 +214,9 @@ header #nav-menu {
         padding-top: 2rem;
     }
 
-    .feat-content {
+    /* .feat-content {
         
-       } 
+       }  */
 
     #chart-header {
         padding-bottom: 1.5rem;
@@ -248,19 +238,21 @@ header #nav-menu {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* grid-auto-rows: min-max(500px auto); */
         grid-template-rows: 1fr 1fr;
         gap: 3rem;
         justify-items: center;
-        
     }
 
     .grid-box {
         border: 1px solid #141414;
         /* place-content: center; */
-        justify-items: center;
-        align-items: center;
+        /* justify-items: center;
+        align-items: center; */
     } 
+
+    .grid-box:first-child {
+       
+    }
 
     .grid-box3, .grid-box8 {
         grid-column: span 2;
@@ -378,6 +370,15 @@ header #nav-menu {
 
     #social-links i:hover {
         color: #045839;
+    }
+
+     /* Insights page feature content*/ 
+    /* *******************************/
+
+    #insights-image img{
+        min-width: 100%;
+        min-height: 45%;
+        padding: 0.5rem;
     }
 
     
