@@ -74,7 +74,7 @@ header #nav-menu {
     }
     #nav-menu a span {
         border: 1px solid #F4F4F9;
-        border-radius: 10px;
+        border-radius: 20px;
         background-color: #045839;
         color: #F4F4F9;
         padding: 2px 2px 5px 5px;
@@ -210,8 +210,9 @@ header #nav-menu {
 
      #intro-content{
         line-height: 1.6; 
-        margin-right: 1.125rem;
+        /* margin-right: 1.125rem; */
         padding-top: 2rem;
+        max-width: 80%;
     }
 
     #chart-header {
@@ -233,33 +234,54 @@ header #nav-menu {
         min-height: 100vh;
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 3rem;
+        grid-template-columns: 45% 45%;
+        /* grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); */
+        grid-template-rows: (7, 1fr);
+        /* grid-template-rows: repeat(7, 600px); */
+        /* grid-auto-rows: 600px; */
+        gap: 2rem;
         justify-items: center;
+        align-items: center;
     }
 
     .grid-box {
         border: 1px solid #141414;
-        place-content: center;    
+        /* place-content: center;     */
     } 
 
-    .grid-box:first-child {
-       
+    .grid-box1 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
     }
 
     .grid-box3, .grid-box8 {
-        grid-column: span 2;
+        grid-column: 1 / -1;
+    }
+    .grid-box8 {
+        text-align: center;
+        margin: auto 0;
+        padding: 2rem;
+    }
+
+    .options {
+        padding: 0.5rem 0 0.5rem 0;
+        font-size: 1.8rem;
     }
 
     .grid-box:nth-child(2){
         border-style: none;
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        
     }
 
     .grid-box:nth-child(3) {
         border-style: none;
         justify-self: center;
-        align-self: center;
+        /* align-self: center; */
     }
 
     .grid-box:nth-child(4) {
@@ -309,7 +331,7 @@ header #nav-menu {
     width: 100%;
     }
 
-    .podpoint {
+    .charger {
         text-decoration: underline;
         margin-bottom: 1rem;
     }
