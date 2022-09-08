@@ -152,13 +152,12 @@ header #nav-menu {
 
     /* Checkout section home page */
 
-    #check-container {
+    #flex-container {
         min-height: 37.5rem;
         display: flex;
-        justify-content: center; 
+        justify-content: space-around; 
         align-items: center;
         background-color: #B8DBD9;
-
     }
 
     .check-out-inner {
@@ -168,12 +167,11 @@ header #nav-menu {
         line-height: 1.8;
     }
 
-    .check-box {
+    #flex-container .check-box {
         display: flex;
         justify-content: center; 
         align-items: center;
-        
-        min-height: 400px;
+        min-height: 18.75rem;
     }
 
     .check-out-list {
