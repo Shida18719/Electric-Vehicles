@@ -402,18 +402,20 @@ header #nav-menu {
 
     .signup-form {
         color: #B8DBD9;
-        background-color: rgba(0, 0, 0, 0.4);
-        max-width: 400px;
+        background-color: rgba(0, 0, 0, 0.6);
+        max-width: 420px;
         position: absolute;
         left: 10%;
         padding: 30px; 
+        margin: 9.38rem 0.1rem 0 0;
     }
 
     .signup-form h2 {
         color: #2A353C;
-        font-family: Lato sans-serif;
+        font-family: Lato, sans-serif;
         margin-bottom: 1.25rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
+        text-align: center;
     }
 
     .signup-form p {
@@ -426,13 +428,30 @@ header #nav-menu {
         color: #B8DBD9;
         height: 1.6rem;
         width: 100%;
-        border: 1px solid #2A353C;
+        border: 1px solid #B8DBD9;
         margin: 0.32rem 0 1.5rem 0;
         border-radius: 3px;
         }
 
         .text-input:hover {
+            border-color: #045839;
+        }
 
+        .join-button {
+            display: block;
+            font-size: 100%;
+            width: 100%;
+            padding: 1rem 2rem 1rem 2rem;
+            text-align: center;
+            background-color: #045839;
+            color:#F4F4F9;
+            margin-top: 1.5rem;
+            border-radius: 3px;
+        }
+
+        .join-button:hover {
+            background-color: #F4F4F9;
+            color: #045839;
         }
 
     
