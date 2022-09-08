@@ -18,6 +18,7 @@ body {
 }
 
 /* Headings and logo */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -118,7 +119,7 @@ header #nav-menu {
         box-sizing: border-box;
     }
 
-    /* About */
+    /* About home page*/
     #about {
         height: 37.5rem;
         padding-top: 3rem;
@@ -137,7 +138,7 @@ header #nav-menu {
         margin: 2%;
     }
 
-    /* Checkout insight page */
+    /* Checkout section home page */
 
     #check-container {
         min-height: 37.5rem;
@@ -153,10 +154,6 @@ header #nav-menu {
         letter-spacing: .2rem;
         line-height: 1.8;
     }
-
-   /* #check-out-inner > #checklist {
-        width: 100%;  
-    } */
 
     .check-box {
         display: flex;
@@ -193,9 +190,54 @@ header #nav-menu {
         background-color: #141414;
     }
 
-    /* #intro {
-        border-style: none;
-    } */
+
+     /** Footer content **/
+     /********************/
+
+     footer {
+        height: 4.6875rem;
+        width: 100%;
+        background-color: #2A353C;
+        color: #F4F4F9;
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        border-top: 3px solid #045839;
+    }
+
+    footer div {
+        margin: 1.3% 2%;
+        margin: auto, auto;
+    }
+
+    #social-links {
+        text-align: center;
+        width: 80%;
+    }
+
+    #social-links > li {
+        display: inline;
+    }
+    #social-links i {
+        font-size: 1.7rem;
+        margin-top: 0.4rem;
+        padding: 1.4rem;
+        color: #F4F4F9;
+    }
+
+    #social-links i:hover {
+        color: #045839;
+    }
+
+/**********Insight Page ***********/
+
+#insights-image img {
+    min-width: 100%;
+    min-height: 40%;
+    padding: 0.5rem;
+}
 
     #intro-heading {
         padding-top: 1rem;
@@ -228,7 +270,7 @@ header #nav-menu {
         list-style-position: inside;
     }
 
-    /* Grid contents */
+    /* Grid contents insights page */
 
     .grid-container {
         min-height: 100vh;
@@ -342,55 +384,7 @@ header #nav-menu {
         line-height: 1.6;
     }
 
-    /** Footer content **/
-
-    footer {
-        height: 4.6875rem;
-        width: 100%;
-        background-color: #2A353C;
-        color: #F4F4F9;
-        position: fixed;
-        display: flex;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-        border-top: 3px solid #045839;
-    }
-
-    footer div {
-        margin: 1.3% 2%;
-        margin: auto, auto;
-    }
-
-    #social-links {
-        text-align: center;
-        width: 80%;
-    }
-
-    #social-links > li {
-        display: inline;
-    }
-    #social-links i {
-        font-size: 1.7rem;
-        margin-top: 0.4rem;
-        padding: 1.4rem;
-        color: #F4F4F9;
-    }
-
-    #social-links i:hover {
-        color: #045839;
-    }
-
-     /* Insights page feature content*/ 
-    /* *******************************/
-
-    #insights-image img {
-        min-width: 100%;
-        min-height: 40%;
-        padding: 0.5rem;
-    }
-
-    /** Sign Up Form Page Content**/
+    /**** Sign Up Form Page Content*****/
 
     .form-section {
         height: 56.25rem;
