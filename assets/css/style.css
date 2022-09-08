@@ -145,7 +145,7 @@ header #nav-menu {
     .video {
         padding-top: 3rem;
     }
-    
+
     .video-frame {
         margin: 2%;
     }
@@ -158,6 +158,7 @@ header #nav-menu {
         justify-content: center; 
         align-items: center;
         background-color: #B8DBD9;
+
     }
 
     .check-out-inner {
@@ -440,7 +441,7 @@ header #nav-menu {
         }
 
         .text-input:hover {
-            border-color: #045839;
+            border-color: #F4F4F9;
         }
 
         .join-button {
@@ -453,11 +454,13 @@ header #nav-menu {
             color:#F4F4F9;
             margin-top: 1.5rem;
             border-radius: 3px;
+            /* z-index: 1; */
         }
 
         .join-button:hover {
             background-color: #F4F4F9;
             color: #045839;
+            z-index: 1;
         }
 
     
