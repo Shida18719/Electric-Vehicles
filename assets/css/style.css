@@ -121,18 +121,31 @@ header #nav-menu {
     /* About home page*/
     #about {
         height: 56.25rem;
-        padding-top: 4rem;
+        padding-top: 7.5rem;
         text-align: center;
     }
 
      #contact-link {
-        padding-top: 4rem;
+        padding: 4.5rem 0 4.5rem 0;
         font-style: oblique;
         color: #045839;
         font-size: 1.5rem;
         font-weight: bold;
     }
 
+    .about-ev h2 {
+        padding-bottom: 2rem;
+    }
+
+    .about-ev p {
+        padding: 0 4rem 4rem 4rem;
+        text-align: center;
+    }
+
+    .video {
+        padding-top: 3rem;
+    }
+    
     .video-frame {
         margin: 2%;
     }
