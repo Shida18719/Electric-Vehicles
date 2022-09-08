@@ -22,7 +22,7 @@
             <nav>
                 <ul id="nav-menu">
                     <li>
-                        <a href="index.html" aria-label="Go to the top of the page" class="active">Home</a>
+                        <a href="index.html" aria-label="Go to the top of the page">Home</a>
                     </li>
                     <li>
                         <a href="insights.html" aria-label="Go to the insights page">Insights</a>
@@ -34,7 +34,35 @@
             </nav>
 
         </header>
-       
+        <!-- <section class="form-section"> -->
+            <section class="form-section">
+                <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST">
+                    
+                    <h2>Sign Up for Updates</h2>
+                    
+                    <label for="fname">First Name</label>
+                    <input type="text" name="first_name" id="fname"  required>
+                    
+                     <label for="lname">Last Name</label>
+                     <input type="text" name="last_name" id="lname"  required>
+                     
+                     <label for="email">Email Address</label>
+                     <input id="email" type="email" name="email_address"  required>
+                     
+                     <label for="road">Road</label>
+                    <input id="road" name="running_preference" value="road" type="radio" required>
+                    
+                     <label for="trail">Trail</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail">
+                    
+                     <label for="both">Both</label>
+                    <input id="both" type="radio" name="running_preference" value="both">
+                    
+                    <input type="submit" value="Let's Run!">
+                </form>
+                
+            </section>
+
 </main>
 
 <footer>
