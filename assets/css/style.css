@@ -394,16 +394,46 @@ header #nav-menu {
 
     .form-section {
         height: 56.25rem;
-        /* width: 100%; */
         background: url("../images/charging-bg-image.jpg");
         background-position: center;
         background-size: cover;
-        object-fit: cover;  
+        object-fit: cover; 
     }
 
     .signup-form {
-
+        color: #B8DBD9;
+        background-color: rgba(0, 0, 0, 0.4);
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        padding: 30px; 
     }
+
+    .signup-form h2 {
+        color: #2A353C;
+        font-family: Lato sans-serif;
+        margin-bottom: 1.25rem;
+        font-size: 2.5rem;
+    }
+
+    .signup-form p {
+        margin-bottom: 1.25rem;
+    }
+
+    /* Text input field*/
+        .text-input {
+        background: transparent;
+        color: #B8DBD9;
+        height: 1.6rem;
+        width: 100%;
+        border: 1px solid #2A353C;
+        margin: 0.32rem 0 1.5rem 0;
+        border-radius: 3px;
+        }
+
+        .text-input:hover {
+
+        }
 
     
 
