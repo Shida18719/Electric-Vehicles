@@ -342,12 +342,7 @@ header #nav-menu {
         line-height: 1.6;
     }
 
-
-
-    /* Location */
-
-
-    /* Footer */
+    /** Footer content **/
 
     footer {
         height: 4.6875rem;
@@ -393,6 +388,21 @@ header #nav-menu {
         min-width: 100%;
         min-height: 40%;
         padding: 0.5rem;
+    }
+
+    /** Sign Up Form Page Content**/
+
+    .form-section {
+        height: 56.25rem;
+        /* width: 100%; */
+        background: url("../images/charging-bg-image.jpg");
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;  
+    }
+
+    .signup-form {
+
     }
 
     
