@@ -155,7 +155,7 @@ header #nav-menu {
     #flex-container {
         min-height: 37.5rem;
         display: flex;
-        justify-content: space-around; 
+        justify-content: space-evenly; 
         align-items: center;
         background-color: #B8DBD9;
     }
@@ -165,6 +165,7 @@ header #nav-menu {
         font-style: italic;
         letter-spacing: .2rem;
         line-height: 1.8;
+        
     }
 
     #flex-container .check-box {
@@ -174,15 +175,20 @@ header #nav-menu {
         min-height: 18.75rem;
     }
 
+    /* .check-box .checklist {
+        margin-right: 5.5rem;
+    } */
+
     .check-out-list {
         border: 1px solid rgba(0, 0, 0, 0.5);
         list-style-type: none; 
         width: 25.125rem;
         border-radius: 5px;
         box-shadow: 0.75rem 0.75rem 0.3rem #141414;
+        margin-right: 6rem;
     }
 
-    #checklist li {
+    .checklist li {
         list-style-type: none; 
         line-height: 1.8; 
         font-weight: 800;
@@ -191,12 +197,12 @@ header #nav-menu {
         text-align: center;
     }
 
-     #checklist a {
+     .checklist a {
         text-decoration: none;
         color: #2A353C;
     }
 
-    #checklist a:hover {
+    .checklist a:hover {
         color:#F4F4F9;
         background-color: #141414;
     }
@@ -245,7 +251,7 @@ header #nav-menu {
 /**********Insight Page ***********/
 
 #insights-image img {
-    min-width: 100%;
+    min-width: 50%;
     min-height: 40%;
     padding: 0.5rem;
 }
@@ -302,6 +308,7 @@ header #nav-menu {
         /* place-content: center;     */
     } 
 
+
     .grid-box1 {
        display: block;
        margin-left: auto;
@@ -327,8 +334,7 @@ header #nav-menu {
         border-style: none;
         align-self: center;
         justify-self: center;
-        display: flex;
-        
+        display: flex;  
     }
 
     .grid-box:nth-child(3) {
@@ -406,8 +412,8 @@ header #nav-menu {
     }
 
     .signup-form {
-        color: #B8DBD9;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: #141414;
+        opacity: 0.8;
         max-width: 420px;
         position: absolute;
         left: 10%;
@@ -416,7 +422,8 @@ header #nav-menu {
     }
 
     .signup-form h2 {
-        color: #2A353C;
+        /* color: #2A353C; */
+        color: #B8DBD9;
         font-family: Lato, sans-serif;
         margin-bottom: 1.25rem;
         font-size: 3rem;
@@ -425,6 +432,7 @@ header #nav-menu {
 
     .signup-form p {
         margin-bottom: 1.25rem;
+        color: #B8DBD9;
     }
 
     /* Text input field*/
@@ -436,6 +444,10 @@ header #nav-menu {
         border: 1px solid #B8DBD9;
         margin: 0.32rem 0 1.5rem 0;
         border-radius: 3px;
+        }
+
+        label {
+            color: #B8DBD9;
         }
 
         .text-input:hover {
@@ -458,7 +470,7 @@ header #nav-menu {
         .join-button:hover {
             background-color: #F4F4F9;
             color: #045839;
-            z-index: 1;
+            z-index: 2;
         }
 
     
