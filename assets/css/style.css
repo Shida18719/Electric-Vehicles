@@ -12,7 +12,7 @@ body {
     font-weight: 700;
     color: #2A353C;
     background-color: #F4F4F9;
-    min-height: 100vh;
+    height: 100vh;
     font-size: 1.2rem;
     scroll-behavior: smooth;
 }
@@ -55,13 +55,12 @@ header #nav-menu {
 
     #logo, #nav-menu {
         line-height: 4.53rem;
-
     } 
 
     #nav-menu li {
         list-style-type: none;
         display: inline-block;
-        margin-right: 1.875rem;
+        margin-right: 2rem;
     }
 
     #nav-menu a {
@@ -121,8 +120,8 @@ header #nav-menu {
 
     /* About home page*/
     #about {
-        height: 37.5rem;
-        padding-top: 3rem;
+        height: 56.25rem;
+        padding-top: 4rem;
         text-align: center;
     }
 
@@ -401,7 +400,7 @@ header #nav-menu {
         position: absolute;
         left: 10%;
         padding: 30px; 
-        margin: 9.38rem 0.1rem 0 0;
+        margin: 8.38rem 0.1rem 0 0;
     }
 
     .signup-form h2 {
