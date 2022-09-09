@@ -351,11 +351,6 @@ header #nav-menu {
         padding: 1.8rem;
     }
 
-    /* .options {
-        padding: 0.5rem 0 0.5rem 0;
-        font-size: 1.8rem;
-    } */
-
     .grid-box:nth-child(2){
         border-style: none;
         align-self: center;
@@ -393,22 +388,44 @@ header #nav-menu {
         width: 100%;
     }
 
-    /* .grid-box img {
-    object-fit: cover;
-    width: 100%;
+    .options h3 {
+        padding: 5rem 0 1.5rem 0;
+        font-size: 1.8rem;
+        text-align: center;
     }
 
-    .charger {
+    .options p {
+        padding: 0 1.5rem 2rem 1.5rem;
+        text-align: center;
+    }
+
+    .flex-container1, .flex-container2, .flex-container3 {
+        display: flex;
+    }
+
+    /* .flex-container2 {
+        display: flex;
+    }
+
+    .flex-container3 {
+        display: flex;
+    } */
+     /* .grid-box img {
+    object-fit: cover;
+    width: 100%;
+    } */ 
+
+    /* .charger {
         text-decoration: underline;
         margin-bottom: 1rem;
-    } */
+    }  */
 
     /* .grid ul li {
         list-style-type: none;
         text-align: center;
         line-height: 1.6;
-    }  */
-
+    }  
+ 
 
     /**** Sign Up Form Page Content*****/
 
