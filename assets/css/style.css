@@ -458,19 +458,18 @@ header #nav-menu {
             display: block;
             font-size: 100%;
             width: 100%;
-            padding: 1rem 2rem 1rem 2rem;
+            padding: 1rem 2rem 1rem 1rem;
             text-align: center;
             background-color: #045839;
             color:#F4F4F9;
-            margin-top: 1.5rem;
+            margin-top: 1rem;
             border-radius: 3px;
-            /* z-index: 1; */
+            z-index: 2;
         }
 
         .join-button:hover {
             background-color: #F4F4F9;
             color: #045839;
-            z-index: 2;
         }
 
     
