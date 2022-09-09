@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     font-weight: 700;
     color: #2A353C;
     background-color: #F4F4F9;
-    height: 100vh;
+    min-height: 100vh;
     font-size: 1.2rem;
     scroll-behavior: smooth;
 }
@@ -120,7 +121,7 @@ header #nav-menu {
 
     /* About home page*/
     #about {
-        height: 56.25rem;
+        min-height: 37.5rem;
         padding-top: 7.5rem;
         text-align: center;
     }
@@ -250,6 +251,8 @@ header #nav-menu {
 
 /**********Insight Page ***********/
 
+/* Background image */
+
     #bgc-image {
         position: relative;
     }
@@ -282,18 +285,13 @@ header #nav-menu {
         box-sizing: border-box;
     }
 
+    /*** Grid content insights page ***/
+
     #intro-heading {
-        padding-top: 1rem;
+        padding: 1rem 0 1rem 0;
         text-align: center;
     }
     
-     /* #intro-content{
-        line-height: 1.6; 
-        /* margin-right: 1.125rem; */
-        padding-top: 2rem;
-        max-width: 80%;
-    } */
-
     #chart-header {
         padding-bottom: 1.5rem;
     } 
@@ -302,26 +300,41 @@ header #nav-menu {
         overflow-y: hidden;
     }
 
+    .why-ev, .misconceptions, .benefits, .types {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .misconceptions p {
+        font-weight: 800;
+        padding-top: 1rem;
+    }
+
     .misconceptions ul li {
         list-style-type: square;
         list-style-position: inside;
     }
 
-    /* Grid contents insights page */
+    .benefits p {
+        padding-top: 1rem;
+    }
+
+    /*****grid container *****/
 
     .grid-container {
         min-height: 100vh;
-        width: 100%;
+        min-width: 100%;
         display: grid;
-        grid-template-columns: 40% 40%; 
-        grid-auto-rows: 25%;
-        gap: 2.5rem;
+        grid-template-columns: 40.5% 40.5%; 
+        /* grid-auto-rows: 25.5%; */
+        grid-auto-rows: minmax(1fr, auto) ;
+        gap: 2.5rem 2.8rem;
         align-items: center; 
         justify-content: center;
     }
 
     .grid-box {
-        padding: 1.5rem;
+        padding: 1.5rem 1.5rem 2.5rem 1.5rem;
     }
 
     .grid-box3, .grid-box4, .grid-box5, .grid-box6 {
@@ -335,7 +348,7 @@ header #nav-menu {
 
       .grid-box1 {
         margin: auto 0;
-        padding: 2rem;
+        padding: 1.8rem;
     }
 
     /* .options {
@@ -346,8 +359,6 @@ header #nav-menu {
     .grid-box:nth-child(2){
         border-style: none;
         align-self: center;
-        /* justify-self: center;
-        display: flex;  */
         padding-top: 5rem; 
     }
 
@@ -360,6 +371,7 @@ header #nav-menu {
 
     .grid-box:nth-child(4) {
         box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+        
     }
 
     .grid-box:nth-child(5) {
@@ -371,13 +383,17 @@ header #nav-menu {
     .grid-box:nth-child(6) { 
         box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
         justify-self: center;
-        /* padding-left: 8rem; */
         padding: 2rem 4rem 0 3rem;
     } 
     
-    /* Grid box image*/
+    /*** Flex section content insight page ***/
 
-    .grid-box img {
+    .flex-area {
+        min-height: 37.5rem;
+        width: 100%;
+    }
+
+    /* .grid-box img {
     object-fit: cover;
     width: 100%;
     }
@@ -387,12 +403,12 @@ header #nav-menu {
         margin-bottom: 1rem;
     } */
 
-    .grid-box9 ul li {
+    /* .grid ul li {
         list-style-type: none;
         text-align: center;
         line-height: 1.6;
-    } */
-    
+    }  */
+
 
     /**** Sign Up Form Page Content*****/
 
@@ -429,6 +445,7 @@ header #nav-menu {
     }
 
     /* Text input field*/
+
         .text-input {
         background: transparent;
         color: #B8DBD9;
