@@ -249,6 +249,14 @@ header #nav-menu {
     }
 
 /**********Insight Page ***********/
+#bg-image {
+height: 37.5rem;
+width: 100%;
+background: url("../images/imain-image.jpg") no-repeat center center;
+/* "assets/images/imain-image.jpg" */
+background-size: cover;
+object-fit: cover;
+}
 
 #insights-image img {
     min-width: 50%;
