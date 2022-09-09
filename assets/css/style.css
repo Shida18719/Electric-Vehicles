@@ -250,16 +250,16 @@ header #nav-menu {
 
 /**********Insight Page ***********/
 
+    #bgc-image {
+        position: relative;
+    }
+
     #insights-image {
     height: 37.5rem;
     width: 100%;
     background: url("../images/imain-image.jpg") no-repeat center center;
     background-size: cover;
     object-fit: cover;
-    }
-
-    #bgc-image {
-        position: relative;
     }
 
     .cover-text, .cover-text h2 {
@@ -321,7 +321,7 @@ header #nav-menu {
         display: grid;
         grid-template-columns: 45% 45%;
         /* grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); */
-        grid-template-rows: (7, 1fr);
+        grid-template-rows: (4, 1fr);
         /* grid-template-rows: repeat(7, 600px); */
         /* grid-auto-rows: 600px; */
         gap: 2rem;
