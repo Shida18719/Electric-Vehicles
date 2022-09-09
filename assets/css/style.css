@@ -250,7 +250,7 @@ header #nav-menu {
 
 /**********Insight Page ***********/
 
-    #bg-image {
+    #insights-image {
     height: 37.5rem;
     width: 100%;
     background: url("../images/imain-image.jpg") no-repeat center center;
@@ -258,8 +258,28 @@ header #nav-menu {
     object-fit: cover;
     }
 
-    .bg-image text {
+    #bgc-image {
+        position: relative;
+    }
 
+    .cover-text, .cover-text h2 {
+        color: #B8DBD9;
+    }
+
+    .cover-text {
+         font-size: 1.5rem;
+        font-family: Roboto, sans-serif;
+        letter-spacing: 0.25rem; 
+        width: 26.5rem;
+        height: 10rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        position: absolute;
+        color: #B8DBD9;
+        background-color: rgba(0, 0, 0, 0.5);
+        bottom: 2rem;
+        right: 9.4rem;
+        box-sizing: border-box;
     }
 
     #intro-heading {
