@@ -182,6 +182,7 @@ header #nav-menu {
         border-radius: 5px;
         box-shadow: 0.75rem 0.75rem 0.3rem #141414;
         margin-right: 6rem;
+        margin-bottom: 3rem;
     }
 
     .checklist li {
@@ -270,11 +271,12 @@ header #nav-menu {
         letter-spacing: 0.25rem; 
         width: 26.5rem;
         height: 10rem;
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
+        padding: 1rem 0.8rem 0 0.8rem;
         position: absolute;
         color: #B8DBD9;
-        background-color: rgba(0, 0, 0, 0.5);
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        background-color: #141414;
+        opacity: 0.8;
         bottom: 2rem;
         right: 9.4rem;
         box-sizing: border-box;
@@ -285,10 +287,14 @@ header #nav-menu {
     #intro-heading {
         padding: 1rem 0 1rem 0;
         text-align: center;
+        margin-top: 1.5rem;
+        color: #141414;
     }
     
     #chart-header {
         padding-bottom: 1.5rem;
+        color: #141414;
+        font-size: 900;
     } 
 
     #chart-bar > iframe {
@@ -298,6 +304,8 @@ header #nav-menu {
     .why-ev, .misconceptions, .benefits, .types {
         text-align: center;
         padding-bottom: 1rem;
+        color: #141414;
+        font-size: 1.5rem;
     }
 
     .misconceptions p {
@@ -305,13 +313,23 @@ header #nav-menu {
         padding-top: 1rem;
     }
 
-    .misconceptions ul li {
+    .list li {
         list-style-type: square;
         list-style-position: inside;
     }
 
     .benefits p {
         padding-top: 1rem;
+    }
+
+    .benefit-list li {
+        list-style-type: square;
+        list-style-position: inside; 
+    }
+
+    .ev-types h4 {
+        color: #141414;
+        font-size: 1.5rem;
     }
 
     /*****grid container *****/
@@ -341,7 +359,7 @@ header #nav-menu {
         grid-column: span 2;
     }
 
-      .grid-box1 {
+    .grid-box1 {
         margin: auto 0;
         padding: 1.8rem;
     }
@@ -352,14 +370,11 @@ header #nav-menu {
         padding-top: 5rem; 
     }
 
-    .grid-box:nth-child(3) {
+    .grid-box:nth-child(3), .grid-box:nth-child(4) {
         justify-self: center;
         align-self: center; 
-        padding-top: 1rem;
-        box-shadow: 0.75rem 0.75rem 0.3rem #141414;  
-    }
-
-    .grid-box:nth-child(4) {
+        /* padding-top: 0.5rem; */
+        margin: 0.5rem;
         box-shadow: 0.75rem 0.75rem 0.3rem #141414;   
     }
 
@@ -372,7 +387,8 @@ header #nav-menu {
     .grid-box:nth-child(6) { 
         box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
         justify-self: center;
-        padding: 2rem 4rem 0 3rem;
+        padding: 2rem 4rem 3rem 3rem;
+        /* margin-bottom: 2.5rem ; */
     } 
     
     /*** Flex section content insight page ***/
@@ -382,16 +398,24 @@ header #nav-menu {
         width: 100%;
     }
 
+    .options {
+        margin: 2rem;
+    }
+
     .options h3 {
         padding: 5rem 0 1.5rem 0;
         font-size: 1.8rem;
         text-align: center;
+        color: #141414;
     }
 
     .options p {
         padding: 0 1.5rem 2rem 1.5rem;
         text-align: center;
+        margin: 0 2rem 1rem 2rem ;
     }
+
+    /**************** Flex container insight page *********************/
 
     .flex-container1, .flex-container2, .flex-container3 {
         display: flex;
@@ -400,10 +424,16 @@ header #nav-menu {
         align-items: center;
     }
 
-    .charger h4 {
+    .charger {
+        margin: 1rem;
+    }
+
+    .charger h3 {
         text-decoration: underline;
         margin-bottom: 1rem; 
         align-items: center;
+        font-size: 1.5rem;
+        color: #141414;
     }
 
     .charger ul li {
@@ -412,7 +442,7 @@ header #nav-menu {
         line-height: 1.6; 
     }
     .wirless {
-        align-self: center;
+      margin: 1rem; 
     }
 
     .wirless img {
@@ -421,32 +451,35 @@ header #nav-menu {
     }
 
     .wirless h3 {
-        text-align: center;
-        padding-bottom: 1rem;
+        text-align: left;
+        padding: 2rem 0 1rem 6rem;
+        color: #141414;
+        font-size: 1.5rem;
     }
 
     .wirless p {
-        text-align: center;
+        align-self: start;
+        padding: 0 4.8rem 2rem 6rem;
     }
 
-    .flex-container3 .dynamic {
-        align-self: center;
-        display: flex;
-        /* flex-direction: row; */
+    .dynamic {
+        margin: 1rem;
     }
 
     .dynamic h3 {
-       text-align: center; 
-       padding-bottom: 1rem;
+       align-self: start;
+       padding: 0 0 1rem 6rem;
+       color: #141414;
+        font-size: 1.5rem;
     }
 
     .dynamic p {
-        text-align: center; 
-        /* padding-bottom: 1rem; */
-     }
-
+        align-self: start;
+        padding: 0 2rem 3.5rem 6rem;
+    }
+    
     .dynamic-img {
-        padding: 0 6rem 7rem 0;
+        padding: 1.5rem 6rem 9rem 0;
     }
  
     /**** Sign Up Form Page Content*****/
@@ -519,6 +552,12 @@ header #nav-menu {
         .join-button:hover {
             background-color: #F4F4F9;
             color: #045839;
+        }
+
+        .privacy {
+            font-size: 0.8rem;
+            color: #F4F4F9;
+            text-align: center;
         }
 
     
