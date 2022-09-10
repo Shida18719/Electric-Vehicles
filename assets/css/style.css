@@ -428,10 +428,22 @@ header #nav-menu {
     .wirless p {
         text-align: center;
     }
+
+    .flex-container3 .dynamic {
+        align-self: center;
+        display: flex;
+        /* flex-direction: row; */
+    }
+
     .dynamic h3 {
        text-align: center; 
        padding-bottom: 1rem;
     }
+
+    .dynamic p {
+        text-align: center; 
+        /* padding-bottom: 1rem; */
+     }
 
     .dynamic-img {
         padding: 0 6rem 7rem 0;
