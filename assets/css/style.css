@@ -166,7 +166,6 @@ header #nav-menu {
         font-style: italic;
         letter-spacing: .2rem;
         line-height: 1.8;
-        
     }
 
     #flex-container .check-box {
@@ -175,10 +174,6 @@ header #nav-menu {
         align-items: center;
         min-height: 18.75rem;
     }
-
-    /* .check-box .checklist {
-        margin-right: 5.5rem;
-    } */
 
     .check-out-list {
         border: 1px solid rgba(0, 0, 0, 0.5);
@@ -365,8 +360,7 @@ header #nav-menu {
     }
 
     .grid-box:nth-child(4) {
-        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
-        
+        box-shadow: 0.75rem 0.75rem 0.3rem #141414;   
     }
 
     .grid-box:nth-child(5) {
@@ -401,32 +395,48 @@ header #nav-menu {
 
     .flex-container1, .flex-container2, .flex-container3 {
         display: flex;
+        min-height: 18.75rem;
+        justify-content: space-around; 
+        align-items: center;
     }
 
-    /* .flex-container2 {
-        display: flex;
+    .charger h4 {
+        text-decoration: underline;
+        margin-bottom: 1rem; 
+        align-items: center;
     }
 
+    .charger ul li {
+        list-style-type: none;
+        text-align: center;
+        line-height: 1.6; 
+    }
+    .wirless {
+        align-self: center;
+    }
+
+    .wirless img {
+        align-self: center;
+        padding-left: 5rem;
+    }
+
+    .wirless h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .wirless p {
+        text-align: center;
+    }
     .flex-container3 {
-        display: flex;
-    } */
+        
+    }
+
      /* .grid-box img {
     object-fit: cover;
     width: 100%;
     } */ 
-
-    /* .charger {
-        text-decoration: underline;
-        margin-bottom: 1rem;
-    }  */
-
-    /* .grid ul li {
-        list-style-type: none;
-        text-align: center;
-        line-height: 1.6;
-    }  
  
-
     /**** Sign Up Form Page Content*****/
 
     .form-section {
