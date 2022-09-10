@@ -417,7 +417,7 @@ header #nav-menu {
 
     .wirless img {
         align-self: center;
-        padding-left: 5rem;
+        padding-left: 7rem;
     }
 
     .wirless h3 {
@@ -428,14 +428,14 @@ header #nav-menu {
     .wirless p {
         text-align: center;
     }
-    .flex-container3 {
-        
+    .dynamic h3 {
+       text-align: center; 
+       padding-bottom: 1rem;
     }
 
-     /* .grid-box img {
-    object-fit: cover;
-    width: 100%;
-    } */ 
+    .dynamic-img {
+        padding: 0 6rem 7rem 0;
+    }
  
     /**** Sign Up Form Page Content*****/
 
