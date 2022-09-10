@@ -388,8 +388,15 @@ header #nav-menu {
         box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
         justify-self: center;
         padding: 2rem 4rem 3rem 3rem;
-        /* margin-bottom: 2.5rem ; */
     } 
+
+    .transition {
+        transition: transform 0.4s ease-out;
+    }
+
+    .transition:hover {
+        transform: translateY(3px);
+    }
     
     /*** Flex section content insight page ***/
 
