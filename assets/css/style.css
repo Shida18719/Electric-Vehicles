@@ -8,7 +8,6 @@
 }
 
 body {
-    font-size: 100%;
     font-family: 'Open sans', sans-serif;
     font-weight: 700;
     color: #2A353C;
@@ -23,6 +22,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    line-height: 4.688em;
 }
 
 header a {
@@ -35,13 +35,9 @@ header a {
     letter-spacing: 0.25rem;
 }
 
-.ev-logo > i {
-    color: #141414;
-}
-
 #logo {
-    margin-left: 3.125rem;
-    font-size: 250%;
+    margin-left: 3em;
+    font-size: 2.5rem;
     color: #045839;
     font-family: Lato, sans-serif;
 }
@@ -49,13 +45,15 @@ header a {
 /* Navigation links */
 
 header #nav-menu {
-    font-size: 120%;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     display: flex; 
+    margin-right: 1.5em;
     }
 
     #logo, #nav-menu {
-        line-height: 4.53rem;
+        /* line-height: 4.688rem; */
+        
     } 
 
     #nav-menu li {
@@ -375,17 +373,17 @@ header #nav-menu {
         align-self: center; 
         /* padding-top: 0.5rem; */
         margin: 0.5rem;
-        box-shadow: 0.75rem 0.75rem 0.3rem #141414;   
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;   
     }
 
     .grid-box:nth-child(5) {
-        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+        box-shadow: 0.75rem 0.75rem 0.3rem #045839; 
         align-self: center; 
-        padding-left: 8rem;
+        padding-left: 4rem;
     }
 
     .grid-box:nth-child(6) { 
-        box-shadow: 0.75rem 0.75rem 0.3rem #141414; 
+        box-shadow: 0.75rem 0.75rem 0.3rem #2A353C; 
         justify-self: center;
         padding: 2rem 4rem 3rem 3rem;
     } 
@@ -465,7 +463,8 @@ header #nav-menu {
     }
 
     .wirless p {
-        align-self: start;
+        /* align-self: start; */
+        text-align: left;
         padding: 0 4.8rem 2rem 6rem;
     }
 
@@ -474,14 +473,16 @@ header #nav-menu {
     }
 
     .dynamic h3 {
-       align-self: start;
+       /* align-self: start; */
+       text-align: left;
        padding: 0 0 1rem 6rem;
        color: #141414;
         font-size: 1.5rem;
     }
 
     .dynamic p {
-        align-self: start;
+        /* align-self: start; */
+        text-align: left;
         padding: 0 2rem 3.5rem 6rem;
     }
     
