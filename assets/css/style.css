@@ -55,13 +55,6 @@ header a {
 
 /* Navigation links */
 
-/* #nav-bar {
-    width: 100%;
-    position: fixed;  
-    top: 0;
-    right: 0;
-} */
-
 header #nav-menu {
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -400,7 +393,7 @@ header #nav-menu {
     }
 
     .grid-box:nth-child(5) {
-        box-shadow: 0.75rem 0.75rem 0.3rem #045839; 
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9; 
         align-self: center; 
         padding-left: 4rem;
     }
