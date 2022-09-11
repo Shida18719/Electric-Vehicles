@@ -22,8 +22,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    line-height: 4.688em;
+     min-height: 150px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: #141414; */
+    z-index: 7; 
 }
+
+/* .header i {
+    color: #141414;
+} */
 
 header a {
     text-decoration: none; 
@@ -36,7 +45,7 @@ header a {
 }
 
 #logo {
-    margin-left: 3em;
+    margin-left: 3rem;
     font-size: 2.5rem;
     color: #045839;
     font-family: Lato, sans-serif;
@@ -44,17 +53,28 @@ header a {
 
 /* Navigation links */
 
+/* #nav-bar {
+    width: 100%;
+    position: fixed;  
+    top: 0;
+    right: 0;
+} */
+
+/* #logo, #nav-menu {
+    line-height: 4.688rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: #B8DBD9; */
+    z-index: 7;
+} */
+
 header #nav-menu {
     font-size: 1.5rem;
     letter-spacing: 2px;
     display: flex; 
-    margin-right: 1.5em;
+    margin-right: 1.5rem;
     }
-
-    #logo, #nav-menu {
-        /* line-height: 4.688rem; */
-        
-    } 
 
     #nav-menu li {
         list-style-type: none;
@@ -87,6 +107,9 @@ header #nav-menu {
 
     #bg-image {
         position: relative;
+        height: 37.5rem;
+        width: 100%;
+        overflow: hidden;
     }
 
     #main-image {
@@ -105,13 +128,17 @@ header #nav-menu {
         font-size: 1.5rem;
         font-family: Roboto, sans-serif;
         letter-spacing: 0.25rem; 
+
         width: 26.5rem;
         height: 12rem;
+
         padding-left: 0.8rem;
         padding-right: 0.8rem;
+
         position: absolute;
         color: #B8DBD9;
         background-color: rgba(0, 0, 0, 0.4);
+
         bottom: 2rem;
         left: 9.4rem;
         box-sizing: border-box;
@@ -249,6 +276,9 @@ header #nav-menu {
 
     #bgc-image {
         position: relative;
+        height: 37.5rem;
+        width: 100%;
+        overflow: hidden;
     }
 
     #insights-image {
