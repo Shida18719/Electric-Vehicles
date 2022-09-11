@@ -589,7 +589,19 @@ header #nav-menu {
             text-align: center;
         }
 
-        /******* For medium screen sizes from 950px wide and down *******/
+
+        /***** Media Queries *****/
+
+        /** For larger to medium screens sizes from 1200px and down **/
+
+
+
+
+        /** For medium screen sizes from 950px wide and down **/
+
+
+
+        /** /** For small screen sizes from 480px wide and down **/
 
     
 
