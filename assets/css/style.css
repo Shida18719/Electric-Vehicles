@@ -106,6 +106,7 @@ header #nav-menu {
         background: url("../images/main-image.jpg") no-repeat center center;
         background-size: cover;
         object-fit: cover;
+        background-attachment: fixed;
     }
 
     .overlay-text, .overlay-text h2, .overlay-text h3 {
@@ -275,6 +276,7 @@ header #nav-menu {
     background: url("../images/imain-image.jpg") no-repeat center center;
     background-size: cover;
     object-fit: cover;
+    background-attachment: fixed;
     }
 
     .cover-text, .cover-text h2 {
