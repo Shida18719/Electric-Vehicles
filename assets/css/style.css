@@ -22,12 +22,14 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-     min-height: 150px; 
+     min-height: 75px; 
+     line-height: 4.688rem;
     position: fixed;
     top: 0;
     width: 100%;
-    /* background-color: #141414; */
+    background-color: #B8DBD9;
     z-index: 7; 
+    padding: 0.5rem;
 }
 
 /* .header i {
@@ -58,15 +60,6 @@ header a {
     position: fixed;  
     top: 0;
     right: 0;
-} */
-
-/* #logo, #nav-menu {
-    line-height: 4.688rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    /* background-color: #B8DBD9; */
-    z-index: 7;
 } */
 
 header #nav-menu {
