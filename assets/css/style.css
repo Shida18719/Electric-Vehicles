@@ -22,14 +22,16 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-     min-height: 75px; 
-     line-height: 4.688rem;
+    min-height: 75px; 
+    line-height: 4.688rem;
     position: fixed;
     top: 0;
+    right: 0;
     width: 100%;
     background-color: #B8DBD9;
-    z-index: 7; 
+    z-index: 5; 
     padding: 0.5rem;
+    overflow: hidden;
 }
 
 /* .header i {
@@ -399,7 +401,7 @@ header #nav-menu {
     }
 
     .grid-box:nth-child(6) { 
-        box-shadow: 0.75rem 0.75rem 0.3rem #2A353C; 
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9; 
         justify-self: center;
         padding: 2rem 4rem 3rem 3rem;
     } 
@@ -509,7 +511,7 @@ header #nav-menu {
     /**** Sign Up Form Page Content*****/
 
     .form-section {
-        height: 56.25rem;
+        min-height: 65.625rem;
         background: url("../images/charging-bg-image.jpg");
         background-position: center;
         background-size: cover;
@@ -522,8 +524,8 @@ header #nav-menu {
         max-width: 420px;
         position: absolute;
         left: 10%;
-        padding: 30px; 
-        margin: 8.38rem 0.1rem 0 0;
+        padding: 25px; 
+        margin: 9.38rem 0.1rem 0 0;
     }
 
     .signup-form h2 {
@@ -545,7 +547,7 @@ header #nav-menu {
         .text-input {
         background: transparent;
         color: #B8DBD9;
-        height: 1.6rem;
+        height: 1.8rem;
         width: 100%;
         border: 1px solid #B8DBD9;
         margin: 0.32rem 0 1.5rem 0;
@@ -554,6 +556,7 @@ header #nav-menu {
 
         label {
             color: #B8DBD9;
+            margin: 10px 15px 5px 0;
         }
 
         .text-input:hover {
@@ -570,7 +573,7 @@ header #nav-menu {
             color:#F4F4F9;
             margin-top: 1rem;
             border-radius: 3px;
-            z-index: 2;
+            z-index: 5;
         }
 
         .join-button:hover {
@@ -583,6 +586,8 @@ header #nav-menu {
             color: #F4F4F9;
             text-align: center;
         }
+
+        /******* For medium screen sizes from 950px wide and down *******/
 
     
 
