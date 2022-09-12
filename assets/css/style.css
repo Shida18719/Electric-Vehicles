@@ -34,9 +34,6 @@ body {
     overflow: hidden;
 }
 
-/* .header i {
-    color: #141414;
-} */
 
 header a {
     text-decoration: none; 
@@ -478,13 +475,18 @@ header #nav-menu {
         text-align: center;
         line-height: 1.6; 
     }
+
+    .charger-img {
+        width: 100%;
+        height: auto;
+    }
     .wirless {
       margin: 1rem; 
     }
 
     .wirless img {
         align-self: center;
-        padding-left: 7rem;
+        padding-left: 7rem; 
     }
 
     .wirless h3 {
@@ -520,6 +522,8 @@ header #nav-menu {
     
     .dynamic-img {
         padding: 1.5rem 6rem 9rem 0;
+        width: 50%;
+        height: auto;
     }
  
     /**** Sign Up Form Page Content*****/
@@ -644,9 +648,72 @@ header #nav-menu {
         /* Media Query for Mobile Devices */
 
         @media screen and (max-width: 30rem) {
+
+            /* Headings and logo */
+
+.header {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;   
+    /* line-height: 4.688rem;*/
+    padding: 0.1rem;
+    
+}
+
+
+#logo {
+    /* margin-left: 2rem;
+    font-size: 2rem;
+    color: #045839;
+    font-family: Lato, sans-serif;
+    margin-top: -3.5rem; */
+    /* text-align: center; */
+    /* float: right; */
+}
+
+/* Navigation links */
+
+a #logo, #nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     
+    /* float: left; */
+}
+
+.evi {
+    /* margin-left: 5.5rem;
+    padding-top: 1rem; 
+    border-radius: 35px; */
+     display: none; 
+}
+
+.header #nav-menu {
+    /* font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block; 
+    margin-right: 1.5rem; */
+     
+    }
+
+    #nav-menu {
+
+        
+       
+    }
+
+    .overlay-text {
+        font-size: 1rem;
+
+    }
+    
+
         
         }
 
     
 
-    
