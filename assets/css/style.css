@@ -113,6 +113,7 @@ header #nav-menu {
         height: 37.5rem;
         width: 100%;
         background: url("../images/main-image.jpg") no-repeat center center;
+        background-color: #B8DBD9;
         background-size: cover;
         object-fit: cover;
         background-attachment: fixed;
@@ -284,6 +285,7 @@ header #nav-menu {
     height: 37.5rem;
     width: 100%;
     background: url("../images/imain-image.jpg") no-repeat center center;
+    background-color: #B8DBD9;
     background-size: cover;
     object-fit: cover;
     background-attachment: fixed;
