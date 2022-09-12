@@ -136,6 +136,7 @@ header #nav-menu {
         position: absolute;
         color: #B8DBD9;
         background-color: rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 3px #F4F4F9;
 
         bottom: 2rem;
         left: 9.4rem;
@@ -306,6 +307,7 @@ header #nav-menu {
         opacity: 0.8;
         bottom: 2rem;
         right: 9.4rem;
+        text-shadow: 1px 1px 3px #F4F4F9;
         box-sizing: border-box;
     }
 
@@ -477,7 +479,7 @@ header #nav-menu {
     }
 
     .charger-img {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
     .wirless {
@@ -653,10 +655,9 @@ header #nav-menu {
 
 .header {
     
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 70px;   
+    height: 75px;   
     /* line-height: 4.688rem;*/
     padding: 0.1rem;
     
@@ -675,11 +676,10 @@ header #nav-menu {
 
 /* Navigation links */
 
-a #logo, #nav-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ #logo, #nav-menu {
+    
+    display: block;
+      align-items: center;
     
      
     /* float: left; */
