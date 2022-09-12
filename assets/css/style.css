@@ -30,7 +30,7 @@ body {
     width: 100%;
     background-color: #B8DBD9;
     z-index: 5; 
-    padding: 0.5rem;
+    padding: 0.3rem;
     overflow: hidden;
 }
 
@@ -50,12 +50,24 @@ header a {
 
 #logo {
     margin-left: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #045839;
     font-family: Lato, sans-serif;
+    margin-top: -3.5rem;
 }
 
 /* Navigation links */
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.evi {
+    margin-left: 5.5rem;
+    padding-top: 1rem; 
+    border-radius: 35px;
+}
 
 header #nav-menu {
     font-size: 1.5rem;
@@ -592,16 +604,48 @@ header #nav-menu {
 
         /***** Media Queries *****/
 
-        /** For larger to medium screens sizes from 1200px and down **/
+
+        /* Media ruleset */
+        /* ruleset for 480px - 1280px 
+        Break point unit for rem Example; 480px / 16px = 30rem */
+                
+
+        /** For larger to medium screens sizes from 1025px and up, and 1280px and down **/
+
+          /* Media Query for Laptops and Desktops */
+
+        @media screen and (min-width: 64.0625rem) and (max-width: 80rem) {
+            
+        }
 
 
 
+        /** For medium screen sizes from 768px wide and up, and 1024px wide and down **/
 
-        /** For medium screen sizes from 950px wide and down **/
+         /* Media Query for Tablets Ipads portrait mode */
+
+          @media screen and (min-width: 48rem) and (max-width: 64rem) {
+            
+        }
+
+
+         /** For small screen sizes from 481px wide and up, and 767px wide and down **/
+
+        /* Media Query for low resolution  Tablets, Ipads */
+
+         @media screen and (min-width: 30.0625rem) and (max-width: 47.9375rem) {
+           
+        }
 
 
 
-        /** /** For small screen sizes from 480px wide and down **/
+        /** For small screen sizes from 480px wide and down **/
+
+        /* Media Query for Mobile Devices */
+
+        @media screen and (max-width: 30rem) {
+        
+        }
 
     
 
