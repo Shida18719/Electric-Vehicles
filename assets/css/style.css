@@ -110,8 +110,8 @@ header a {
     }
 
     #main-image {
-        height: 37.5rem;
         width: 100%;
+        height: 37.5rem;
         background: url("../images/main-image.jpg") no-repeat center center;
         background-color: #B8DBD9;
         background-size: cover;
@@ -658,12 +658,16 @@ header a {
         flex-direction: column;
         }
 
+        header, #bg-image, #about, #flex-container, footer {
+            display: grid;
+            place-content: center;
+            grid-template-columns: 100%;
+        }
+
         /* Headings and logo */
 
         .header {
         display: grid;
-        justify-content: center;
-        align-items: center;
         min-height: 75px;   
         padding: 2rem 0 0 1.5rem;
         }
@@ -710,7 +714,34 @@ header a {
         padding-top: 0.5rem;
         }
 
+         /* About home page*/
+    #about {
+        /* min-height: 37.5rem; */
+        /* padding: 4.5rem 2rem 0 2rem; */
+        /* text-align: center; */
+        align-self: center;
+    }
 
+     #contact-link {
+        padding: 2rem 0 3rem 0;
+    }
+
+    .about-ev h2 {
+        padding-bottom: 2rem;
+    }
+
+    .about-ev p {
+        padding: 0 4rem 4rem 4rem;
+        text-align: center;
+    }
+
+    .video {
+        padding-top: 3rem;
+    }
+
+    .video-frame {
+        margin: 2%;
+    }
     
 
         
