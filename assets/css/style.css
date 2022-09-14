@@ -631,7 +631,7 @@ label {
 
 
 /* Media ruleset */
-/* ruleset for 480px - 1280px 
+/* ruleset for 576px - 1280px 
         Break point unit for rem Example; 480px / 16px = 30rem */
 
 
@@ -643,26 +643,26 @@ label {
 
 
 
-/** For medium screen sizes from 768px wide and up, and 1024px wide and down **/
+/** For medium screen sizes from 1024px wide and down **/
 
-/* Media Query for Tablets Ipads portrait mode */
+/* Media Query for Tablets Ipads portrait, laptops mode */
 
-@media screen and (max-width: 64rem) {}
+@media screen and (max-width: 1024px) {}
 
 
-/** For small screen sizes from 576px wide and up, and 768px wide and down **/
+/** For small screen sizes from 768px wide and down **/
 
 /* Media Query for low resolution  Tablets, Ipads */
 
-@media screen and (min-width: 36rem) and (max-width: 48rem) {}
+@media screen and (max-width: 768px) {}
 
 
 
-/** For small screen sizes from 480px wide and down **/
+/** For small screen sizes from 576px wide and down **/
 
 /* Media Query for Mobile Devices */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
 
     body {
         display: flex;
@@ -674,12 +674,10 @@ label {
     /* Headings and logo */
 
     .header {
-
         min-height: 50px;
         line-height: 50px;
-        /* padding: 0.3em;  */
+        padding: 0.3em; 
         flex-wrap: wrap;
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -688,23 +686,39 @@ label {
         width: 100%;
     }
 
-    header figure {
+    header figure .evi {
         display: none;
     }
 
     #logo {
         align-self: center;
-        margin-top: 0.5ems;
+        margin-top: 0.5em;
+        padding-right: 8em;
     }
 
-    /* .header-menu a .evi {
-        display: none;
-    } */
-
+    header #nav-menu {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        align-self: center;
+        margin-right: 5em;
+        padding-right: 3em;
+    }
 
     #nav-menu li {
-        /* display: block;
-        margin-right: 5em;
-        padding: 0.3em 2em 0 0; */
+        align-self: center;
+        margin-right: 0;
+       padding: 0 0.5em 0 0;
     }
+
+    #nav-menu a span {
+        border: none;
+        border-radius: 20px;
+        background-color: #045839;
+        color: #F4F4F9;
+        padding: 2px 2px 5px 5px;
+        font-weight: lighter;
+    }
+
+
+
 }
