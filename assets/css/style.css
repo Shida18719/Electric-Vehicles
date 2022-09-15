@@ -23,7 +23,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    min-height: 75px;
+    min-height: 4.687rem;
     line-height: 4.687rem;
     position: fixed;
     top: 0;
@@ -40,16 +40,10 @@ header a {
     text-decoration: none;
 }
 
-h2 {
-    color: #141414;
-    font-family: Lato, sans-serif;
-    letter-spacing: 0.25rem;
-}
-
 .evi {
     margin-left: 5.5em;
     padding-top: 1em;
-    /* border-radius: 25%; */
+    
 }
 
 #logo {
@@ -74,7 +68,7 @@ header #nav-menu {
     margin-right: 1.5em;
 }
 
-#nav-menu li {
+#nav-menu ul li {
     list-style-type: none;
     display: inline-block;
     margin-right: 2em;
@@ -83,7 +77,7 @@ header #nav-menu {
 #nav-menu a {
     text-decoration: none;
     color: #141414;
-    font-weight: bold;
+    /* font-weight:; */
 }
 
 #nav-menu a:hover {
@@ -95,12 +89,14 @@ header #nav-menu {
     border-radius: 20px;
     background-color: #045839;
     color: #F4F4F9;
-    padding: 2px 2px 5px 5px;
+    padding: 0.125em 0.125em 0.3125em 0.3125em ;
+    
 }
 
 .active {
     border-bottom: 3px solid #045839;
 }
+
 
 /* Main Image and overlay text*/
 
@@ -112,8 +108,8 @@ header #nav-menu {
 }
 
 #main-image {
-    width: 100%;
     height: 37.5rem;
+    width: 100%;
     background: url("../images/main-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
     background-size: cover;
@@ -135,18 +131,25 @@ header #nav-menu {
     width: 26.5rem;
     height: 12rem;
 
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
 
     position: absolute;
     color: #B8DBD9;
     background-color: rgba(0, 0, 0, 0.4);
     text-shadow: 1px 1px 2px #F4F4F9;
 
-    bottom: 2rem;
-    left: 9.4rem;
+    bottom: 2em;
+    left: 9.4em;
     box-sizing: border-box;
 }
+
+h2 {
+    color: #141414;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.25rem;
+}
+
 
 /* About home page*/
 #about {
@@ -156,7 +159,7 @@ header #nav-menu {
 }
 
 #contact-link {
-    padding: 4.5rem 0 4.5rem 0;
+    padding: 4.5em 0 4.5em 0;
     font-style: oblique;
     color: #045839;
     font-size: 1.5rem;
@@ -164,16 +167,16 @@ header #nav-menu {
 }
 
 .about-ev h2 {
-    padding-bottom: 2rem;
+    padding-bottom: 2em;
 }
 
 .about-ev p {
-    padding: 0 4rem 4rem 4rem;
+    padding: 0 4em 2em 4em;
     text-align: center;
 }
 
 .video {
-    padding-top: 3rem;
+    padding-top: 3em;
 }
 
 .video-frame {
@@ -563,8 +566,8 @@ footer div {
     max-width: 420px;
     position: absolute;
     left: 10%;
-    padding: 25px;
-    margin: 9.38rem 0.1rem 0 0;
+    padding: 25px 25px 15px 25px;
+    margin: 11.38rem 0.1rem 0 0;
 }
 
 .signup-form h2 {
@@ -637,9 +640,28 @@ label {
 
 /** For larger to medium screens sizes from 1280px and down **/
 
-/* Media Query for Laptops and Desktops */
+@media screen and (max-width: 1280px) {
 
-@media screen and (max-width: 1280px) {}
+    .header {
+        padding-top: 1em;
+    }
+    .evi {
+        margin-left: 5em;
+        padding-top: 1em;  
+    }
+    
+    #logo {
+        margin-left: 2.5em;
+    }
+    
+    /* Navigation links */
+    
+    header #nav-menu {
+        margin-right: 2.5em;
+    }
+    
+    
+}
 
 
 
@@ -664,25 +686,22 @@ label {
 
 @media screen and (max-width: 576px) {
 
-    body {
+    /* body {
         display: flex;
         flex-direction: column;
         place-content: center;
         width: 100%;
-    }
+    } */
 
     /* Headings and logo */
 
     .header {
-        min-height: 50px;
-        line-height: 50px;
-        padding: 0.3em; 
+        min-height: 4.375rem;
+        line-height: 4.375rem;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        /* justify-content: center; */
-        align-items: center;
-        text-align: center;
+        /* flex-wrap: wrap; */
+        place-content: center;
         padding-left: 20px;
         width: 100%;
     }
@@ -702,20 +721,30 @@ label {
         letter-spacing: 2px;
         align-self: center;
         padding-right: 6em;
+       
     }
 
-    #nav-menu li {
-        align-self: center;
-        margin: 0 1em 0 0;
+    #nav-menu ul li {
+
+        text-align: center;
+         /* padding: 0 1em 0 0;  */
     }
 
     #nav-menu a span {
-        border: none;
-        border-radius: 20px;
-        background-color: #045839;
-        color: #F4F4F9;
-        padding: 2px 2px 5px 5px;
+        border: 0em;
+       border-radius: 0;
         font-weight: lighter;
+         
+    }
+
+    #main-image {
+        width: 100%;
+        height: 37.5rem;
+        background: url("../images/main-image.jpg") no-repeat center center;
+        background-color: #B8DBD9;
+        background-size: cover;
+        object-fit: cover;
+        background-attachment: none;
     }
 
 
