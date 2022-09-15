@@ -693,7 +693,7 @@ label {
     #logo {
         align-self: center;
         margin-top: 0.5em;
-        padding-right: 8em;
+        padding-right: 9em;
     }
 
     header #nav-menu {
@@ -701,7 +701,7 @@ label {
         letter-spacing: 2px;
         align-self: center;
         margin-right: 5em;
-        padding-right: 3em;
+        padding-right: 5em;
     }
 
     #nav-menu li {
