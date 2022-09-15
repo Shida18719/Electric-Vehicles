@@ -84,7 +84,7 @@ header #nav-menu {
     color: #045839;
 }
 
-#nav-menu a span {
+#nav-menu ul > li  > .sign-up {
     border: 1px solid #F4F4F9;
     border-radius: 20px;
     background-color: #045839;
@@ -809,9 +809,9 @@ label {
          /* padding: 0 1em 0 0;  */
     }
 
-    #nav-menu a span {
+    #nav-menu ul > li > .sign-up {
         border: 0em;
-       border-radius: 0;
+        border-radius: 0;
         font-weight: lighter;
          
     }
