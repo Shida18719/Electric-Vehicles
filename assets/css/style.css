@@ -639,6 +639,7 @@ label {
 
 
 /** For larger to medium screens sizes from 1280px and down **/
+/* Header and logo */
 
 @media screen and (max-width: 1280px) {
 
@@ -659,6 +660,84 @@ label {
     header #nav-menu {
         margin-right: 2.5em;
     }
+
+    /* Navigation links */
+
+#nav-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+/** About home page **/
+ #about {
+    padding: 3rem 3em 0 3em; 
+}
+
+#contact-link {
+   
+    font-weight: 800;
+} 
+
+.about-ev h2 {
+    padding-bottom: 1em;
+}
+
+.about-ev p {
+    padding: 0 4em 1em 4em;
+}
+
+.video {
+    padding-top: 2em;
+}
+
+.video-frame {
+    margin: 2.5%;
+}
+
+/* Checkout section home page */
+
+#flex-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.check-out-inner {
+    line-height: 1.7;
+}
+
+#flex-container .check-box {
+    min-height: 17.75%;
+}
+
+.check-out-list {
+   
+    width: 25.125rem;
+    border-radius: 5px;
+   
+    margin: 2em 4em 4em 0;
+    align-items: center;
+   
+}
+
+.checklist li {
+    list-style-type: none;
+    line-height: 1.8;
+    font-weight: 900;
+    margin: 1em;
+   
+}
+
+.checklist a {
+    text-decoration: none;
+    color: #2A353C;
+}
+
+.checklist a:hover {
+    color: #F4F4F9;
+    background-color: #141414;
+}
+
     
     
 }
