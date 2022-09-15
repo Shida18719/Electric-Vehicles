@@ -198,6 +198,7 @@ h2 {
     font-style: italic;
     letter-spacing: .2rem;
     line-height: 1.8;
+    font-weight: bold;
 }
 
 #flex-container .check-box {
@@ -215,6 +216,7 @@ h2 {
     box-shadow: 0.75rem 0.75rem 0.3rem #141414;
     margin-right: 6em;
     margin-bottom: 3em;
+    font-size: 1.25em;
 }
 
 .checklist li {
@@ -675,7 +677,6 @@ label {
 }
 
 #contact-link {
-   
     font-weight: 800;
 } 
 
@@ -704,6 +705,8 @@ label {
 
 .check-out-inner {
     line-height: 1.7;
+    text-align: center;
+    padding-top: 0.5em;
 }
 
 #flex-container .check-box {
@@ -711,32 +714,16 @@ label {
 }
 
 .check-out-list {
-   
-    width: 25.125rem;
-    border-radius: 5px;
-   
-    margin: 2em 4em 4em 0;
-    align-items: center;
-   
+    margin: 2em 4em 5em 1em;
+    align-items: center; 
 }
 
 .checklist li {
-    list-style-type: none;
-    line-height: 1.8;
-    font-weight: 900;
-    margin: 1em;
+    line-height: 1.7;
    
 }
 
-.checklist a {
-    text-decoration: none;
-    color: #2A353C;
-}
 
-.checklist a:hover {
-    color: #F4F4F9;
-    background-color: #141414;
-}
 
     
     
