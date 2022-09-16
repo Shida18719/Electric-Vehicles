@@ -745,11 +745,12 @@ footer {
 .cover-text {
     bottom: 6em;
     right: 7.4em;
+    position: sticky;
 }
 
-/*** Grid content insights page ***/
+/** Grid content **/
 
-#intro-heading {
+/* #intro-heading {
     padding: 1em 0 1em 0;
     text-align: center;
     margin-top: 1.5em;
@@ -760,18 +761,26 @@ footer {
     padding-bottom: 1.5em;
     color: #141414;
     font-size: 900;
-}
+} */
 
 #chart-bar>iframe {
     overflow-y: hidden;
+    padding-right: 3.5em;
 }
 
-.why-ev,
+/* .why-ev,
 .misconceptions,
 .benefits,
 .types {
     text-align: center;
     padding-bottom: 0.8em;
+    color: #141414;
+    font-size: 1.5rem;
+} */
+
+.why-ev {
+    text-align: center;
+    padding-bottom: 0.4em;
     color: #141414;
     font-size: 1.5rem;
 }
