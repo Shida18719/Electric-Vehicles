@@ -564,7 +564,7 @@ footer div {
 .form-section {
     min-height: 65.625rem;
     background: url("../images/charging-bg-image.jpg");
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     object-fit: cover;
 }
@@ -740,19 +740,11 @@ footer {
 
 /**********Insight Page ***********/
 
-/*  */
+/* Cover text */
 
 .cover-text {
-   
-    padding: 1rem 0.8rem 0 0.8rem;
-   
-    /* background-color: rgba(0, 0, 0, 0.6); */
-    background-color: #141414;
-    opacity: 0.8;
     bottom: 6em;
     right: 7.4em;
-    text-shadow: 1px 1px 2px #F4F4F9;
-    box-sizing: border-box;
 }
 
 /*** Grid content insights page ***/
