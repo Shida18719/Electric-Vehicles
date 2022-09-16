@@ -377,7 +377,7 @@ footer div {
     font-size: 1.5rem;
 }
 
-/*****grid container *****/
+/**grid container **/
 
 .grid-container {
     min-height: 100vh;
@@ -422,8 +422,7 @@ footer div {
 .grid-box:nth-child(3) {
     justify-self: center;
     align-self: center;
-    /* padding-top: 0.5rem; */
-    margin: 0.3em;
+    margin: 0.4em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
@@ -431,7 +430,7 @@ footer div {
 .grid-box:nth-child(4) {
     justify-self: center;
     align-self: center;
-    margin: 0.3em;
+    margin: 0.2em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
@@ -726,8 +725,7 @@ label {
 }
 
 .checklist li {
-    line-height: 1.7;
-   
+    line-height: 1.7; 
 }
 
 /** Footer content **/
@@ -736,7 +734,6 @@ label {
 footer {
     z-index: 2;  
 }
-
 
 /**********Insight Page ***********/
 
@@ -750,71 +747,167 @@ footer {
 
 /** Grid content **/
 
-/* #intro-heading {
-    padding: 1em 0 1em 0;
-    text-align: center;
-    margin-top: 1.5em;
-    color: #141414;
-}
-
-#chart-header {
-    padding-bottom: 1.5em;
-    color: #141414;
-    font-size: 900;
-} */
-
 #chart-bar>iframe {
     overflow-y: hidden;
     padding-right: 3.5em;
 }
 
-/* .why-ev,
-.misconceptions,
-.benefits,
-.types {
-    text-align: center;
-    padding-bottom: 0.8em;
-    color: #141414;
-    font-size: 1.5rem;
-} */
-
 .why-ev {
-    text-align: center;
-    padding-bottom: 0.4em;
-    color: #141414;
-    font-size: 1.5rem;
+    padding-bottom: 0.6em;
 }
 
 .misconceptions p {
-    font-weight: 800;
     padding-top: 1.5em;
 }
 
 .list li {
-    list-style-type: square;
-    list-style-position: inside;
+    padding-top: 0.6em;
 }
 
-.benefits p {
-    padding-top: 1em;
+/**grid container **/
+
+.grid-box {
+    padding: 1.5em 1.5em 2.5em 1.6em;
 }
 
-.benefit-list li {
-    list-style-type: square;
-    list-style-position: inside;
+.grid-box1 {
+    padding: 1.7em;
 }
 
-.ev-types h4 {
+.grid-box:nth-child(2) {
+    padding: 4em 0.5em 0 0;
+}
+
+.grid-box:nth-child(3) {
+    margin: 0.3em;
+}
+
+.grid-box:nth-child(5) {
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+    align-self: center;
+    padding-left: 4rem;
+}
+
+.grid-box:nth-child(6) {
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+    justify-self: center;
+    padding: 2rem 4rem 3rem 3rem;
+}
+
+.transition {
+    transition: transform 0.4s ease-out;
+}
+
+.transition:hover {
+    transform: translateY(3px);
+}
+
+/*** Flex section content insight page ***/
+
+.flex-area {
+    min-height: 37.5rem;
+    width: 100%;
+}
+
+.options {
+    margin: 1em;
+}
+
+.options h3 {
+    padding: 5rem 0 1.5rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #141414;
+}
+
+.options p {
+    padding: 0 1.5rem 2rem 1.5rem;
+    text-align: center;
+    margin: 0 2rem 1rem 2rem;
+}
+
+/**************** Flex container insight page *********************/
+
+.flex-container1,
+.flex-container2,
+.flex-container3 {
+    display: flex;
+    min-height: 18.75rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.charger {
+    margin: 1rem;
+}
+
+.charger h3 {
+    text-decoration: underline;
+    margin-bottom: 1em;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #141414;
+}
+
+.charger ul li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.charger-img {
+    width: 50%;
+    height: auto;
+}
+
+.wirless {
+    margin: 1rem;
+}
+
+.wirless img {
+    align-self: center;
+    padding-left: 7rem;
+}
+
+.wirless h3 {
+    text-align: left;
+    padding: 2rem 0 1rem 6rem;
     color: #141414;
     font-size: 1.5rem;
 }
 
+.wirless p {
+    /* align-self: start; */
+    text-align: left;
+    padding: 0 4.8rem 2rem 6rem;
+}
+
+.dynamic {
+    margin: 1rem;
+}
+
+.dynamic h3 {
+    /* align-self: start; */
+    text-align: left;
+    padding: 0 0 1rem 6rem;
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+.dynamic p {
+    /* align-self: start; */
+    text-align: left;
+    padding: 0 2rem 3.5rem 6rem;
+}
+
+.dynamic-img {
+    padding: 1.5rem 6rem 9rem 0;
+    width: 50%;
+    height: auto;
+}
 
 
-
-
-
-    
+  
     
 }
 
