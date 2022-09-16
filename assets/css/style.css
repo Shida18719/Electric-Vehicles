@@ -43,7 +43,7 @@ header a {
 .evi {
     margin-left: 5.5em;
     padding-top: 1em;
-    
+
 }
 
 #logo {
@@ -84,13 +84,13 @@ header #nav-menu {
     color: #045839;
 }
 
-#nav-menu ul > li  > .sign-up {
+#nav-menu ul>li>.sign-up {
     border: 1px solid #F4F4F9;
     border-radius: 20px;
     background-color: #045839;
     color: #F4F4F9;
-    padding: 0.125em 0.125em 0.3125em 0.3125em ;
-    
+    padding: 0.125em 0.125em 0.3125em 0.3125em;
+
 }
 
 .active {
@@ -214,14 +214,13 @@ h2 {
     width: 25.125rem;
     border-radius: 5px;
     box-shadow: 0.75rem 0.75rem 0.3rem #141414;
-    margin-right: 6em;
-    margin-bottom: 3em;
-    font-size: 1.25em;
+    margin: 0 6em 3em 0;
+    font-size: 1.2em;
 }
 
 .checklist li {
     list-style-type: none;
-    line-height: 1.8;
+    line-height: 1.7;
     font-weight: 800;
     margin: 1em;
     font-family: Merriweather, Roboto, sans-serif;
@@ -477,9 +476,9 @@ footer div {
     margin: 0 2rem 1rem 2rem;
 }
 
-.options p > span {
+.options p>span {
     font-weight: bold;
-} 
+}
 
 /**************** Flex container insight page *********************/
 
@@ -657,166 +656,153 @@ label {
     .header {
         padding-top: 1em;
     }
+
     .evi {
         margin-left: 5em;
-        padding-top: 1em;  
+        padding-top: 1em;
     }
-    
+
     #logo {
         margin-left: 2.5em;
     }
-    
+
     /* Navigation links */
-    
+
     header #nav-menu {
         margin-right: 2.5em;
     }
 
-#nav-menu ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 2em;
+    #nav-menu ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 2em;
+    }
+
+    /** About home page **/
+    #about {
+        padding: 3rem 3em 0 3em;
+    }
+
+    #contact-link {
+        font-weight: 800;
+    }
+
+    .about-ev h2 {
+        padding-bottom: 1em;
+    }
+
+    .about-ev p {
+        padding: 0 4em 1em 4em;
+    }
+
+    .video {
+        padding-top: 2em;
+    }
+
+    .video-frame {
+        margin: 2.5%;
+    }
+
+    /* Checkout section home page */
+
+    .check-out-text {
+        margin-left: 1em;
+        flex-wrap: wrap;
+        padding-right: 0.5em;
+    }
+
+    .check-out-list {
+         margin-top: 0.5em;   
+    }
+
+    /** Footer content **/
+    /********************/
+
+    footer {
+        z-index: 2;
+    }
+
+    /**********Insight Page ***********/
+
+    /* Cover text */
+
+    .cover-text {
+        bottom: 6em;
+        right: 8.5em;
+    }
+
+    /** Grid content **/
+
+    #chart-bar>iframe {
+        overflow-y: hidden;
+        padding-right: 3.5em;
+    }
+
+    .why-ev {
+        padding-bottom: 0.6em;
+    }
+
+    .misconceptions p {
+        padding-top: 1.5em;
+    }
+
+    .list li {
+        padding-top: 0.6em;
+    }
+
+    /**grid container **/
+
+    .grid-box {
+        padding: 1.5em 1.5em 2.5em 1.6em;
+    }
+
+    .grid-box1 {
+        padding: 1.7em;
+    }
+
+    .grid-box:nth-child(2) {
+        padding: 4em 0.5em 0 0;
+    }
+
+    .grid-box:nth-child(3) {
+        margin: 0.3em;
+    }
+
+    /*** Flex section content insight page ***/
+
+    /** Flex container insight page **/
+
+    .charger-img {
+        padding: 1em 1em 2em 1em;
+    }
+
+    .wirless img {
+        padding: 1em 0 1em 3.5em;
+    }
+
+    .dynamic {
+
+        padding-right: 2em;
+    }
+
+    .dynamic h3 {
+        padding: 1em 0 1em 3em;
+    }
+
+    .dynamic p {
+        padding: 0 2em 3em 4em;
+    }
+
+    .dynamic-img {
+        padding: 2em 3.5em 8em 0;
+    }
+
+    /**** Sign Up Form Page Content ****/
+
+    .signup-form {
+        padding: 1.5em 1.6em 0.5em 1.6em;
+    }
 }
-
-/** About home page **/
- #about {
-    padding: 3rem 3em 0 3em; 
-}
-
-#contact-link {
-    font-weight: 800;
-} 
-
-.about-ev h2 {
-    padding-bottom: 1em;
-}
-
-.about-ev p {
-    padding: 0 4em 1em 4em;
-}
-
-.video {
-    padding-top: 2em;
-}
-
-.video-frame {
-    margin: 2.5%;
-}
-
-/* Checkout section home page */
-
-.check-out-text {
-    margin-left: 1em;
-    flex-wrap: wrap;
-    padding-right: 0.5em;
-}
-
-.check-out-list {
-    
-    padding: 0.5em 0  0 1em  ;  
-}
-
-/** Footer content **/
-/********************/
-
-footer {
-    z-index: 2;  
-}
-
-/**********Insight Page ***********/
-
-/* Cover text */
-
-.cover-text {
-    bottom: 6em;
-    right: 8.5em;
-}
-
-/** Grid content **/
-
-#chart-bar>iframe {
-    overflow-y: hidden;
-    padding-right: 3.5em;
-}
-
-.why-ev {
-    padding-bottom: 0.6em;
-}
-
-.misconceptions p {
-    padding-top: 1.5em;
-}
-
-.list li {
-    padding-top: 0.6em;
-}
-
-/**grid container **/
-
-.grid-box {
-    padding: 1.5em 1.5em 2.5em 1.6em;
-}
-
-.grid-box1 {
-    padding: 1.7em;
-}
-
-.grid-box:nth-child(2) {
-    padding: 4em 0.5em 0 0;
-}
-
-.grid-box:nth-child(3) {
-    margin: 0.3em;
-}
-
-/*** Flex section content insight page ***/
-
-/** Flex container insight page **/
-
-.charger-img {
-    padding: 1em 1em 2em 1em;
-}
-
-.wirless img {
-    padding: 1em 0 1em 3.5em;
-}
-
-.dynamic {
-    
-    padding-right: 2em;
-}
-
-.dynamic h3 {
-    padding: 1em 0 1em 3em;
-}
-
-.dynamic p {
-    padding: 0 2em 3em 4em;
-}
-
-.dynamic-img {
-    padding: 2em 3.5em 8em 0;
-}
-
-
-/**** Sign Up Form Page Content ****/
-
-.signup-form {
-    padding: 1.5em 1.6em 0.5em 1.6em;  
-}
-
-
-
-}
-
-
-
-
-
-  
-    
-}
-
 
 
 /** For medium screen sizes from 1024px wide and down **/
@@ -824,6 +810,10 @@ footer {
 /* Media Query for Tablets Ipads portrait, laptops mode */
 
 @media screen and (max-width: 1024px) {}
+
+
+
+
 
 
 /** For small screen sizes from 768px wide and down **/
@@ -875,20 +865,20 @@ footer {
         letter-spacing: 2px;
         align-self: center;
         padding-right: 6em;
-       
+
     }
 
     #nav-menu ul li {
 
         text-align: center;
-         /* padding: 0 1em 0 0;  */
+        /* padding: 0 1em 0 0;  */
     }
 
-    #nav-menu ul > li > .sign-up {
+    #nav-menu ul>li>.sign-up {
         border: 0em;
         border-radius: 0;
         font-weight: lighter;
-         
+
     }
 
     #main-image {
@@ -905,26 +895,26 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .check-out-text {
         line-height: 1.7;
         text-align: center;
         padding-top: 0.5em;
     }
-    
+
     #flex-container .check-box {
         min-height: 17.75%;
     }
-    
+
     .check-out-list {
         margin: 2em 4em 5em 1em;
-        align-items: center; 
+        align-items: center;
     }
-    
+
     .checklist li {
-        line-height: 1.7; 
+        line-height: 1.7;
     }
-    
+
 
 
 }
