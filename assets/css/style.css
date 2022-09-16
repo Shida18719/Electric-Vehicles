@@ -183,6 +183,7 @@ h2 {
     margin: 2%;
 }
 
+
 /* Checkout section home page */
 
 #flex-container {
@@ -337,10 +338,33 @@ footer div {
     color: #141414;
     font-size: 900;
 }
+.bar-frame {
+    overflow-y: hidden;
+    width: 100%;
+    padding-top: 25%;
+    
+}
 
 #chart-bar>iframe {
     overflow-y: hidden;
+    width: 100%;
+    height: 100%;
 }
+
+/* .chart-frame {
+position: relative;
+width: 100%;
+padding-top: 60%;
+}
+
+.responsive-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; 
+} */
 
 .why-ev,
 .misconceptions,
@@ -805,11 +829,100 @@ label {
 }
 
 
-/** For medium screen sizes from 1024px wide and down **/
+/** For medium screen sizes from 992px wide and down **/
 
 /* Media Query for Tablets Ipads portrait, laptops mode */
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 992px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        min-height: 4.687rem;
+        line-height: 4.687rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background-color: #B8DBD9;
+        z-index: 5;
+        padding: 0.3em;
+        overflow: hidden;
+    }
+    
+    
+    header a {
+        text-decoration: none;
+    }
+    
+    .evi {
+        margin-left: 5.5em;
+        padding-top: 1em;
+    
+    }
+    
+    #logo {
+        margin-left: 3em;
+        font-size: 2rem;
+        color: #045839;
+        font-family: Lato, sans-serif;
+        margin-top: -1.7em;
+    }
+    
+    /* Navigation links */
+    
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header #nav-menu {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        display: flex;
+        margin-right: 1.5em;
+    }
+    
+    #nav-menu ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 2em;
+    }
+    
+    #nav-menu a {
+        text-decoration: none;
+        color: #141414;
+        /* font-weight:; */
+    }
+    
+    #nav-menu a:hover {
+        color: #045839;
+    }
+    
+    #nav-menu ul>li>.sign-up {
+        border: 1px solid #F4F4F9;
+        border-radius: 20px;
+        background-color: #045839;
+        color: #F4F4F9;
+        padding: 0.125em 0.125em 0.3125em 0.3125em;
+    
+    }
+    
+    .active {
+        border-bottom: 3px solid #045839;
+    }
+    
+    
+    /* Main Image and overlay text*/
+    
+    #bg-image {
+        position: relative;
+        height: 37.5rem;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+}
 
 
 
