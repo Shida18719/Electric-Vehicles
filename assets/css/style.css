@@ -193,7 +193,7 @@ h2 {
     background-color: #B8DBD9;
 }
 
-.check-out-inner {
+.check-out-text {
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: .2rem;
@@ -709,12 +709,14 @@ label {
 /* Checkout section home page */
 
 .check-out-text {
-    padding-top: 0.5em;
+    margin-left: 1em;
+    flex-wrap: wrap;
+    padding-right: 0.5em;
 }
 
 .check-out-list {
-    margin: 2em 4em 5em 1em;
-    padding-top: 0.5em;
+    /* margin: 2em 4em 5em 1em; */
+    padding: 0.5em 0  0 1em  ;
     
 }
 
@@ -899,7 +901,7 @@ footer {
         justify-content: center;
     }
     
-    .check-out-inner {
+    .check-out-text {
         line-height: 1.7;
         text-align: center;
         padding-top: 0.5em;
