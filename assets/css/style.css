@@ -108,7 +108,7 @@ header #nav-menu {
 }
 
 #main-image {
-    height: 37.5rem;
+    height: 600px;
     width: 100%;
     background: url("../images/main-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
@@ -273,12 +273,12 @@ footer div {
     margin: 0 auto;
     padding: 0.9em;
     color: #F4F4F9;
-
 }
 
 #social-links i:hover {
     color: #045839;
 }
+
 
 /**********Insight Page ***********/
 
@@ -292,8 +292,8 @@ footer div {
 }
 
 #insights-image {
-    height: 37.5rem;
-    width: 100%;
+    height: 600px;
+    max-width: 100%;
     background: url("../images/imain-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
     background-size: cover;
@@ -348,14 +348,14 @@ footer div {
 .benefits,
 .types {
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0.8em;
     color: #141414;
     font-size: 1.5rem;
 }
 
 .misconceptions p {
     font-weight: 800;
-    padding-top: 1em;
+    padding-top: 1.5em;
 }
 
 .list li {
@@ -419,12 +419,19 @@ footer div {
     padding-top: 5em;
 }
 
-.grid-box:nth-child(3),
-.grid-box:nth-child(4) {
+.grid-box:nth-child(3) {
     justify-self: center;
     align-self: center;
     /* padding-top: 0.5rem; */
-    margin: 0.5rem;
+    margin: 0.3em;
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+}
+
+
+.grid-box:nth-child(4) {
+    justify-self: center;
+    align-self: center;
+    margin: 0.3em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
@@ -730,6 +737,103 @@ footer {
     z-index: 2;  
 }
 
+
+/**********Insight Page ***********/
+
+/* Background image */
+
+#bgc-image {
+    position: relative;
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+#insights-image {
+    height: 37.5rem;
+    max-width: 100%;
+    background: url("../images/imain-image.jpg") no-repeat center center;
+    background-color: #B8DBD9;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.cover-text,
+.cover-text h2 {
+    color: #B8DBD9;
+}
+
+.cover-text {
+    font-size: 1.5rem;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.25rem;
+    width: 26.5rem;
+    height: 10rem;
+    padding: 1rem 0.8rem 0 0.8rem;
+    position: absolute;
+    color: #B8DBD9;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-color: #141414;
+    opacity: 0.8;
+    bottom: 2em;
+    right: 9.4em;
+    text-shadow: 1px 1px 2px #F4F4F9;
+    box-sizing: border-box;
+}
+
+/*** Grid content insights page ***/
+
+#intro-heading {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    margin-top: 1.5em;
+    color: #141414;
+}
+
+#chart-header {
+    padding-bottom: 1.5em;
+    color: #141414;
+    font-size: 900;
+}
+
+#chart-bar>iframe {
+    overflow-y: hidden;
+}
+
+.why-ev,
+.misconceptions,
+.benefits,
+.types {
+    text-align: center;
+    padding-bottom: 0.8em;
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+.misconceptions p {
+    font-weight: 800;
+    padding-top: 1.5em;
+}
+
+.list li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.benefits p {
+    padding-top: 1em;
+}
+
+.benefit-list li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.ev-types h4 {
+    color: #141414;
+    font-size: 1.5rem;
+}
 
 
 
