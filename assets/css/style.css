@@ -708,29 +708,16 @@ label {
 
 /* Checkout section home page */
 
-/* #flex-container {
-    flex-direction: column;
-    justify-content: center;
-}
-
-.check-out-inner {
-    line-height: 1.7;
-    text-align: center;
+.check-out-text {
     padding-top: 0.5em;
-}
-
-#flex-container .check-box {
-    min-height: 17.75%;
 }
 
 .check-out-list {
     margin: 2em 4em 5em 1em;
-    align-items: center; 
+    padding-top: 0.5em;
+    
 }
 
-.checklist li {
-    line-height: 1.7; 
-} */
 
 /** Footer content **/
 /********************/
