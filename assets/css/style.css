@@ -907,19 +907,12 @@ label {
         padding: 0.8em 1.5em 1em 0;
     }
     
-    
     /**********Insight Page ***********/
     
     /* Background image */
     
-    #bgc-image {
-        position: relative;
-        height: 37.5rem;
-        width: 100%;
-        overflow: hidden;
-    }
     
-    #insights-image {
+    /* #insights-image {
         height: 600px;
         max-width: 100%;
         background: url("../images/imain-image.jpg") no-repeat center center;
@@ -927,29 +920,18 @@ label {
         background-size: cover;
         object-fit: cover;
         background-attachment: fixed;
-    }
+    } */
     
-    .cover-text,
-    .cover-text h2 {
-        color: #B8DBD9;
-    }
     
     .cover-text {
         font-size: 1.5rem;
-        font-family: Roboto, sans-serif;
-        letter-spacing: 0.25rem;
-        width: 26.5rem;
+        
         height: 10rem;
         padding: 1rem 0.8rem 0 0.8rem;
-        position: absolute;
-        color: #B8DBD9;
-        /* background-color: rgba(0, 0, 0, 0.6); */
-        background-color: #141414;
-        opacity: 0.8;
-        bottom: 2em;
-        right: 9.4em;
-        text-shadow: 1px 1px 2px #F4F4F9;
-        box-sizing: border-box;
+       
+        bottom: 6em;
+        right: 6.4em;
+        
     }
     
     /*** Grid content insights page ***/
