@@ -339,32 +339,22 @@ footer div {
     font-size: 900;
 }
 .bar-frame {
-    overflow-y: hidden;
-    width: 100%;
-    padding-top: 25%;
-    
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    padding: 55%; 
 }
 
-#chart-bar>iframe {
-    overflow-y: hidden;
+.bar-frame iframe {
+    position: absolute; 
+     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
 }
 
-/* .chart-frame {
-position: relative;
-width: 100%;
-padding-top: 60%;
-}
-
-.responsive-frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%; 
-} */
 
 .why-ev,
 .misconceptions,
@@ -835,92 +825,300 @@ label {
 
 @media screen and (max-width: 992px) {
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        min-height: 4.687rem;
-        line-height: 4.687rem;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        background-color: #B8DBD9;
-        z-index: 5;
-        padding: 0.3em;
-        overflow: hidden;
-    }
-    
-    
-    header a {
-        text-decoration: none;
-    }
-    
     .evi {
-        margin-left: 5.5em;
-        padding-top: 1em;
-    
+        margin-left: 3.3em;
     }
     
     #logo {
-        margin-left: 3em;
-        font-size: 2rem;
-        color: #045839;
-        font-family: Lato, sans-serif;
-        margin-top: -1.7em;
+        margin-left: 2em;
+    
     }
     
     /* Navigation links */
     
-    .header-menu {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    header #nav-menu {
-        font-size: 1.5rem;
-        letter-spacing: 2px;
-        display: flex;
-        margin-right: 1.5em;
-    }
-    
     #nav-menu ul li {
-        list-style-type: none;
-        display: inline-block;
-        margin-right: 2em;
+        margin-right: 0.5em;
     }
-    
-    #nav-menu a {
-        text-decoration: none;
-        color: #141414;
-        /* font-weight:; */
-    }
-    
-    #nav-menu a:hover {
-        color: #045839;
-    }
-    
-    #nav-menu ul>li>.sign-up {
-        border: 1px solid #F4F4F9;
-        border-radius: 20px;
-        background-color: #045839;
-        color: #F4F4F9;
-        padding: 0.125em 0.125em 0.3125em 0.3125em;
-    
-    }
-    
-    .active {
-        border-bottom: 3px solid #045839;
-    }
-    
     
     /* Main Image and overlay text*/
     
-    #bg-image {
+    .overlay-text {
+        padding: 0.5em 1em 0 0.3em;
+        bottom: 5em;
+        left: 7em;
+    }
+    
+    /* About home page*/
+    #about {
+        padding-top: 7.8%;
+    }
+    
+    #contact-link {
+        padding: 4em 0 4.5em 0;
+    }
+    
+    .about-ev h2 {
+        padding-bottom: 1em;
+    }
+    
+    .about-ev p {
+        padding: 0 4em 1em 4em;
+    }
+    
+    .video {
+        padding: 2em 0 1em 0;
+    }
+    
+    .video-frame {
+        margin: 2%;
+    }
+    
+    /* Checkout section home page */
+    
+    .check-out-text {
+        line-height: 1.6;
+        margin-left: 2em ;
+    }
+    
+    .check-out-list {
+        margin: 0 5em 2em 0;
+        font-size: 1em;
+    }
+    
+    .checklist li {
+        line-height: 1.7;
+    }
+    
+
+    
+    
+    /** Footer content **/
+    /********************/
+    
+    footer {
+        height: 4.6875rem;
+        width: 100%;
+        background-color: #2A353C;
+        color: #F4F4F9;
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        border-top: 3px solid #045839;
+    }
+    
+    footer div {
+        margin: 1.3% 2%;
+    }
+    
+    #social-links {
+        text-align: center;
+        width: 80%;
+    }
+    
+    #social-links>li {
+        display: inline;
+    }
+    
+    #social-links i {
+        font-size: 1.9rem;
+        margin: 0 auto;
+        padding: 0.9em;
+        color: #F4F4F9;
+    }
+    
+    #social-links i:hover {
+        color: #045839;
+    }
+    
+    
+    /**********Insight Page ***********/
+    
+    /* Background image */
+    
+    #bgc-image {
         position: relative;
         height: 37.5rem;
         width: 100%;
         overflow: hidden;
     }
+    
+    #insights-image {
+        height: 600px;
+        max-width: 100%;
+        background: url("../images/imain-image.jpg") no-repeat center center;
+        background-color: #B8DBD9;
+        background-size: cover;
+        object-fit: cover;
+        background-attachment: fixed;
+    }
+    
+    .cover-text,
+    .cover-text h2 {
+        color: #B8DBD9;
+    }
+    
+    .cover-text {
+        font-size: 1.5rem;
+        font-family: Roboto, sans-serif;
+        letter-spacing: 0.25rem;
+        width: 26.5rem;
+        height: 10rem;
+        padding: 1rem 0.8rem 0 0.8rem;
+        position: absolute;
+        color: #B8DBD9;
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        background-color: #141414;
+        opacity: 0.8;
+        bottom: 2em;
+        right: 9.4em;
+        text-shadow: 1px 1px 2px #F4F4F9;
+        box-sizing: border-box;
+    }
+    
+    /*** Grid content insights page ***/
+    
+    #intro-heading {
+        padding: 1em 0 1em 0;
+        text-align: center;
+        margin-top: 1.5em;
+        color: #141414;
+    }
+    
+    #chart-header {
+        padding-bottom: 1.5em;
+        color: #141414;
+        font-size: 900;
+    }
+    .bar-frame {
+        overflow: hidden;
+        position: relative;
+        max-width: 100%;
+        padding: 55%; 
+    }
+    
+    .bar-frame iframe {
+        position: absolute; 
+         top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .why-ev,
+    .misconceptions,
+    .benefits,
+    .types {
+        text-align: center;
+        padding-bottom: 0.8em;
+        color: #141414;
+        font-size: 1.5rem;
+    }
+    
+    .misconceptions p {
+        font-weight: 800;
+        padding-top: 1.5em;
+    }
+    
+    .list li {
+        list-style-type: square;
+        list-style-position: inside;
+    }
+    
+    .benefits p {
+        padding-top: 1em;
+    }
+    
+    .benefit-list li {
+        list-style-type: square;
+        list-style-position: inside;
+    }
+    
+    .ev-types h4 {
+        color: #141414;
+        font-size: 1.5rem;
+    }
+    
+    /**grid container **/
+    
+    .grid-container {
+        min-height: 100vh;
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: 40.5% 40.5%;
+        /* grid-auto-rows: 25.5%; */
+        grid-auto-rows: minmax(1fr, 25.5%);
+        gap: 2.5em 2.8em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .grid-box {
+        padding: 1.5em 1.5em 2.5em 1.5em;
+    }
+    
+    .grid-box3,
+    .grid-box4,
+    .grid-box5,
+    .grid-box6 {
+        border: 1px solid #141414;
+        border-radius: 8px;
+    }
+    
+    .grid-box5,
+    .grid-box6 {
+        grid-column: span 2;
+    }
+    
+    .grid-box1 {
+        margin: auto 0;
+        padding: 1.8em;
+    }
+    
+    .grid-box:nth-child(2) {
+        border-style: none;
+        align-self: center;
+        padding-top: 5em;
+    }
+    
+    .grid-box:nth-child(3) {
+        justify-self: center;
+        align-self: center;
+        margin: 0.4em;
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+    }
+    
+    .grid-box:nth-child(4) {
+        justify-self: center;
+        align-self: center;
+        margin: 0.2em;
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+    }
+    
+    .grid-box:nth-child(5) {
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+        align-self: center;
+        padding-left: 4rem;
+    }
+    
+    .grid-box:nth-child(6) {
+        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+        justify-self: center;
+        padding: 2rem 4rem 3rem 3rem;
+    }
+    
+    .transition {
+        transition: transform 0.4s ease-out;
+    }
+    
+    .transition:hover {
+        transform: translateY(3px);
+    }
+    
     
 }
 
