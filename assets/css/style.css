@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Open sans', sans-serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #2A353C;
     background-color: #F4F4F9;
     min-height: 100vh;
@@ -478,7 +478,7 @@ footer div {
 }
 
 .options p > span {
-    font-weight: bolder;
+    font-weight: bold;
 } 
 
 /**************** Flex container insight page *********************/
@@ -539,12 +539,13 @@ footer div {
 
 .dynamic {
     margin: 1rem;
+    padding-right: 3em;
 }
 
 .dynamic h3 {
     /* align-self: start; */
     text-align: left;
-    padding: 0 0 1rem 6rem;
+    padding: 0 0 1em 5em;
     color: #141414;
     font-size: 1.5rem;
 }
@@ -552,12 +553,12 @@ footer div {
 .dynamic p {
     /* align-self: start; */
     text-align: left;
-    padding: 0 2rem 3.5rem 6rem;
+    padding: 0 2em 3.5em 6em;
 }
 
 .dynamic-img {
-    padding: 1.5rem 6rem 9rem 0;
-    width: 50%;
+    padding: 1.5em 6.5em 9em 0;
+    max-width: 100%;
     height: auto;
 }
 
@@ -707,7 +708,7 @@ label {
 
 /* Checkout section home page */
 
-#flex-container {
+/* #flex-container {
     flex-direction: column;
     justify-content: center;
 }
@@ -729,7 +730,7 @@ label {
 
 .checklist li {
     line-height: 1.7; 
-}
+} */
 
 /** Footer content **/
 /********************/
@@ -744,8 +745,7 @@ footer {
 
 .cover-text {
     bottom: 6em;
-    right: 7.4em;
-    position: sticky;
+    right: 8.5em;
 }
 
 /** Grid content **/
@@ -787,102 +787,36 @@ footer {
 
 /*** Flex section content insight page ***/
 
-.options {
-    margin: 1em;
-}
-
-.options h3 {
-    padding: 5rem 0 1.5rem 0;
-    font-size: 1.8rem;
-    text-align: center;
-    color: #141414;
-}
-
-.options p {
-    padding: 0 1.5rem 2rem 1.5rem;
-    text-align: center;
-    margin: 0 2rem 1rem 2rem;
-}
-
-/**************** Flex container insight page *********************/
-
-.flex-container1,
-.flex-container2,
-.flex-container3 {
-    display: flex;
-    min-height: 18.75rem;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.charger {
-    margin: 1rem;
-}
-
-.charger h3 {
-    text-decoration: underline;
-    margin-bottom: 1em;
-    align-items: center;
-    font-size: 1.5rem;
-    color: #141414;
-}
-
-.charger ul li {
-    list-style-type: none;
-    text-align: center;
-    line-height: 1.6;
-}
+/** Flex container insight page **/
 
 .charger-img {
-    width: 50%;
-    height: auto;
-}
-
-.wirless {
-    margin: 1rem;
+    padding: 1em 1em 2em 1em;
 }
 
 .wirless img {
-    align-self: center;
-    padding-left: 7rem;
-}
-
-.wirless h3 {
-    text-align: left;
-    padding: 2rem 0 1rem 6rem;
-    color: #141414;
-    font-size: 1.5rem;
-}
-
-.wirless p {
-    /* align-self: start; */
-    text-align: left;
-    padding: 0 4.8rem 2rem 6rem;
+    padding: 1em 0 1em 3.5em;
 }
 
 .dynamic {
-    margin: 1rem;
+    
+    padding-right: 2em;
 }
 
 .dynamic h3 {
-    /* align-self: start; */
-    text-align: left;
-    padding: 0 0 1rem 6rem;
-    color: #141414;
-    font-size: 1.5rem;
+    padding: 1em 0 1em 3em;
 }
 
 .dynamic p {
-    /* align-self: start; */
-    text-align: left;
-    padding: 0 2rem 3.5rem 6rem;
+    padding: 0 2em 3em 4em;
 }
 
 .dynamic-img {
-    padding: 1.5rem 6rem 9rem 0;
-    width: 50%;
-    height: auto;
+    padding: 2em 3.5em 8em 0;
 }
+
+
+
+
 
 
   
@@ -973,6 +907,30 @@ footer {
         background-attachment: none;
     }
 
+    #flex-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .check-out-inner {
+        line-height: 1.7;
+        text-align: center;
+        padding-top: 0.5em;
+    }
+    
+    #flex-container .check-box {
+        min-height: 17.75%;
+    }
+    
+    .check-out-list {
+        margin: 2em 4em 5em 1em;
+        align-items: center; 
+    }
+    
+    .checklist li {
+        line-height: 1.7; 
+    }
+    
 
 
 }
