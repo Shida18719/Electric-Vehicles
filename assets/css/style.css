@@ -426,7 +426,6 @@ footer div {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
-
 .grid-box:nth-child(4) {
     justify-self: center;
     align-self: center;
@@ -477,6 +476,10 @@ footer div {
     text-align: center;
     margin: 0 2rem 1rem 2rem;
 }
+
+.options p > span {
+    font-weight: bolder;
+} 
 
 /**************** Flex container insight page *********************/
 
@@ -782,32 +785,7 @@ footer {
     margin: 0.3em;
 }
 
-.grid-box:nth-child(5) {
-    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-    align-self: center;
-    padding-left: 4rem;
-}
-
-.grid-box:nth-child(6) {
-    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-    justify-self: center;
-    padding: 2rem 4rem 3rem 3rem;
-}
-
-.transition {
-    transition: transform 0.4s ease-out;
-}
-
-.transition:hover {
-    transform: translateY(3px);
-}
-
 /*** Flex section content insight page ***/
-
-.flex-area {
-    min-height: 37.5rem;
-    width: 100%;
-}
 
 .options {
     margin: 1em;
