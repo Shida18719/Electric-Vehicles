@@ -889,27 +889,11 @@ label {
         line-height: 1.7;
     }
     
-
-    
-    
     /** Footer content **/
     /********************/
-    
-    footer {
-        height: 4.6875rem;
-        width: 100%;
-        background-color: #2A353C;
-        color: #F4F4F9;
-        position: fixed;
-        display: flex;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-        border-top: 3px solid #045839;
-    }
-    
+
     footer div {
-        margin: 1.3% 2%;
+        margin: 1.3% 3%;
     }
     
     #social-links {
@@ -917,19 +901,10 @@ label {
         width: 80%;
     }
     
-    #social-links>li {
-        display: inline;
-    }
-    
     #social-links i {
         font-size: 1.9rem;
-        margin: 0 auto;
-        padding: 0.9em;
-        color: #F4F4F9;
-    }
-    
-    #social-links i:hover {
-        color: #045839;
+        margin: 0 0.7em;
+        padding: 0.8em 1.5em 1em 0;
     }
     
     
