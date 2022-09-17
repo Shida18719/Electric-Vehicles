@@ -186,7 +186,7 @@ h2 {
 
 /* Checkout section home page */
 
-#flex-container {
+#list-container {
     min-height: 37.5rem;
     display: flex;
     justify-content: space-evenly;
@@ -202,7 +202,7 @@ h2 {
     font-weight: bold;
 }
 
-#flex-container .check-box {
+#list-container .check-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,7 +379,7 @@ footer div {
 
 /**grid container **/
 
-.grid-container {
+.topic-container {
     min-height: 100vh;
     min-width: 100%;
     display: grid;
@@ -390,55 +390,55 @@ footer div {
     justify-content: center;
 }
 
-.grid-box {
+.topic-box {
     padding: 1.5em 1.5em 2.5em 1.5em;
 }
 
-.grid-box3,
-.grid-box4,
-.grid-box5,
-.grid-box6 {
+.topic-box3,
+.topic-box4,
+.topic-box5,
+.topic-box6 {
     border: 1px solid #141414;
     border-radius: 8px;
 }
 
-.grid-box5,
-.grid-box6 {
+.topic-box5,
+.topic-box6 {
     grid-column: span 2;
 }
 
-.grid-box1 {
+.topic-box1 {
     margin: auto 0;
     padding: 1.8em;
 }
 
-.grid-box:nth-child(2) {
+.topic-box:nth-child(2) {
     border-style: none;
     align-self: center;
     padding-top: 5em;
 }
 
-.grid-box:nth-child(3) {
+.topic-box:nth-child(3) {
     justify-self: center;
     align-self: center;
     margin: 0.4em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
-.grid-box:nth-child(4) {
+.topic-box:nth-child(4) {
     justify-self: center;
     align-self: center;
     margin: 0.2em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
-.grid-box:nth-child(5) {
+.topic-box:nth-child(5) {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
     align-self: center;
     padding-left: 4rem;
 }
 
-.grid-box:nth-child(6) {
+.topic-box:nth-child(6) {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
     justify-self: center;
     padding: 2rem 4rem 3rem 3rem;
@@ -752,19 +752,19 @@ label {
 
     /**grid container **/
 
-    .grid-box {
+    .topic-box {
         padding: 1.5em 1.5em 2.5em 1.6em;
     }
 
-    .grid-box1 {
+    .topic-box1 {
         padding: 1.7em;
     }
 
-    .grid-box:nth-child(2) {
+    .topic-box:nth-child(2) {
         padding: 4em 0.5em 0 0;
     }
 
-    .grid-box:nth-child(3) {
+    .topic-box:nth-child(3) {
         margin: 0.3em;
     }
 
@@ -920,25 +920,25 @@ label {
     
     /**grid container **/
     
-    .grid-container {
+    .topic-container {
         gap: 2em 2.3em; 
     }
     
-    .grid-box {
+    .topic-box {
         padding: 1.5em 1.5em 2em 1.5em;
     }
     
-    .grid-box1 {
+    .topic-box1 {
         padding: 1.8em 0 0 0;
         flex-wrap: wrap;
     }
     
-    .grid-box:nth-child(2) {
+    .topic-box:nth-child(2) {
         margin-top: -15em;
         padding-top: 4em;
     }
     
-    .grid-box:nth-child(3) {
+    .topic-box:nth-child(3) {
         margin: 0.4em;
     }
     
@@ -1029,14 +1029,7 @@ label {
 
 
 
-/** For small screen sizes from 768px wide and down **/
-
-
-
-
-/** For small screen sizes from 576px wide and down **/
-
-/* Media Query for Mobile Devices */
+/**  Media Query for small screen sizes from 768px wide and down **/
 
 @media screen and (max-width: 768px) {
 
@@ -1094,7 +1087,7 @@ label {
         background-attachment: none;
     }
 
-    #flex-container {
+    #list-container {
         flex-direction: column;
         justify-content: center;
     }
@@ -1105,7 +1098,7 @@ label {
         padding-top: 0.5em;
     }
 
-    #flex-container .check-box {
+    #list-container .check-box {
         min-height: 17.75%;
     }
 
