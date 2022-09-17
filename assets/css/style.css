@@ -959,7 +959,6 @@ label {
 .charger-img {
     align-self: center;
     padding-right: 3.5em;
-
 }
 
 .wirless {
@@ -1002,10 +1001,6 @@ label {
 /**** Sign Up Form Page Content*****/
 
 .signup-form {
-    background-color: #141414;
-    opacity: 0.8;
-    max-width: 420px;
-    position: absolute;
     left: 10%;
     padding: 2em 1.6em 0.5em 1.6em;
     margin: 11.38em 0.1em 0 0;
@@ -1036,9 +1031,6 @@ label {
 
 /** For small screen sizes from 768px wide and down **/
 
-/* Media Query for low resolution  Tablets, Ipads */
-
-@media screen and (max-width: 768px) {}
 
 
 
@@ -1046,7 +1038,7 @@ label {
 
 /* Media Query for Mobile Devices */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
     /* Headings and logo */
 
