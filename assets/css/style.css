@@ -338,23 +338,10 @@ footer div {
     color: #141414;
     font-size: 900;
 }
-.bar-frame {
+
+.chart-header iframe {
     overflow: hidden;
-    position: relative;
-    max-width: 100%;
-    padding: 55%; 
 }
-
-.bar-frame iframe {
-    position: absolute; 
-     top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
 
 .why-ev,
 .misconceptions,
@@ -397,8 +384,7 @@ footer div {
     min-width: 100%;
     display: grid;
     grid-template-columns: 40.5% 40.5%;
-    /* grid-auto-rows: 25.5%; */
-    grid-auto-rows: minmax(1fr, 25.5%);
+    grid-auto-rows: minmax(1fr, 25%);
     gap: 2.5em 2.8em;
     align-items: center;
     justify-content: center;
@@ -831,7 +817,6 @@ label {
     
     #logo {
         margin-left: 2em;
-    
     }
     
     /* Navigation links */
@@ -909,90 +894,23 @@ label {
     
     /**********Insight Page ***********/
     
-    /* Background image */
-    
-    
-    /* #insights-image {
-        height: 600px;
-        max-width: 100%;
-        background: url("../images/imain-image.jpg") no-repeat center center;
-        background-color: #B8DBD9;
-        background-size: cover;
-        object-fit: cover;
-        background-attachment: fixed;
-    } */
-    
-    
     .cover-text {
-        font-size: 1.5rem;
-        
-        height: 10rem;
         padding: 1rem 0.8rem 0 0.8rem;
-       
         bottom: 6em;
-        right: 6.4em;
-        
+        right: 6.4em;  
     }
     
     /*** Grid content insights page ***/
     
     #intro-heading {
         padding: 1em 0 1em 0;
-        text-align: center;
-        margin-top: 1.5em;
-        color: #141414;
+        margin-top: 1.5em;   
     }
     
     #chart-header {
-        padding-bottom: 1.5em;
-        color: #141414;
-        font-size: 900;
-    }
-    .bar-frame {
-        overflow: hidden;
-        position: relative;
-        max-width: 100%;
-        padding: 55%; 
-    }
-    
-    .bar-frame iframe {
-        position: absolute; 
-         top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-    
-    
-    .why-ev,
-    .misconceptions,
-    .benefits,
-    .types {
-        text-align: center;
-        padding-bottom: 0.8em;
-        color: #141414;
-        font-size: 1.5rem;
-    }
-    
-    .misconceptions p {
-        font-weight: 800;
-        padding-top: 1.5em;
-    }
-    
-    .list li {
-        list-style-type: square;
-        list-style-position: inside;
-    }
-    
-    .benefits p {
-        padding-top: 1em;
-    }
-    
-    .benefit-list li {
-        list-style-type: square;
-        list-style-position: inside;
+       align-self: center;
+        margin-left: 2em; 
+        padding-top: 8em;
     }
     
     .ev-types h4 {
@@ -1003,77 +921,26 @@ label {
     /**grid container **/
     
     .grid-container {
-        min-height: 100vh;
-        min-width: 100%;
-        display: grid;
-        grid-template-columns: 40.5% 40.5%;
-        /* grid-auto-rows: 25.5%; */
-        grid-auto-rows: minmax(1fr, 25.5%);
-        gap: 2.5em 2.8em;
-        align-items: center;
-        justify-content: center;
+        gap: 2em 2.3em; 
     }
     
     .grid-box {
-        padding: 1.5em 1.5em 2.5em 1.5em;
-    }
-    
-    .grid-box3,
-    .grid-box4,
-    .grid-box5,
-    .grid-box6 {
-        border: 1px solid #141414;
-        border-radius: 8px;
-    }
-    
-    .grid-box5,
-    .grid-box6 {
-        grid-column: span 2;
+        padding: 1.5em 1.5em 2em 1.5em;
     }
     
     .grid-box1 {
-        margin: auto 0;
-        padding: 1.8em;
+        padding: 1.8em 0 0 0;
+        flex-wrap: wrap;
     }
     
     .grid-box:nth-child(2) {
-        border-style: none;
-        align-self: center;
-        padding-top: 5em;
+        margin-top: -15em;
+        padding-top: 4em;
     }
     
     .grid-box:nth-child(3) {
-        justify-self: center;
-        align-self: center;
         margin: 0.4em;
-        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-    }
-    
-    .grid-box:nth-child(4) {
-        justify-self: center;
-        align-self: center;
-        margin: 0.2em;
-        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-    }
-    
-    .grid-box:nth-child(5) {
-        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-        align-self: center;
-        padding-left: 4rem;
-    }
-    
-    .grid-box:nth-child(6) {
-        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-        justify-self: center;
-        padding: 2rem 4rem 3rem 3rem;
-    }
-    
-    .transition {
-        transition: transform 0.4s ease-out;
-    }
-    
-    .transition:hover {
-        transform: translateY(3px);
+      
     }
     
     
@@ -1097,13 +964,6 @@ label {
 /* Media Query for Mobile Devices */
 
 @media screen and (max-width: 576px) {
-
-    /* body {
-        display: flex;
-        flex-direction: column;
-        place-content: center;
-        width: 100%;
-    } */
 
     /* Headings and logo */
 
