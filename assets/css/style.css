@@ -217,6 +217,16 @@ h2 {
     box-shadow: 0.75rem 0.75rem 0.3rem #141414;
     margin: 0 6em 3em 0;
     font-size: 1.2em;
+    z-index: 5;
+}
+
+.effect {
+    transition: transform 0.4s ease-out;
+}
+
+.effect:hover {
+    transform: translateY(3px);
+    background-color: #F4F4F9;
 }
 
 .checklist li {
@@ -324,7 +334,7 @@ footer div {
     box-sizing: border-box;
 }
 
-/*** Grid content insights page ***/
+/*** Topic content insights page ***/
 
 #intro-heading {
     padding: 1em 0 1em 0;
@@ -377,7 +387,7 @@ footer div {
     font-size: 1.5rem;
 }
 
-/**grid container **/
+/** Topic container **/
 
 .topic-container {
     min-height: 100vh;
@@ -452,7 +462,7 @@ footer div {
     transform: translateY(3px);
 }
 
-/*** Flex section content insight page ***/
+/*** Option content insight page ***/
 
 .flex-area {
     min-height: 37.5rem;
@@ -482,9 +492,9 @@ footer div {
 
 /**************** Flex container insight page *********************/
 
-.flex-container1,
-.flex-container2,
-.flex-container3 {
+.option-container1,
+.option-container2,
+.option-container3 {
     display: flex;
     min-height: 18.75rem;
     justify-content: space-around;
