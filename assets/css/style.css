@@ -586,7 +586,7 @@ footer div {
     position: absolute;
     left: 10%;
     padding: 2em 1.6em 0.5em 1.6em;
-    margin: 11.38em 0.1em 0 0;
+    margin: 11.38rem 0.1rem 0 0;
 }
 
 .signup-form h2 {
@@ -617,7 +617,7 @@ footer div {
 
 label {
     color: #B8DBD9;
-    margin: 10px 15px 5px 0;
+    margin: 0.7142rem 11.0714rem 0.357rem 0;
 }
 
 .text-input:hover {
