@@ -254,7 +254,7 @@ h2 {
 /********************/
 
 footer {
-    height: 4.6875rem;
+    height: 12%;
     width: 100%;
     background-color: #2A353C;
     color: #F4F4F9;
@@ -267,7 +267,7 @@ footer {
 }
 
 footer div {
-    margin: 1.3% 2%;
+    margin: 1.3% 3%;
 }
 
 #social-links {
@@ -281,7 +281,8 @@ footer div {
 
 #social-links i {
     font-size: 1.9rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 0 3rem;
     padding: 0.9em;
     color: #F4F4F9;
 }
@@ -313,7 +314,7 @@ footer div {
 }
 
 .cover-text,
-.cover-text h2 {
+.cover-text h2, .cover-text h3 {
     color: #B8DBD9;
 }
 
@@ -321,16 +322,15 @@ footer div {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
-    width: 26.5rem;
-    height: 10rem;
-    padding: 1rem 0.8rem 0 0.8rem;
+    width: 26%;
+    /* height: 28%; */
+    padding: 0.3em 0 1em 1.1em;
     position: absolute;
     color: #B8DBD9;
-    /* background-color: rgba(0, 0, 0, 0.6); */
     background-color: #141414;
     opacity: 0.8;
-    bottom: 2em;
-    right: 9.4em;
+    bottom: 2rem;
+    right: 9.4rem;
     text-shadow: 1px 1px 2px #F4F4F9;
     box-sizing: border-box;
 }
@@ -352,6 +352,7 @@ footer div {
 
 .chart-header iframe {
     overflow: hidden;
+    margin: 1rem;
 }
 
 .why-ev,
@@ -649,10 +650,9 @@ label {
 }
 
 
-/***** Media Queries *****/
+/***** Media Queries ruleset from 576px - 1280px *****/
 
 
-/* Media ruleset from 576px - 1280px */
 /** For larger to medium screens sizes from 1280px and down **/
 
 /* Header and logo */
@@ -735,6 +735,7 @@ label {
     /* Cover text */
 
     .cover-text {
+        margin: 1rem 1rem 1rem 0;
         bottom: 6rem;
         right: 8.5rem;
     }
@@ -751,7 +752,7 @@ label {
     }
 
     .misconceptions p {
-        padding-top: 1.5rem;
+        padding-top: 1.5em;
     }
 
     .list li {
@@ -905,9 +906,9 @@ label {
     /**********Insight Page ***********/
     
     .cover-text {
-        padding: 1rem 0.8rem 0 0.8rem;
-        bottom: 6em;
-        right: 6.4em;  
+        padding: 0 0.5em 0 1em;
+        bottom: 6rem;
+        right: 6.4rem;  
     }
     
     /*** Grid content insights page ***/
