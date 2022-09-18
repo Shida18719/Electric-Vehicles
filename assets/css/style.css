@@ -666,29 +666,29 @@ label {
     }
 
     .evi {
-        margin-left: 5em;
+        margin-left: 5rem;
         padding-top: 1em;
     }
 
     #logo {
-        margin-left: 2.5em;
+        margin-left: 2.5rem;
     }
 
     /* Navigation links */
 
     header #nav-menu {
-        margin-right: 2.5em;
+        margin-right: 2.5rem;
     }
 
     #nav-menu ul li {
         list-style-type: none;
         display: inline-block;
-        margin-right: 2em;
+        margin-right: 2rem;
     }
 
     /** About home page **/
     #about {
-        padding: 3rem 3em 0 3em;
+        padding: 3em 3em 0 3em;
     }
 
     #contact-link {
@@ -714,13 +714,13 @@ label {
     /* Checkout section home page */
 
     .check-out-text {
-        margin-left: 1em;
+        margin-left: 1.5rem;
         flex-wrap: wrap;
-        padding-right: 0.5em;
+        padding: 0 0.5em 0 1em;
     }
 
     .check-out-list {
-         margin-top: 0.5em;   
+         margin-top: 0.5rem;   
     }
 
     /** Footer content **/
@@ -735,15 +735,15 @@ label {
     /* Cover text */
 
     .cover-text {
-        bottom: 6em;
-        right: 8.5em;
+        bottom: 6rem;
+        right: 8.5rem;
     }
 
-    /** Grid content **/
+    /** topic content **/
 
     #chart-bar>iframe {
         overflow-y: hidden;
-        padding-right: 3.5em;
+        padding: 0 3.5rem 0 0;
     }
 
     .why-ev {
@@ -751,14 +751,14 @@ label {
     }
 
     .misconceptions p {
-        padding-top: 1.5em;
+        padding-top: 1.5rem;
     }
 
     .list li {
         padding-top: 0.6em;
     }
 
-    /**grid container **/
+    /** topic container **/
 
     .topic-box {
         padding: 1.5em 1.5em 2.5em 1.6em;
@@ -820,25 +820,25 @@ label {
 @media screen and (max-width: 992px) {
 
     .evi {
-        margin-left: 3.3em;
+        margin-left: 4.5rem;
     }
     
     #logo {
-        margin-left: 2em;
+        margin-left: 2rem;
     }
     
     /* Navigation links */
     
     #nav-menu ul li {
-        margin-right: 0.5em;
+        margin-right: 1rem;
     }
     
     /* Main Image and overlay text*/
     
     .overlay-text {
         padding: 0.5em 1em 0 0.3em;
-        bottom: 5em;
-        left: 7em;
+        bottom: 8rem;
+        left: 7rem;
     }
     
     /* About home page*/
@@ -870,12 +870,12 @@ label {
     
     .check-out-text {
         line-height: 1.6;
-        margin-left: 2em ;
+        margin: 0 0.5rem 1rem 2rem;
+        font-size: 1.3rem;
     }
     
     .check-out-list {
-        margin: 0 5em 2em 0;
-        font-size: 1em;
+        margin: 0 5rem 5rem 0;
     }
     
     .checklist li {
@@ -884,7 +884,9 @@ label {
     
     /** Footer content **/
     /********************/
-
+     footer {
+        
+     }
     footer div {
         margin: 1.3% 3%;
     }
@@ -896,7 +898,7 @@ label {
     
     #social-links i {
         font-size: 1.9rem;
-        margin: 0 0.7em;
+        margin: 0 1.2rem;
         padding: 0.8em 1.5em 1em 0;
     }
     
