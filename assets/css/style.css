@@ -54,7 +54,7 @@ header a {
     font-size: 2rem;
     color: #045839;
     font-family: Lato, sans-serif;
-    margin-top: -1.9rem;
+    margin-top: -3.8rem;
 }
 
 /* Navigation links */
@@ -340,7 +340,7 @@ footer div {
 #intro-heading {
     padding: 1em 0 1em 0;
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 1.5rem;
     color: #141414;
 }
 
@@ -396,7 +396,7 @@ footer div {
     display: grid;
     grid-template-columns: 40.5% 40.5%;
     grid-auto-rows: minmax(1fr, 25%);
-    gap: 2.5em 2.8em;
+    gap: 2.5rem 2.8rem;
     align-items: center;
     justify-content: center;
 }
@@ -439,7 +439,7 @@ footer div {
 .topic-box:nth-child(4) {
     justify-self: center;
     align-self: center;
-    margin: 0.2em;
+    margin: 0.2rem;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
@@ -471,7 +471,7 @@ footer div {
 }
 
 .options {
-    margin: 1em;
+    margin: 1rem;
 }
 
 .options h3 {
@@ -508,7 +508,7 @@ footer div {
 
 .charger h3 {
     text-decoration: underline;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     align-items: center;
     font-size: 1.5rem;
     color: #141414;
@@ -542,7 +542,6 @@ footer div {
 }
 
 .wirless p {
-    /* align-self: start; */
     text-align: left;
     padding: 0 4.8rem 2rem 6rem;
 }
@@ -553,7 +552,6 @@ footer div {
 }
 
 .dynamic h3 {
-    /* align-self: start; */
     text-align: left;
     padding: 0 0 1em 5em;
     color: #141414;
@@ -561,7 +559,6 @@ footer div {
 }
 
 .dynamic p {
-    /* align-self: start; */
     text-align: left;
     padding: 0 2em 3.5em 6em;
 }
