@@ -259,7 +259,7 @@ footer {
     width: 100%;
     background-color: #2A353C;
     color: #F4F4F9;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     bottom: 0;
     left: 0;
@@ -501,7 +501,7 @@ footer div {
     justify-content: space-evenly;
     align-items: center;
     min-height: 52.50vh; 
-    /* width: 100%; */
+    width: 100%;
 }
 
 .option-charger,
@@ -563,7 +563,8 @@ footer div {
 
 .dynamic {
     margin: 0.5rem;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
+    flex: 50%;
 }
 
 .dynamic h3 {
