@@ -468,7 +468,7 @@ footer div {
 /*** Option content insight page ***/
 
 .flex-area {
-    min-height: 52.5%;
+    /* min-height: 52.5%; */
     width: 100%;
 }
 
@@ -495,19 +495,24 @@ footer div {
 
 /**************** Option container insight page *********************/
 
+.option-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 52.50%; 
+}
+
 .option-container1,
 .option-container2,
 .option-container3 {
     display: flex;
-    flex-wrap: wrap;
-    /* min-height: 26.25%; */
-    justify-content: space-around;
-    align-items: center;
-}
+    min-height: 26.25%;  
+ } 
 
 .charger {
-    margin: 1.4%;
-    flex: 50%;
+    margin: 6%;
+    padding-top: 3%;
 }
 
 .charger h3 {
@@ -525,18 +530,19 @@ footer div {
 }
 
 .charger-img {
-    width: 50%;
+    width: 100%;
     height: auto;
+    padding-left: 4.2%;
 }
 
 .wirless {
     margin: 1rem;
-    flex: 50%;
 }
 
 .wirless img {
     align-self: center;
     padding-left: 7rem;
+    
 }
 
 .wirless h3 {
@@ -554,7 +560,6 @@ footer div {
 .dynamic {
     margin: 1rem;
     padding-right: 3em;
-    flex: 50%;
 }
 
 .dynamic h3 {
