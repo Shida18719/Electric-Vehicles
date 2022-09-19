@@ -500,7 +500,7 @@ footer div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 52.50vh; 
+    min-height: 52.5vh; 
     width: 100%;
 }
 
@@ -536,7 +536,8 @@ footer div {
 .charger-img {
     width: 100%;
     height: auto;
-    padding-left: 12%;
+    padding-left: 15%;
+    align-self: center;
 }
 
 .wirless {
@@ -797,24 +798,29 @@ label {
     /** Flex container insight page **/
 
     .charger-img {
-        padding: 1em 1em 2em 1em;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .wirless {
+        margin-top: 1rem;
     }
 
     .wirless img {
-        padding: 1em 0 1em 3.5em;
+        padding: 1em 1em 0 3.5em ;
     }
 
     .dynamic {
-
-        padding-right: 2em;
+        margin: 2rem 1rem;
+        padding: 1em 0 ;
     }
 
     .dynamic h3 {
-        padding: 1em 0 1em 3em;
+        padding: 1.5em 0 1em 1em;
+       
     }
 
     .dynamic p {
-        padding: 0 2em 3em 4em;
+        padding: 0 2em 2em 3em;
     }
 
     .dynamic-img {
@@ -853,7 +859,7 @@ label {
     
     .overlay-text {
         padding: 0.1em 1em 0.5em 0.5em;
-        bottom: 8rem;
+        bottom: 5rem;
         left: 7rem;
     }
     
@@ -891,7 +897,7 @@ label {
     }
     
     .check-out-list {
-        margin: 0 5rem 5rem 0;
+        margin: 0 5rem 0.5rem 0;
     }
     
     .checklist li {
@@ -900,9 +906,6 @@ label {
     
     /** Footer content **/
     /********************/
-     footer {
-        
-     }
     footer div {
         margin: 1.3% 3%;
     }
@@ -939,12 +942,7 @@ label {
         padding-top: 8em;
     }
     
-    /* .ev-types h4 {
-        color: #141414;
-        font-size: 1.5rem;
-    } */
-    
-    /**grid container **/
+    /** Topic container insights page**/
     
     .topic-container {
         gap: 2em 2.3em; 
@@ -965,7 +963,7 @@ label {
     }
     
     .topic-box:nth-child(3) {
-        margin: 0.4em;
+        /* margin: 0.4em; */
     }
     
     /*** Flex section content insight page ***/
@@ -974,7 +972,7 @@ label {
 .charger {
     margin: 2.8%;
     align-self: center;
-    padding-bottom: 4.2%;
+    padding-bottom: 2%;
 }
 
 .charger h3 {
@@ -1028,25 +1026,15 @@ label {
 /**** Sign Up Form Page Content*****/
 
 .signup-form {
-    left: 10%;
-    padding: 2em 1.6em 0.5em 1.6em;
-    margin: 11.38em 0.1em 0 0;
+    padding: 3rem 1.6rem 0.5rem 1.6rem; 
 }
 
-.signup-form h2 {
-    /* color: #2A353C; */
-    color: #B8DBD9;
-    font-family: Lato, sans-serif;
-    margin-bottom: 1.25rem;
-    font-size: 3rem;
-    text-align: center;
-}
 
 /* Text input field*/
 
 label {
-    color: #B8DBD9;
-    margin: 10px 15px 5px 0;
+    /* color: #B8DBD9;
+    margin: 10px 15px 5px 0; */
 }
     
 }
