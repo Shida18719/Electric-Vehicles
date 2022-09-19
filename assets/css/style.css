@@ -101,17 +101,17 @@ header #nav-menu {
 }
 
 
-/* Main Image and overlay text*/
+/* Home Main Image and overlay text*/
 
-#bg-image {
+#image-container {
     position: relative;
-    height: 37.5rem;
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
 #main-image {
-    height: 600px;
+    height: 37.5rem;
     width: 100%;
     background: url("../images/main-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
@@ -131,19 +131,20 @@ header #nav-menu {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
 
-    width: 26.5rem;
-    height: 12rem;
+    width: 26.5%;
+    height: aut0;
 
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    padding-left: 12.8px;
+    padding-right: 12.8px;
+    margin: 1rem;
 
     position: absolute;
     color: #B8DBD9;
     background-color: rgba(0, 0, 0, 0.4);
     text-shadow: 1px 1px 2px #F4F4F9;
 
-    bottom: 2rem;
-    left: 9.4rem;
+    bottom: 3%;
+    left: 13.4%;
 }
 
 h2 {
@@ -304,7 +305,7 @@ footer div {
 }
 
 #insights-image {
-    height: 600px;
+    height: 100%;
     max-width: 100%;
     background: url("../images/imain-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
@@ -467,7 +468,7 @@ footer div {
 /*** Option content insight page ***/
 
 .flex-area {
-    min-height: 37.5rem;
+    min-height: 52.5%;
     width: 100%;
 }
 
@@ -492,19 +493,21 @@ footer div {
     font-weight: bold;
 }
 
-/**************** Flex container insight page *********************/
+/**************** Option container insight page *********************/
 
 .option-container1,
 .option-container2,
 .option-container3 {
     display: flex;
-    min-height: 18.75rem;
+    flex-wrap: wrap;
+    /* min-height: 26.25%; */
     justify-content: space-around;
     align-items: center;
 }
 
 .charger {
-    margin: 1rem;
+    margin: 1.4%;
+    flex: 50%;
 }
 
 .charger h3 {
@@ -528,6 +531,7 @@ footer div {
 
 .wirless {
     margin: 1rem;
+    flex: 50%;
 }
 
 .wirless img {
@@ -550,6 +554,7 @@ footer div {
 .dynamic {
     margin: 1rem;
     padding-right: 3em;
+    flex: 50%;
 }
 
 .dynamic h3 {
@@ -837,7 +842,7 @@ label {
     /* Main Image and overlay text*/
     
     .overlay-text {
-        padding: 0.5em 1em 0 0.3em;
+        padding: 0.1em 1em 0.5em 0.5em;
         bottom: 8rem;
         left: 7rem;
     }
@@ -899,7 +904,7 @@ label {
     
     #social-links i {
         font-size: 1.9rem;
-        margin: 0 1.2rem;
+        margin: 0 1.2rem 1rem 1.2rem;
         padding: 0.8em 1.5em 1em 0;
     }
     
@@ -911,7 +916,7 @@ label {
         right: 6.4rem;  
     }
     
-    /*** Grid content insights page ***/
+    /*** Topic content insights page ***/
     
     #intro-heading {
         padding: 1em 0 1em 0;
@@ -957,55 +962,56 @@ label {
 /********* Flex container insight page ***********/
 
 .charger {
-    margin: 2em;
+    margin: 2.8%;
     align-self: center;
-    padding-bottom: 3em;
+    padding-bottom: 4.2%;
 }
 
 .charger h3 {
-    margin: 1em 1em 1em 2em;
+    margin: 1.4% 1.4% 2.8%;
     align-items: center;
 }
 
 .charger-img {
     align-self: center;
-    padding-right: 3.5em;
+    padding-right: 3.5%;
 }
 
 .wirless {
-    margin: 1em;
+    margin: 1%;
     align-self: center;
-    padding-top: 1em;
+    padding-top: 4%;
 }
 
 .wirless img {
-    padding-left: 3em;
+    padding-left: 6%;
+    padding-top: 10%;
 }
 
 .wirless h3 {
-    padding: 2em 0 0.5em 0; 
+    padding: 10% 0 0.5% 10%; 
 }
 
 .wirless p {
-    padding: 0 1.5em 2em 1em;
+    padding: 0 1.7% 2% 10%;
 }
 
 .dynamic {
-    margin: 1rem;
+    margin-left: 1.5%;
     align-self: center;
 }
 
 .dynamic h3 {
     text-align: center;
-    padding: 1em 1em 0.5em 2em;
+    padding: 3% 1.4% 0.5% 15%;
 }
 
 .dynamic p {
-    padding: 0 0 3.5em 3em;
+    padding: 3% 0 4.9% 16%;
 }
 
 .dynamic-img {
-    padding: 1.5em 2.5em 5em 0.5em;
+    padding: 0 3.5% 7% 0.7%;
     align-self: center;
 }
 
