@@ -93,7 +93,6 @@ header #nav-menu {
     background-color: #045839;
     color: #F4F4F9;
     padding: 0.125em 0.125em 0.3125em 0.3125em;
-
 }
 
 .active {
@@ -106,13 +105,14 @@ header #nav-menu {
 #image-container {
     position: relative;
     width: 100%;
-    height: auto;
+    /* height: 100%; */
+    height: 37.5rem; 
     overflow: hidden;
 }
 
 #main-image {
     height: 37.5rem;
-    width: 100%;
+    max-width: 100%;
     background: url("../images/main-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
     background-size: cover;
@@ -962,9 +962,9 @@ label {
         padding-top: 4em;
     }
     
-    .topic-box:nth-child(3) {
-        /* margin: 0.4em; */
-    }
+    /* .topic-box:nth-child(3) {
+        /* margin: 0.4em;
+    } */ 
     
     /*** Flex section content insight page ***/
 /********* Flex container insight page ***********/
@@ -1042,13 +1042,10 @@ label {
 
     .header {
         min-height: 7vh;
-        /* line-height: 4.375rem; */
         line-height: 3.571rem;
         flex-direction: column;
-        /* flex-wrap: wrap; */
         place-content: center;
-        padding-left: 20px;
-        
+        padding-left: 20px;  
     }
 
     header figure .evi {
@@ -1065,21 +1062,18 @@ label {
         font-size: 1.3rem;
         justify-content: space-around;
         padding: 0 2rem 0 4rem;
-
     }
 
     #nav-menu ul li {
-
         text-align: center;
-        padding: 0 1em 0 0; 
+        padding: 0 1rem 0 0; 
     }
 
-    /* #nav-menu ul>li>.sign-up {
-        border: 0;
-        border-radius: 0;
-        font-weight: lighter;
+    #about {}
 
-    } */
+    .about-ev p {
+        flex-wrap: w;
+    }
 
     /* #main-image {
         width: 100%;
@@ -1094,12 +1088,13 @@ label {
     #list-container {
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
 
     .check-out-text {
         line-height: 1.7;
         text-align: center;
-        padding-top: 0.5em;
+        padding-top: 3rem;
     }
 
     #list-container .check-box {
@@ -1107,14 +1102,286 @@ label {
     }
 
     .check-out-list {
-        margin: 2em 4em 5em 1em;
+        margin: 2% 4% 5% 1%;
         align-items: center;
     }
 
     .checklist li {
-        line-height: 1.7;
+        line-height: 1.6;
     }
 
+    /**********Insight Page ***********/
 
+/* Background image */
+
+/* #bgc-image {
+    position: relative;
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+#insights-image {
+    height: 100%;
+    max-width: 100%;
+    background: url("../images/imain-image.jpg") no-repeat center center;
+    background-color: #B8DBD9;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+} */
+
+
+.cover-text {
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;
+    width: 26%;
+    /* height: 28%; */
+    padding: 0.3em 0 1em 1.1em;
+    bottom: 2rem;
+    right: 9.4rem;
+    
+}
+
+/*** Topic content insights page ***/
+
+#intro-heading {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    margin-top: 1.5rem;
+   
+}
+
+#chart-header {
+    padding-bottom: 1.5em;
+   
+}
+
+.chart-header iframe {
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.why-ev,
+.misconceptions,
+.benefits,
+.types {
+    text-align: center;
+    padding-bottom: 0.8em;
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+.misconceptions p {
+    font-weight: 800;
+    padding-top: 1.5em;
+}
+
+
+.benefits p {
+    padding-top: 1em;
+}
+
+.benefit-list li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.ev-types h4 {
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+/** Topic container **/
+
+.topic-container {
+    min-height: 100vh;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 40.5% 40.5%;
+    grid-auto-rows: minmax(1fr, 25%);
+    gap: 2.5rem 2.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.topic-box {
+    padding: 1.5em 1.5em 2.5em 1.5em;
+}
+
+.topic-box1,
+.topic-box2, .topic-box3, .topic-box4 {
+    grid-column: span 2;
+}
+
+.topic-box1 {
+    margin: auto 0;
+    padding: 1.8em;
+}
+
+.topic-box:nth-child(2) {
+    border-style: none;
+    align-self: center;
+    padding-top: 5em;
+}
+
+.topic-box:nth-child(3) {
+    justify-self: center;
+    align-self: center;
+    margin: 0.4em;
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+}
+
+.topic-box:nth-child(4) {
+    justify-self: center;
+    align-self: center;
+    margin: 0.2rem;
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+}
+
+.topic-box:nth-child(5) {
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+    align-self: center;
+    padding-left: 4rem;
+}
+
+.topic-box:nth-child(6) {
+    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
+    justify-self: center;
+    padding: 2rem 4rem 3rem 3rem;
+}
+
+.transition {
+    transition: transform 0.4s ease-out;
+}
+
+.transition:hover {
+    transform: translateY(3px);
+}
+
+/*** Option content insight page ***/
+
+.flex-area {
+    /* min-height: 52.5%; */
+    width: 100%;
+}
+
+.options {
+    margin: 1rem;
+}
+
+.options h3 {
+    padding: 5rem 0 1.5rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #141414;
+}
+
+.options p {
+    padding: 0 1.5rem 2rem 1.5rem;
+    text-align: center;
+    margin: 0 2rem 1rem 2rem;
+}
+
+.options p>span {
+    font-weight: bold;
+}
+
+/**************** Option container insights page *********************/
+
+.option-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    align-items: center;
+    min-height: 52.5vh; 
+    width: 100%;
+}
+
+.option-charger,
+.option-wireless,
+.option-dynamic {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    min-height: 37.25%;  
+ } 
+
+.charger {
+    margin: 1%;
+    padding-top: 1%;
+}
+
+.charger h3 {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #141414;
+    padding-right: 6%;
+}
+
+.charger ul li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.6;
+    padding-right: 6%;
+}
+
+.charger-img {
+    width: 100%;
+    height: auto;
+    padding-left: 15%;
+    align-self: center;
+}
+
+.wirless {
+    margin: 0;
+}
+
+.wirless img {
+    align-self: center;
+    padding-left: 8rem;
+    
+}
+
+.wirless h3 {
+    text-align: left;
+    padding: 2rem 0 1rem 5rem;
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+.wirless p {
+    text-align: left;
+    padding: 0 4.8rem 1rem 5rem;
+}
+
+.dynamic {
+    margin: 0.5rem;
+    /* padding-right: 1rem; */
+    flex: 50%;
+}
+
+.dynamic h3 {
+    text-align: left;
+    padding: 0 0 1rem 6rem;
+    color: #141414;
+    font-size: 1.5rem;
+}
+
+.dynamic p {
+    text-align: left;
+    padding: 0 1rem 2rem 6rem;
+}
+
+.dynamic-img {
+    padding: 1rem 6.5rem 9rem 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/**** Sign Up Form Page Content*****/
 
 }
