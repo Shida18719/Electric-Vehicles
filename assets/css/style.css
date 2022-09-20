@@ -10,6 +10,7 @@
 
 html {
     font-size: 100%; 
+    /* height: 100%; */
 }
 
 body {
@@ -105,7 +106,6 @@ header #nav-menu {
 #image-container {
     position: relative;
     width: 100%;
-    /* height: 100%; */
     height: 37.5rem; 
     overflow: hidden;
 }
@@ -130,13 +130,10 @@ header #nav-menu {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
+    /* width: 26.5%; */
 
-    width: 26.5%;
-    height: aut0;
-
-    padding-left: 12.8px;
-    padding-right: 12.8px;
-    margin: 1rem;
+    padding: 1em;
+    margin: 1em;
 
     position: absolute;
     color: #B8DBD9;
@@ -323,15 +320,18 @@ footer div {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
-    width: 26%;
+    /* min-width: 26%; */
     /* height: 28%; */
-    padding: 0.3em 0 1em 1.1em;
+    padding: 1em;
+    margin: 2em;
+
     position: absolute;
     color: #B8DBD9;
     background-color: #141414;
     opacity: 0.8;
-    bottom: 2rem;
-    right: 9.4rem;
+
+    bottom: 2.8%;
+    right: 13.6%;
     text-shadow: 1px 1px 2px #F4F4F9;
     box-sizing: border-box;
 }
@@ -1069,12 +1069,6 @@ label {
         padding: 0 1rem 0 0; 
     }
 
-    #about {}
-
-    .about-ev p {
-        flex-wrap: w;
-    }
-
     /* #main-image {
         width: 100%;
         height: 37.5rem;
@@ -1084,6 +1078,17 @@ label {
         object-fit: cover;
         background-attachment: none;
     } */
+
+    .overlay-text{
+    }
+
+    #about {}
+
+    .about-ev p {
+        align-items: stretch;
+        
+       
+    }
 
     #list-container {
         flex-direction: column;
@@ -1134,9 +1139,6 @@ label {
 
 .cover-text {
     font-size: 1.3rem;
-    letter-spacing: 0.25rem;
-    width: 26%;
-    /* height: 28%; */
     padding: 0.3em 0 1em 1.1em;
     bottom: 2rem;
     right: 9.4rem;
@@ -1152,25 +1154,10 @@ label {
    
 }
 
-#chart-header {
-    padding-bottom: 1.5em;
-   
-}
-
-.chart-header iframe {
-    overflow: hidden;
+/* .chart-header iframe {
     margin: 1rem;
-}
+} */
 
-.why-ev,
-.misconceptions,
-.benefits,
-.types {
-    text-align: center;
-    padding-bottom: 0.8em;
-    color: #141414;
-    font-size: 1.5rem;
-}
 
 .misconceptions p {
     font-weight: 800;
@@ -1195,14 +1182,8 @@ label {
 /** Topic container **/
 
 .topic-container {
-    min-height: 100vh;
-    min-width: 100%;
-    display: grid;
-    grid-template-columns: 40.5% 40.5%;
-    grid-auto-rows: minmax(1fr, 25%);
-    gap: 2.5rem 2.8rem;
-    align-items: center;
-    justify-content: center;
+    /* gap: 2.5rem 2.8rem; */
+    padding-left: 1em;
 }
 
 .topic-box {
@@ -1215,35 +1196,9 @@ label {
 }
 
 .topic-box1 {
-    margin: auto 0;
-    padding: 1.8em;
+    padding: 1.6em;
 }
 
-.topic-box:nth-child(2) {
-    border-style: none;
-    align-self: center;
-    padding-top: 5em;
-}
-
-.topic-box:nth-child(3) {
-    justify-self: center;
-    align-self: center;
-    margin: 0.4em;
-    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-}
-
-.topic-box:nth-child(4) {
-    justify-self: center;
-    align-self: center;
-    margin: 0.2rem;
-    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-}
-
-.topic-box:nth-child(5) {
-    box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-    align-self: center;
-    padding-left: 4rem;
-}
 
 .topic-box:nth-child(6) {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
@@ -1251,13 +1206,6 @@ label {
     padding: 2rem 4rem 3rem 3rem;
 }
 
-.transition {
-    transition: transform 0.4s ease-out;
-}
-
-.transition:hover {
-    transform: translateY(3px);
-}
 
 /*** Option content insight page ***/
 
@@ -1268,18 +1216,19 @@ label {
 
 .options {
     margin: 1rem;
+    text-align: center;
 }
 
 .options h3 {
-    padding: 5rem 0 1.5rem 0;
+    padding: 4em 0 1.5rem 3em;
     font-size: 1.8rem;
     text-align: center;
-    color: #141414;
+   
 }
 
 .options p {
-    padding: 0 1.5rem 2rem 1.5rem;
-    text-align: center;
+    padding: 0 1.5em 2em 2em;
+    
     margin: 0 2rem 1rem 2rem;
 }
 
@@ -1292,7 +1241,6 @@ label {
 .option-container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
     flex-direction: column;
     align-items: center;
     min-height: 52.5vh; 
@@ -1314,72 +1262,64 @@ label {
 }
 
 .charger h3 {
-    text-decoration: underline;
-    margin-bottom: 1rem;
-    align-items: center;
-    font-size: 1.5rem;
-    color: #141414;
-    padding-right: 6%;
+    margin-bottom: 0.5em;
+    /* padding-right: 6%; */
 }
 
 .charger ul li {
-    list-style-type: none;
     text-align: center;
-    line-height: 1.6;
-    padding-right: 6%;
+    padding-right: 1%;
 }
 
 .charger-img {
-    width: 100%;
-    height: auto;
-    padding-left: 15%;
+    /* padding-right: 15%; */
     align-self: center;
+    margin: 0 auto;
 }
 
 .wirless {
-    margin: 0;
+    margin: 0 auto;
+    /* padding-right: 2em; */
 }
 
 .wirless img {
     align-self: center;
-    padding-left: 8rem;
+    padding-right: 4em;
     
 }
 
 .wirless h3 {
-    text-align: left;
-    padding: 2rem 0 1rem 5rem;
-    color: #141414;
-    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 3em 0 1em;
+   
 }
 
 .wirless p {
-    text-align: left;
-    padding: 0 4.8rem 1rem 5rem;
+    text-align: center;
+    padding: 0 4.8em 1em 1em;
 }
 
 .dynamic {
     margin: 0.5rem;
-    /* padding-right: 1rem; */
-    flex: 50%;
+    padding-right: 1em;
+    place-content: center;
 }
 
 .dynamic h3 {
-    text-align: left;
-    padding: 0 0 1rem 6rem;
-    color: #141414;
-    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 2em 0 1em;
+   
 }
 
 .dynamic p {
-    text-align: left;
-    padding: 0 1rem 2rem 6rem;
+    text-align: center;
+    padding: 0 2em 0 1em;
 }
 
 .dynamic-img {
-    padding: 1rem 6.5rem 9rem 0;
-    max-width: 100%;
-    height: auto;
+     padding-left: 1em; 
+    /* padding-right: 1em; */ 
+    margin: 0 auto;
 }
 
 /**** Sign Up Form Page Content*****/
