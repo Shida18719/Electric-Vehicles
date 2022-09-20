@@ -38,6 +38,7 @@ body {
     z-index: 5;
     padding: 0.3em;
     overflow: hidden;
+    box-shadow: 0 0 7px #2A353C;
 }
 
 header a {
@@ -132,7 +133,7 @@ header #nav-menu {
     letter-spacing: 0.25rem;
     /* width: 26.5%; */
 
-    padding: 1em;
+    padding: 1.5em;
     margin: 1em;
 
     position: absolute;
@@ -200,7 +201,7 @@ iframe {
 /* Checkout section home page */
 
 #list-container {
-    min-height: 84vh;
+    min-height: 80vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -227,12 +228,12 @@ iframe {
 .check-out-list {
     border: 1px solid rgba(0, 0, 0, 0.5);
     list-style-type: none;
-    max-width: 30%;
+    width: 30%;
     border-radius: 5px;
     box-shadow: 0.75rem 0.75rem 0.3rem #141414;
-    margin: 0 6rem 4rem 0;
+    margin: 3rem 6rem 8rem 0;
     padding: 1rem;
-    /* z-index: 5; */
+    
 }
 
 .effect {
@@ -281,7 +282,7 @@ footer {
     width: 100%;
     background-color: #2A353C;
     color: #F4F4F9;
-    /* position: fixed; */
+    position: fixed;
     display: flex;
     bottom: 0;
     left: 0;
@@ -347,7 +348,7 @@ footer div {
     letter-spacing: 0.25rem;
     /* min-width: 26%; */
     /* height: 28%; */
-    padding: 1em;
+    padding: 1.5em;
     margin: 2em;
 
     position: absolute;
@@ -563,6 +564,7 @@ footer div {
     height: auto;
     padding-left: 15%;
     align-self: center;
+    margin-bottom: 3rem;
 }
 
 .wirless {
@@ -603,12 +605,18 @@ footer div {
 .dynamic p {
     text-align: left;
     padding: 0 1rem 2rem 6rem;
+    /* margin-bottom: 2rem; */
+}
+
+.dynamic .soon{
+    margin-bottom: 4rem;
 }
 
 .dynamic-img {
     padding: 1rem 6.5rem 9rem 0;
     max-width: 100%;
     height: auto;
+    margin-top: 3rem;
 }
 
 /**** Sign Up Form Page Content*****/
@@ -624,7 +632,7 @@ footer div {
 .signup-form {
     background-color: #141414;
     opacity: 0.8;
-    max-width: 420px;
+    width: 720px;
     position: absolute;
     left: 10%;
     padding: 2em 1.6em 0.5em 1.6em;
@@ -641,7 +649,7 @@ footer div {
 }
 
 .signup-form p {
-    margin-bottom: 1.25rem;
+    margin-bottom: 3rem;
     color: #B8DBD9;
 }
 
@@ -922,11 +930,13 @@ label {
     }
     
     .check-out-list {
-        margin: 0 5rem 0.5rem 0;
+        /* margin: 0 5rem 0.5rem 0; */
+        margin: 4rem 0 7rem 0;
+        font-size: 1.1rem;
     }
     
     .checklist li {
-        line-height: 1.7;
+        line-height: 1.5;
     }
     
     /** Footer content **/
@@ -1052,6 +1062,7 @@ label {
 
 .signup-form {
     padding: 3rem 1.6rem 0.5rem 1.6rem; 
+    width: 700px;
 }
 
 /* */
@@ -1110,18 +1121,34 @@ label {
     #about {}
 
     .about-ev p {
-        align-items: stretch;
-        
-       
+        /* align-items: stretch; */  
+    }
+
+    .video {
+        /* padding-top: 3em; */
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding: 1.5em 0;
+        /* margin: 0 auto; */
+    }
+    
+    .video-frame {
+        margin-bottom: 2%;
+    }
+    
+    iframe {
+        width: 100%;
     }
 
     #list-container {
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        min-height: 80vh;
     }
 
-    .check-out-text {
+    /* .check-out-text {
         line-height: 1.7;
         text-align: center;
         padding-top: 3rem;
@@ -1138,7 +1165,58 @@ label {
 
     .checklist li {
         line-height: 1.6;
-    }
+    } */
+
+
+    /* Checkout section home page */
+
+.check-out-text {
+    letter-spacing: .2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+
+}
+
+#list-container .check-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 18.75%;
+}
+
+.check-out-list {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 1rem 0 8rem 0;
+    padding: 1rem;
+    
+}
+
+.effect {display: none;}
+
+.effect:hover {display: none;}
+
+.checklist li {
+    list-style-type: none;
+    line-height: 1.7;
+    font-weight: 800;
+    margin: 1.5rem;
+    font-family: Merriweather, Roboto, sans-serif;
+    text-align: center;
+}
+
+.checklist a {
+    text-decoration: none;
+    color: #2A353C;
+}
+
+.checklist a:hover {display: none;}
+
+
 
     /**********Insight Page ***********/
 
