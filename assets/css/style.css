@@ -15,7 +15,6 @@ html {
 
 body {
     font-family: 'Open sans', sans-serif;
-    /* font-weight: 700; */
     color: #2A353C;
     background-color: #F4F4F9;
     min-height: 100vh;
@@ -1081,7 +1080,14 @@ label {
         line-height: 3.571rem;
         flex-direction: column;
         place-content: center;
-        padding-left: 20px;  
+        /* padding-left: 20px;   */
+        /* margin: 0 3rem 1rem 3rem; */
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .header-menu {
+        place-items: center;
     }
 
     header figure .evi {
@@ -1090,19 +1096,27 @@ label {
 
     #logo {
         align-self: center;
-        margin: 0 8rem;
-        padding-left: 5.5rem;
+        margin: 0;
+        padding-left: 0 0 0 8.5rem;
+        
     }
 
     header #nav-menu {
         font-size: 1.3rem;
-        justify-content: space-around;
-        padding: 0 2rem 0 4rem;
+        justify-content: space-between;
+        padding: 0 3rem 0 2rem;
+        width: 100%;
     }
 
     #nav-menu ul li {
         text-align: center;
-        padding: 0 1rem 0 0; 
+        margin: 0 1rem 0 0;
+    }
+
+    #nav-menu ul>li>.sign-up {
+        border: 1px solid #045839;
+        border-radius: 5px;
+        color: #F4F4F9;
     }
 
     /* #main-image {
@@ -1141,6 +1155,8 @@ label {
         width: 100%;
     }
 
+     /* Checkout list section home page */
+
     #list-container {
         flex-direction: column;
         justify-content: center;
@@ -1148,34 +1164,12 @@ label {
         min-height: 80vh;
     }
 
-    /* .check-out-text {
-        line-height: 1.7;
-        text-align: center;
-        padding-top: 3rem;
-    }
-
-    #list-container .check-box {
-        min-height: 17.75%;
-    }
-
-    .check-out-list {
-        margin: 2% 4% 5% 1%;
-        align-items: center;
-    }
-
-    .checklist li {
-        line-height: 1.6;
-    } */
-
-
-    /* Checkout section home page */
-
 .check-out-text {
     letter-spacing: .2rem;
     line-height: 1.5;
     font-weight: bold;
     margin: 2rem 0 1rem 0;
-
+    /* text-align: center; */
 }
 
 #list-container .check-box {
@@ -1186,14 +1180,10 @@ label {
 }
 
 .check-out-list {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    list-style-type: none;
     width: 90%;
-    border-radius: 5px;
     box-shadow: none;
     margin: 1rem 0 8rem 0;
-    padding: 1rem;
-    
+    padding: 1rem;  
 }
 
 .effect {display: none;}
@@ -1201,17 +1191,11 @@ label {
 .effect:hover {display: none;}
 
 .checklist li {
-    list-style-type: none;
+   
     line-height: 1.7;
     font-weight: 800;
     margin: 1.5rem;
-    font-family: Merriweather, Roboto, sans-serif;
     text-align: center;
-}
-
-.checklist a {
-    text-decoration: none;
-    color: #2A353C;
 }
 
 .checklist a:hover {display: none;}
