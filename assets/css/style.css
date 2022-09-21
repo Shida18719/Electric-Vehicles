@@ -1225,29 +1225,12 @@ label {
 
     /* Background image */
 
-    /* #bgc-image {
-    position: relative;
-    height: 37.5rem;
-    width: 100%;
-    overflow: hidden;
-}
-
-#insights-image {
-    height: 100%;
-    max-width: 100%;
-    background: url("../images/imain-image.jpg") no-repeat center center;
-    background-color: #B8DBD9;
-    background-size: cover;
-    object-fit: cover;
-    background-attachment: fixed;
-} */
-
-
     .cover-text {
         font-size: 1.3rem;
         padding: 0.3em 0 1em 1.1em;
-        bottom: 2rem;
-        right: 9.4rem;
+        margin: 1em;
+        bottom: 1%;
+        right: 3%;
 
     }
 
@@ -1344,13 +1327,8 @@ label {
 
     /**************** Option container insights page *********************/
 
-    .option-container {
-        display: flex;
-        flex-wrap: wrap;
+    .option-container { 
         flex-direction: column;
-        align-items: center;
-        min-height: 52.5vh;
-        width: 100%;
     }
 
     .option-charger,
@@ -1358,12 +1336,10 @@ label {
     .option-dynamic {
         display: flex;
         flex-direction: column;
-        place-items: center;
-        min-height: 37.25%;
     }
 
     .charger {
-        margin: 1%;
+        margin: 1% 2% 1% 1%;
         padding-top: 1%;
     }
 
