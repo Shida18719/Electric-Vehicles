@@ -236,16 +236,12 @@ iframe {
 }
 
 .effect {
-    /* transition: transform 0.4s ease-out; */
     transition: ease-out 1s;
 }
 
 .effect:hover {
-    /* transform: translateY(3px);
-    background-color: #F4F4F9; */
     width: 35%;
     height: 480px;
-    /* background-color: #85c1be; */
     background-color: #63b0ac;
     box-shadow: 1rem 1rem 2rem #141414;
 }
@@ -265,8 +261,6 @@ iframe {
 }
 
 .checklist a:hover {
-    /* color: #F4F4F9; */
-    /* background-color: #141414; */
     color: #141414;
     font-weight: bolder;
     font-size: 1.6rem;
@@ -304,7 +298,6 @@ footer div {
 
 #social-links i {
     font-size: 1.9rem;
-    /* margin: 0 auto; */
     margin: 0 3rem;
     padding: 0.9em;
     color: #F4F4F9;
@@ -778,6 +771,16 @@ label {
 
     footer {
         z-index: 2;
+    }
+
+    footer div {
+        margin: 0.2% 3%;
+    }
+
+
+    #social-links i {
+        margin: 0 3rem;
+        padding: 0.7em;
     }
 
     /**********Insight Page ***********/
