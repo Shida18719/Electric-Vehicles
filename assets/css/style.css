@@ -163,7 +163,8 @@ h2 {
 }
 
 #contact-link {
-    padding: 4.5em 0 4.5em 0;
+    /* padding: 4em 0 4em 0; */
+    margin-bottom: 1rem;
     font-style: oblique;
     color: #045839;
     font-size: 1.5rem;
@@ -171,16 +172,16 @@ h2 {
 }
 
 .about-ev h2 {
-    padding-bottom: 2em;
+    padding-bottom: 2em 0 1em 0;
+    text-align: center;
 }
 
 .about-ev p {
-    padding: 0 4em 2em 4em;
+    padding: 0.5 4em 2em 4em;
     text-align: center;
 }
 
 .video {
-    /* padding-top: 3em; */
     width: 100%;
     height: 500px;
     text-align: center;
@@ -631,7 +632,6 @@ footer div {
 .signup-form {
     background-color: #141414;
     opacity: 0.8;
-    /* width: 600px; */
     width: 35.7%;
     position: absolute;
     left: 10%;
@@ -770,7 +770,7 @@ label {
     }
 
     .check-out-list {
-        margin-top: 0.5rem;
+        margin-top: 1.8rem;
     }
 
     /** Footer content **/
@@ -1434,5 +1434,10 @@ label {
         text-align: left;
     }
 
+    /* Text input field*/
+
+    label {
+        font-size: 1.2rem;
+    }
 
 }
