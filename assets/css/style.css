@@ -777,7 +777,6 @@ label {
         margin: 0.2% 3%;
     }
 
-
     #social-links i {
         margin: 0 3rem;
         padding: 0.7em;
@@ -1069,11 +1068,6 @@ label {
 
     /**** Sign Up Form Page Content*****/
 
-    /* .signup-form {
-        padding: 3rem 1.6rem 0.5rem 1.6rem;
-        width: 700px;
-    } */
-
     .signup-form {
         width: 45%;
         left: 10%;
@@ -1089,6 +1083,17 @@ label {
     .signup-form p {
         margin-bottom: 1.5rem;
         text-align: left;
+    }
+
+    /** Start of Footer content **/
+
+    footer div {
+        margin: 0.2% 3%;
+    }
+
+    #social-links i {
+         margin-bottom:  0.5rem;
+        
     }
 
 }
