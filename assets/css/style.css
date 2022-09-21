@@ -1229,9 +1229,8 @@ label {
         font-size: 1.3rem;
         padding: 0.3em 0 1em 1.1em;
         margin: 1em;
-        bottom: 1%;
-        right: 3%;
-
+        bottom: 16%;
+        right: 8%;
     }
 
     /*** Topic content insights page ***/
@@ -1240,13 +1239,7 @@ label {
         padding: 1em 0 1em 0;
         text-align: center;
         margin-top: 1.5rem;
-
     }
-
-    /* .chart-header iframe {
-    margin: 1rem;
-} */
-
 
     .misconceptions p {
         font-weight: 800;
