@@ -35,7 +35,7 @@ body {
     width: 100%;
     background-color: #B8DBD9;
     z-index: 5;
-    padding: 0.3em;
+    margin: 0.3rem;
     overflow: hidden;
     box-shadow: 0 0 7px #2A353C;
 }
@@ -75,7 +75,7 @@ header a {
 #nav-menu ul li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 2rem;
+    margin: 1.5rem;
 }
 
 #nav-menu a {
@@ -656,7 +656,7 @@ footer div {
 
 label {
     color: #B8DBD9;
-    margin: 0.7142rem 11.0714rem 0.357rem 0;
+    /* margin: 0.7142rem 11.0714rem 0.357rem 0; */
 }
 
 .text-input:hover {
@@ -1050,7 +1050,6 @@ label {
     .signup-form {
         width: 45%;
         left: 10%;
-        /* padding: 2em 2em 1em 1.6em; */
         padding: 3rem 1.6rem 0.5rem 1.6rem;
         margin: 12rem 7rem 8em 0;
     }
@@ -1105,9 +1104,7 @@ label {
     #nav-menu {
         font-size: 1.3rem;
        display: flex;
-        justify-content: space-between; 
-        /* place-items: center; */
-        /* padding: 0 6em 0 6em; */
+        justify-content: center; 
         width: 100%;
     }
 
@@ -1201,7 +1198,7 @@ label {
     #social-links i {
         font-size: 1.2rem;
         margin: 0;
-        padding-right: 00.5em;
+        padding-right: 0 0.5em;
         /* padding: 0.6em 0.4em 0.2rem 0; */
     }
 
@@ -1382,19 +1379,20 @@ label {
     /**** Sign Up Form Page Content*****/
 
     .signup-form {
-        width: 60%;
+        width: 80%;
         left: 10%;
-        padding: 2em 2em 2em 1.6em;
+        /* padding: 2em 2em 2em 1.6em; */
         margin: 12rem 7rem 5em 0;
     }
 
     .signup-form h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .signup-form p {
         margin-bottom: 1.5rem;
         text-align: left;
+        font-size: 1.3rem;
     }
 
     /* Text input field*/
