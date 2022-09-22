@@ -35,7 +35,7 @@ body {
     width: 100%;
     background-color: #B8DBD9;
     z-index: 5;
-    margin: 0.3rem;
+    /* margin: 0.3rem; */
     overflow: hidden;
     box-shadow: 0 0 7px #2A353C;
 }
@@ -69,13 +69,13 @@ header a {
     font-size: 1.5rem;
     letter-spacing: 2px;
     display: flex;
-    margin-right: 1.5rem;
+    margin-right: 3rem;
 }
 
 #nav-menu ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 #nav-menu a {
@@ -131,16 +131,16 @@ header a {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
 
-    padding: 1.5em;
-    margin: 1em;
+    padding: 1em;
+    margin: 1rem;
 
     position: absolute;
     color: #B8DBD9;
     background-color: rgba(0, 0, 0, 0.4);
     text-shadow: 1px 1px 2px #F4F4F9;
 
-    bottom: 3%;
-    left: 13.4%;
+    bottom: 9%;
+    left: 12%;
 }
 
 h2 {
@@ -149,8 +149,8 @@ h2 {
     letter-spacing: 0.25rem;
 }
 
-
 /* About home page*/
+
 #about {
     min-height: 37.5vh;
     padding-top: 7.5%;
@@ -169,12 +169,13 @@ h2 {
 }
 
 .about-ev h2 {
-    padding-bottom: 2em 0 1em 0;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .about-ev p {
-    padding: 0.5 4em 2em 4em;
+    /* padding: 0.5 4em 2em 4em; */
+    margin: 0 3rem 2rem 3rem;
     text-align: center;
 }
 
@@ -228,7 +229,7 @@ video iframe {
     width: 30%;
     border-radius: 5px;
     box-shadow: 0.75rem 0.75rem 0.3rem #141414;
-    margin: 3rem 6rem 8rem 0;
+    margin: 3rem 7rem 8rem 0;
     padding: 1rem;
 }
 
@@ -295,8 +296,8 @@ footer div {
 
 #social-links i {
     font-size: 1.9rem;
-    margin: 0 3rem;
-    padding: 0.9em;
+    margin: 2rem 3rem;
+    /* padding: 0.9em; */
     color: #F4F4F9;
 }
 
@@ -336,7 +337,7 @@ footer div {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
-    padding: 1.5em;
+    padding: 1em;
     margin: 2rem;
 
     position: absolute;
@@ -353,9 +354,10 @@ footer div {
 /*** Topic content insights page ***/
 
 #intro-heading {
-    padding: 1em 0 1em 0;
+    /* padding: 1em 0 1em 0; */
     text-align: center;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
+    margin: 3rem 0 1rem 0;
     color: #141414;
 }
 
@@ -375,14 +377,14 @@ footer div {
 .benefits,
 .types {
     text-align: center;
-    padding-bottom: 0.8em;
+    margin-bottom: 0.8em;
     color: #141414;
     font-size: 1.5rem;
 }
 
 .misconceptions p {
     font-weight: 800;
-    padding-top: 1.5em;
+    margin-top: 1.5rem;
 }
 
 .list li {
@@ -391,7 +393,7 @@ footer div {
 }
 
 .benefits p {
-    padding-top: 1em;
+    margin-top: 1rem;
 }
 
 .benefit-list li {
@@ -524,59 +526,62 @@ footer div {
     display: flex;
     place-items: center;
     min-height: 37.25%;
+    width: 100%;
 }
 
 .charger {
     margin: 1%;
-    padding-top: 1%;
+    /* margin-top: 1%; */
+    flex: 50%;
 }
 
 .charger h3 {
     text-decoration: underline;
     margin-bottom: 1rem;
-    align-items: center;
+    text-align: center;
     font-size: 1.5rem;
     color: #141414;
-    padding-right: 6%;
-    margin-right: 2rem;
+    /* padding-right: 6%; */
+    /* margin-right: 0; */
 }
 
 .charger ul li {
     list-style-type: none;
     text-align: center;
     line-height: 1.6;
-    padding-right: 5%;
-    margin-right: 1rem;
+    /* padding-right: 5%; */
+    /* margin-right: 1rem; */
 }
 
 .charger-img {
     width: 100%;
     height: auto;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     align-self: center;
     margin-bottom: 3rem;
 }
 
 .wirless {
     margin: 0;
+    flex: 50%;
 }
 
 .wirless img {
     align-self: center;
-    padding-left: 8rem;
+    margin-left: 8rem;
 
 }
 
 .wirless h3 {
     text-align: left;
-    padding: 2rem 0 1rem 5rem;
+    margin: 2rem 0 1rem 1rem;
     color: #141414;
     font-size: 1.5rem;
 }
 
 .wirless p {
     text-align: left;
-    padding: 0 4.8rem 1rem 5rem;
+    margin: 0 4.8rem 1rem 1rem;
 }
 
 .dynamic {
@@ -586,14 +591,14 @@ footer div {
 
 .dynamic h3 {
     text-align: left;
-    padding: 0 0 1rem 6rem;
+    margin: 0 0 1rem 6rem;
     color: #141414;
     font-size: 1.5rem;
 }
 
 .dynamic p {
     text-align: left;
-    padding: 0 1rem 2rem 6rem;
+    margin: 0 1rem 2rem 6rem;
 }
 
 .dynamic .soon {
@@ -601,10 +606,10 @@ footer div {
 }
 
 .dynamic-img {
-    padding: 1rem 6.5rem 9rem 0;
+    margin: 3rem 0 9rem 0;
     max-width: 100%;
     height: auto;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 /**** Sign Up Form Page Content*****/
@@ -700,7 +705,7 @@ label {
     /** Header and Navigation links **/
 
     .header {
-        padding-top: 1em;
+        /* padding-top: 1em; */
     }
 
     .evi {
@@ -716,6 +721,13 @@ label {
 
      #nav-menu {
         margin-right: 2.5rem;
+    }
+
+    /* Main Image overlay text*/
+
+    .overlay-text {
+        bottom: 20%;
+        left: 10%;
     }
 
     /** About home page **/
@@ -763,7 +775,10 @@ label {
     }
 
     #social-links i {
-        padding: 0.7em;
+        place-content: center;
+        margin: 1.5rem;
+        padding: 0 1em 0.2em 0;
+    
     }
 
     /**********Insight Page ***********/
@@ -1109,13 +1124,14 @@ label {
     }
 
     #nav-menu ul li {
-        margin: 0 1rem 0 0;
+        margin-inline: 0.3rem;
     }
 
     #nav-menu ul>li>.sign-up {
         border: 1px solid #045839;
-        border-radius: 5px;
+        border-radius: 3px;
         color: #F4F4F9;
+        margin-right: 0.3rem;
     }
 
     /* Main Image overlay text*/
