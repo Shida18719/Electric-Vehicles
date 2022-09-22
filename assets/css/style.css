@@ -357,10 +357,15 @@ footer div {
 /*** Topic content insights page ***/
 
 #intro-heading {
-    padding: 1em 0 0.5em 0;
+    margin: 1rem 0 0.5rem 0;
     text-align: center;
     margin: 3rem 0 1rem 0;
     color: #141414;
+}
+
+#intro-heading p {
+    margin: 1rem;
+
 }
 
 #chart-header {
@@ -412,17 +417,17 @@ footer div {
 
 .topic-container {
     min-height: 100vh;
-    min-width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 40.5% 40.5%;
-    grid-auto-rows: minmax(1fr, 25%);
-    gap: 2.5rem 2.8rem;
+    grid-auto-rows: minmax(1fr, auto);
+    gap: 1rem 1.5rem;
     align-items: center;
     justify-content: center;
 }
 
 .topic-box {
-    padding: 1.5em 1.5em 2.5em 1.5em;
+    margin: 1.5rem 1.5rem 2.5rem 1.5rem;
 }
 
 .topic-box3,
@@ -440,39 +445,43 @@ footer div {
 
 .topic-box1 {
     margin: auto 0;
-    padding: 1.4em;
+    /* margin: 1.4rem; */
 }
 
 .topic-box:nth-child(2) {
     border-style: none;
     align-self: center;
-    padding-top: 5em;
+    margin-top: 5rem;
 }
 
 .topic-box:nth-child(3) {
     justify-self: center;
     align-self: center;
-    margin: 0.4rem;
+    margin: 2rem;
+    padding: 1em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
 .topic-box:nth-child(4) {
     justify-self: center;
     align-self: center;
-    margin: 0.3rem;
+    margin: 2rem;
+    padding: 1em;
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
 }
 
 .topic-box:nth-child(5) {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
     align-self: center;
-    padding-left: 4rem;
+    margin-left: 4rem;
+    padding: 1em;
 }
 
 .topic-box:nth-child(6) {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
     justify-self: center;
-    padding: 2rem 4rem 3rem 3rem;
+    margin: 2rem 4rem 3rem 3rem;
+    padding: 1em;
 }
 
 .transition {
@@ -707,9 +716,9 @@ label {
 
     /** Header and Navigation links **/
 
-    .header {
-        /* padding-top: 1em; */
-    }
+    /* .header {
+         padding-top: 1em; 
+    } */
 
     .evi {
         margin-left: 5rem;
@@ -852,9 +861,9 @@ label {
         margin: 0 0 2rem 2rem;
     }
 
-    .dynamic-img {
-        /* margin: 2rem 3.5rem 8rem 0; */
-    }
+     /* .dynamic-img {
+         margin: 2rem 3.5rem 8rem 0; 
+    }  */
 
     /**** Sign Up Form Page Content ****/
 
@@ -898,7 +907,7 @@ label {
 
     /* About home page*/
     #about {
-        padding-top: 7.8%;
+        margin-top: 7.8%;
     }
 
     #contact-link {
@@ -981,21 +990,21 @@ label {
 
     #chart-bar iframe {
         overflow-y: hidden;
-        margin: 0 1rem 0 0;
+        margin: 0 2rem 0 0;
     }
 
     /** Topic container insights page**/
 
     .topic-container {
-        gap: 1.5rem 2rem;
+        gap: 0.1rem 0;
     }
 
     .topic-box {
-        padding: 1em 1em 1.5em 1em;
+        margin: 0;
     }
 
     .topic-box1 {
-        padding: 1.8em 0 0 0;
+        margin: 1.8rem 0 0 0;
         flex-wrap: wrap;
     }
 
@@ -1190,7 +1199,7 @@ label {
     /*** Footer content ***/
 
     footer div {
-        margin: 1.3% 2.9%;
+        margin: 1.3% 3%;
         font-size: 1.2rem;
     }
 
@@ -1203,7 +1212,6 @@ label {
         font-size: 1.2rem;
         margin: 0;
         padding-right: 0 0.5em;
-        /* padding: 0.6em 0.4em 0.2rem 0; */
     }
 
 
@@ -1215,26 +1223,32 @@ label {
         font-size: 1.3rem;
         padding: 0.3em 0 1em 1.1em;
         margin: 1em;
-        bottom: 16%;
-        right: 8%;
+        bottom: 19%;
+        right: 12%;
     }
 
     /*** Topic content insights page ***/
 
     #intro-heading {
-        padding: 1em 0 1em 0;
+        margin: 1.5rem 0 1rem 0;
         text-align: center;
-        margin-top: 1.5rem;
+    }
+
+    #intro-heading p {
+        /* margin: 0 2rem 0 2rem; */
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 
     .misconceptions p {
         font-weight: 800;
-        padding-top: 1.5em;
+        margin-top: 1.5rem;
     }
 
 
     .benefits p {
-        padding-top: 1em;
+        margin-top: 1rem;
     }
 
     .benefit-list li {
@@ -1251,12 +1265,13 @@ label {
 
     .topic-container {
         /* gap: 2.5rem 2.8rem; */
-        padding: 0 0.5em 0 3.5em;
+        /* padding: 0 0.5rem 0 3.5rem; */
+        width: 150%;
     }
 
-    .topic-box {
-        padding: 1.5em 1.5em 2.5em 1.5em;
-    }
+     /* .topic-box {
+        margin: 1.5rem 1.5rem 2.5rem 1.5rem;
+    } */
 
     .topic-box1,
     .topic-box2,
@@ -1266,14 +1281,23 @@ label {
     }
 
     .topic-box1 {
-        padding: 1.6em;
+        padding: 1rem 1.5rem 0;
+        margin: 1rem;
+    }
+
+    /* .topic-box:nth-child(3),
+    .topic-box:nth-child(4),
+    .topic-box:nth-child(5),
+    .topic-box:nth-child(6) {
+        padding: 0em;
     }
 
     .topic-box:nth-child(6) {
         box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
         justify-self: center;
-        padding: 2rem 4rem 3rem 3rem;
-    }
+        margin: 2rem 4rem 3rem 3rem;
+        
+    }  */
 
 
     /*** Option content insight page ***/
