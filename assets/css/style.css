@@ -35,27 +35,27 @@ body {
     width: 100%;
     background-color: #B8DBD9;
     z-index: 5;
-    /* margin: 0.3rem; */
+    /* margin-top: 0.3rem; */
     overflow: hidden;
     box-shadow: 0 0 7px #2A353C;
 }
 
-header a {
+.header-menu a {
     text-decoration: none;
 }
 
-.evi {
+/* .evi {
     margin-left: 5.5rem;
     padding-top: 1.5rem;
 
-}
+} */
 
 #logo {
-    margin-left: 3rem;
-    font-size: 2rem;
+    margin: 1rem 0 0 4rem;
+    font-size: 2.5rem;
     color: #045839;
-    font-family: Lato, sans-serif;
-    margin-top: -3.8rem;
+    font-family: Merriweather, Lato, sans-serif;
+    /* margin-top: -3.8rem; */
 }
 
 /* Navigation links */
@@ -197,6 +197,7 @@ h2 {
 
 video iframe {
     width: 60%;
+    border: none;
 }
 
 
@@ -419,15 +420,16 @@ footer div {
     min-height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 40.5% 40.5%;
-    grid-auto-rows: minmax(1fr, auto);
-    gap: 1rem 1.5rem;
+    grid-template-columns: 40% 40%;
+    /* grid-auto-rows: minmax(1fr, auto); */
+    grid-template-rows: 1fr;
+    gap: 0.5rem 0.5rem;
     align-items: center;
     justify-content: center;
 }
 
 .topic-box {
-    margin: 1.5rem 1.5rem 2.5rem 1.5rem;
+    margin: 1.5rem 1.5rem 2rem 1.5rem;
 }
 
 .topic-box3,
@@ -451,7 +453,7 @@ footer div {
 .topic-box:nth-child(2) {
     border-style: none;
     align-self: center;
-    margin-top: 5rem;
+    margin: 5rem 0 0 1rem;
 }
 
 .topic-box:nth-child(3) {
@@ -527,7 +529,7 @@ footer div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 52.5vh;
+    min-height: 60vh;
     width: 100%;
 }
 
@@ -720,10 +722,10 @@ label {
          padding-top: 1em; 
     } */
 
-    .evi {
+    /* .evi {
         margin-left: 5rem;
         padding-top: 1em;
-    }
+    } */
 
     #logo {
         margin-left: 2.5rem;
@@ -825,11 +827,19 @@ label {
     /** Topic container **/
 
     .topic-box1 {
-        padding: 1.4rem;
+        margin: 1.3rem;
     }
 
     .topic-box:nth-child(2) {
-        padding: 3em 0.5em 0 0;
+        margin: 3rem 0.5rem 0 0;
+    }
+
+    .topic-box:nth-child(5) {
+        margin-right: 2rem;
+    }
+
+    .topic-box:nth-child(6) {
+        margin-left: 3rem;
     }
 
     /*** Flex section content insights page ***/
@@ -837,7 +847,7 @@ label {
     /** Option container insights page **/
 
     .charger-img {
-        padding: 1rem 1rem 0 1rem;
+        margin: 1rem 1rem 0 1rem;
     }
 
     .wirless {
@@ -861,9 +871,9 @@ label {
         margin: 0 0 2rem 2rem;
     }
 
-     /* .dynamic-img {
-         margin: 2rem 3.5rem 8rem 0; 
-    }  */
+      .dynamic-img {
+         margin: 1rem 3rem 8rem 0; 
+    } 
 
     /**** Sign Up Form Page Content ****/
 
@@ -884,18 +894,24 @@ label {
 
 @media screen and (max-width: 992px) {
 
-    header figure .evi {
+    /* header figure .evi {
         margin-left: 4.5rem;
+    } */
+
+    .header {
+        line-height: 4rem;
     }
 
     #logo {
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
+        margin: 2rem 0 0 2rem;
     }
 
     /* Navigation links */
 
     #nav-menu ul li {
-        margin-right: 1rem;
+        /* margin-right: 1rem; */
+        margin: 2rem 1rem 0 4rem;
     }
 
     /* Main Image overlay text*/
@@ -973,6 +989,20 @@ label {
 
     /*** Topic content insights page ***/
 
+    /* .topic-container {
+        min-height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 1fr;
+        gap: 0.5rem 0.5rem;
+        align-items: center;
+        justify-content: center;
+    } */
+
+
+
+
     #intro-heading {
         margin: 1.5rem 0 1rem 0;
         /* margin-top: 1.5em; */
@@ -985,7 +1015,7 @@ label {
     #chart-header {
         align-self: center;
         margin-left: 0;
-        padding-top: 8em;
+        margin-top: 8rem;
     }
 
     #chart-bar iframe {
@@ -996,7 +1026,7 @@ label {
     /** Topic container insights page**/
 
     .topic-container {
-        gap: 0.1rem 0;
+        /* gap: 0.1rem 0; */
     }
 
     .topic-box {
@@ -1004,13 +1034,18 @@ label {
     }
 
     .topic-box1 {
-        margin: 1.8rem 0 0 0;
+        margin: 1.8rem 0.5rem 0 0;
         flex-wrap: wrap;
     }
 
     .topic-box:nth-child(2) {
-        margin-top: -15rem;
+        margin: -5rem 0 0 1rem;
     }
+
+    .topic-box:nth-child(6) {
+        margin-left: 5rem;
+    }
+
 
     /*** Flex section content insight page ***/
     /********* Option container insight page ***********/
@@ -1249,6 +1284,369 @@ label {
 
     .benefits p {
         margin-top: 1rem;
+        text-align: left;
+    }
+
+    .benefit-list li {
+        list-style-type: square;
+        list-style-position: inside;
+    }
+
+    .ev-types h4 {
+        color: #141414;
+        font-size: 1.5rem;
+    }
+
+    /** Topic container **/
+
+    .topic-container {
+        /* gap: 2.5rem 2.8rem; */
+        /* padding: 0 0.5rem 0 3.5rem; */
+
+    }
+
+     /* .topic-box {
+        margin: 1.5rem 1.5rem 2.5rem 1.5rem;
+    } */
+
+    .topic-box1,
+    .topic-box2,
+    .topic-box3,
+    .topic-box4 {
+        grid-column: span 2;
+    }
+
+    .topic-container {
+        /* gap: 2.5rem 2.8rem; */
+        /* padding: 0 0.5rem 0 3.5rem; */
+        grid-template-columns: 25%;
+        width: 90%;
+        margin: 0 0 0 5rem;
+    }
+
+    .topic-box3,
+    .topic-box4,
+    .topic-box5,
+    .topic-box6 {
+        border: 0;
+}
+
+    .topic-box1 {
+        margin: 3rem 0 0 0.5rem;
+    } 
+
+    .topic-box:nth-child(2) {
+        margin-top: -9rem;
+    }
+
+    .topic-box:nth-child(3) {
+        margin: 3rem 2rem 3rem 3rem;
+        padding: 0;  
+    }   
+
+    .topic-box:nth-child(4) {
+       padding: 0;   
+    }  
+    
+    .topic-box:nth-child(5) {
+        padding: 0;   
+        margin: 3rem 1rem 3rem 2rem; 
+     }   
+
+    .topic-box:nth-child(6) {
+        margin: 3rem 2rem 3rem 2rem; 
+        padding: 0; 
+    }   
+
+
+    /*** Option content insight page ***/
+
+    .options {
+        text-align: center;
+        margin-top:-5rem;
+    }
+
+    .options h3 {
+        /* padding: 4em 0 1.5em 4em; */
+        /* text-align: left; */
+
+    }
+
+    .options p {
+        /* padding: 0 0 2em 2em; */
+        /* margin: 0 0 1rem 3rem; */
+        /* text-align: left; */
+    }
+
+    .options p>span {
+        font-weight: bold;
+    }
+
+    /**************** Option container insights page *********************/
+
+    .option-container { 
+        flex-direction: column;
+    }
+
+    .option-charger,
+    .option-wireless,
+    .option-dynamic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .charger {
+        margin: 1% 0 1% 2%;
+        flex: 100%;
+    }
+
+    .charger h3 {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .charger ul li {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .charger-img {
+        align-self: center;
+        margin-left: 36%;
+        margin-bottom: 10%;
+        
+    }
+
+    .wirless {
+        margin: 0 auto;
+        /* padding-right: 2em; */
+    }
+
+    .wirless img {
+        align-self: center;
+        margin-right: 4em;
+    }
+
+    .wirless h3 {
+        text-align: center;
+        margin: 2rem 3rem 0 1rem;
+
+    }
+
+    .wirless p {
+        text-align: center;
+        margin: 0 2.8rem 1rem 2.8rem;
+    }
+
+    .dynamic {
+        margin: 0.5rem;
+        margin-right: 1rem;
+        place-content: center;
+    }
+
+    .dynamic h3 {
+        text-align: center;
+        margin: 0 2rem 0 1rem;
+
+    }
+
+    .dynamic p {
+        text-align: center;
+        margin: 0 2rem 0 3rem;
+    }
+
+    .dynamic-img {
+        margin: 0 0 20rem rem;
+        margin: 0 auto;
+    }
+
+    /**** Sign Up Form Page Content*****/
+
+    .signup-form {
+        width: 80%;
+        left: 10%;
+        /* padding: 2em 2em 2em 1.6em; */
+        margin: 12rem 7rem 5em 0;
+    }
+
+    .signup-form h2 {
+        font-size: 2rem;
+    }
+
+    .signup-form p {
+        margin-bottom: 1.5rem;
+        text-align: left;
+        font-size: 1.3rem;
+    }
+
+    /* Text input field*/
+
+    label {
+        font-size: 1.2rem;
+    }
+
+
+
+    /**  Media Query for small screen sizes from 480px wide and down **/
+
+@media screen and (max-width: 480px) {
+
+     /* Headings and logo */
+
+     .header {
+        min-height: 7vh;
+        line-height: 3.571rem;
+        flex-direction: column;
+        place-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+     #logo {
+        text-align: center;
+        margin: 0.5em 0 0 0;
+        font-size: 2rem;
+    }
+
+    #nav-menu {
+        font-size: 1.2rem;
+       display: flex;
+        justify-content: center; 
+        width: 100%;
+    }
+
+    #nav-menu ul li {
+        margin: 0.2rem;
+    }
+
+    #nav-menu ul>li>.sign-up {
+        border: 1px solid #2A353C;
+        border-radius: 25px;
+        margin-right: 0.3rem;
+    }
+
+    /* Main Image overlay text*/
+
+    .overlay-text {
+        padding: 0.5em;
+        margin: 1rem;
+        bottom: 20%;
+        left: 27%;
+        font-size: 1.3rem;
+    }
+
+    /* About home page*/
+
+    .about-ev h2 {
+        margin-top: 1rem;
+    }
+
+    .about-ev p {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .video {
+        margin: 1.6rem 0;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    /* Checkout list section home page */
+
+    #list-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .check-out-text {
+        margin: 2rem 0 1rem 0;
+        align-self: center;
+    }
+
+    .check-out-list {
+        width: 90%;
+        box-shadow: none;
+        margin: 1rem 0 8rem 0;
+    }
+
+    .effect {
+        display: none;
+    }
+
+    .effect:hover {
+        display: none;
+    }
+
+    .checklist li {
+        line-height: 1.7;
+    }
+
+    .checklist a:hover {
+        display: none;
+    }
+
+    /*** Footer content ***/
+    footer {
+        flex-direction: column;
+    }
+
+    footer div {
+        margin: 1% 3%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    #social-links {
+        text-align: center;
+        width: 100%;
+    }
+
+    #social-links i {
+        font-size: 1.2rem;
+        /* margin: 0 3%; */
+        text-align: center;
+        /* padding-right: 0 0.5em; */
+    }
+
+
+    /**********Insight Page ***********/
+
+    /* Background image */
+
+    .cover-text {
+        font-size: 1.3rem;
+        padding: 0.3em 0 1em 1.1em;
+        margin: 1em;
+        bottom: 19%;
+        right: 12%;
+    }
+
+    /*** Topic content insights page ***/
+
+    #intro-heading {
+        margin: 1.5rem 0 1rem 0;
+        text-align: center;
+    }
+
+    #intro-heading p {
+        /* margin: 0 2rem 0 2rem; */
+        /* margin: 0; */
+        padding: 0;
+        text-align: center;
+    }
+
+    .misconceptions p {
+        font-weight: 800;
+        margin-top: 1.5rem;
+    }
+
+
+    .benefits p {
+        margin-top: 1rem;
     }
 
     .benefit-list li {
@@ -1292,9 +1690,7 @@ label {
         padding: 0em;
     }
 
-    .topic-box:nth-child(6) {
-        box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-        justify-self: center;
+    / .topic-box:nth-child(6) {
         margin: 2rem 4rem 3rem 3rem;
         
     }  */
@@ -1354,8 +1750,7 @@ label {
     .charger-img {
         align-self: center;
         margin-left: 36%;
-        margin-bottom: 10%;
-        
+        margin-bottom: 10%; 
     }
 
     .wirless {
@@ -1425,5 +1820,10 @@ label {
     label {
         font-size: 1.2rem;
     }
+
+
+
+}
+
 
 }
