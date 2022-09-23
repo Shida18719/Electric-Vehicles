@@ -1,3 +1,39 @@
+# EVInnovation Website
+View the live project here [url](), link goes here
+
+The EVInnovation website is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors to find reliable information pertaining to Electric Vehicle news, insights and update and new innovations.
+
+This website is targeted towards drivers, individuals, businesses and curious minds who loves to learn about electric vehicles.
+
+Imirresponsive image goes here
+
+##Initial Discussion 
+
+This site will be targeted to drivers, anyone considering driving a vehicle, companies looking to become climate positive, such as changing fleets to environmentally friendly. 
+
+Evinnovation is aim at providing EV news, insights, updates and EV industry in effort to promot zero emmisions
+
+Electric Vehicle is an inevitable innovation that will eventually be adapted by the masses. With many people trying to be climate positive and various government initiatives trying to encourage individuals and businesses to play their part in order to meet the net zero target. 
+
+Various Government agencies and research bodies have confined that electric vehicles are more climate positive than petrol and diesel vehicles. However, there seems to be barriers to the adoption of electric vehicle such as not enough charge points, range issues and convenience. 
+
+This website looks at some of those barriers and innovations in the work to address these. Statistics are showing increase sales in electric vehicle and car manufactures are continuously working to make this an attractive proposition. This website aims to educate and demystify some of the myths surrounding early adoption. At very least the website aim to make electric vehicle a viable option and something to consider now or the near future. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Rashidat Adekoya,
