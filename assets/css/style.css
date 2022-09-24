@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300&family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Open+Sans&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -1045,12 +1043,96 @@ label {
     .topic-box:nth-child(6) {
         margin-left: 5rem;
     }
+    
 
+      /*** Option content insight page ***/
+      .options {
+        text-align: center;
+        margin-top:-7rem;
+    }
 
     /*** Flex section content insight page ***/
-    /********* Option container insight page ***********/
+    /********* Option content insight page ***********/
+
+    .option-container { 
+        flex-direction: column;
+    }
+
+    .option-charger,
+    .option-wireless,
+    .option-dynamic {
+        display: flex;
+        flex-direction: column;
+    }
 
     .charger {
+        margin: 1% 0 1% 2%;
+        flex: 100%;
+    }
+
+    .charger h3 {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .charger ul li {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .charger-img {
+        align-self: center;
+        margin-left: 50%;
+        margin-bottom: 7%;
+        
+    }
+
+    .wirless {
+        margin: 2rem  4rem;
+        /* padding-right: 2em; */
+    }
+
+    .wirless img {
+        align-self: center;
+        margin-right: 4em;
+    }
+
+    .wirless h3 {
+        text-align: center;
+        margin: 2rem 3rem 0 1rem;
+
+    }
+
+    .wirless p {
+        text-align: center;
+        margin: 0 2.8rem 1rem 2.8rem;
+    }
+
+    .dynamic {
+        margin: 0.5rem 0 1rem 0;
+        place-content: center;
+    }
+
+    .dynamic h3 {
+        text-align: center;
+        margin: 0 2rem 0 1rem;
+
+    }
+
+    .dynamic p {
+        text-align: center;
+        margin: 0 2rem 0 3rem;
+    }
+
+    .dynamic-img {
+        margin: 0 0 10rem 0;
+    }
+
+
+
+
+
+    /* .charger {
         margin: 2%;
     }
 
@@ -1093,7 +1175,7 @@ label {
 
     .dynamic-img {
      margin: 0 3.5% 7% 0.5%;
-    }
+    } */
 
     /**** Sign Up Form Page Content*****/
 
@@ -1142,9 +1224,9 @@ label {
         width: 100%;
     }
 
-    header figure .evi {
+    /* header figure .evi {
         display: none;
-    }
+    } */
 
      #logo {
         text-align: center;
@@ -1271,7 +1353,6 @@ label {
 
     #intro-heading p {
         /* margin: 0 2rem 0 2rem; */
-        /* margin: 0; */
         padding: 0;
         text-align: center;
     }
@@ -1302,7 +1383,7 @@ label {
     .topic-container {
         /* gap: 2.5rem 2.8rem; */
         /* padding: 0 0.5rem 0 3.5rem; */
-
+        width: 100%;
     }
 
      /* .topic-box {
@@ -1318,10 +1399,9 @@ label {
 
     .topic-container {
         /* gap: 2.5rem 2.8rem; */
-        /* padding: 0 0.5rem 0 3.5rem; */
         grid-template-columns: 25%;
         width: 90%;
-        margin: 0 0 0 5rem;
+        margin-left: 5rem;
     }
 
     .topic-box3,
@@ -1332,7 +1412,7 @@ label {
 }
 
     .topic-box1 {
-        margin: 3rem 0 0 0.5rem;
+        margin: 3rem 1.5rem 0 0.5rem;
     } 
 
     .topic-box:nth-child(2) {
@@ -1369,11 +1449,11 @@ label {
     .options h3 {
         /* padding: 4em 0 1.5em 4em; */
         /* text-align: left; */
+        padding: 0;
 
     }
 
     .options p {
-        /* padding: 0 0 2em 2em; */
         /* margin: 0 0 1rem 3rem; */
         /* text-align: left; */
     }
@@ -1418,8 +1498,8 @@ label {
     }
 
     .wirless {
-        margin: 0 auto;
-        /* padding-right: 2em; */
+        /* margin: 0 auto; */
+        align-self: center;
     }
 
     .wirless img {
@@ -1439,8 +1519,7 @@ label {
     }
 
     .dynamic {
-        margin: 0.5rem;
-        margin-right: 1rem;
+        margin: 0.5rem 1rem 0 3rem;
         place-content: center;
     }
 
@@ -1458,7 +1537,7 @@ label {
     .dynamic-img {
         margin: 0 0 20rem rem;
         margin: 0 auto;
-    }
+    } */
 
     /**** Sign Up Form Page Content*****/
 
@@ -1493,26 +1572,23 @@ label {
 
      /* Headings and logo */
 
-     .header {
+     /* .header {
         min-height: 7vh;
         line-height: 3.571rem;
         flex-direction: column;
         place-content: center;
         flex-wrap: nowrap;
         width: 100%;
-    }
+    } */
 
      #logo {
-        text-align: center;
         margin: 0.5em 0 0 0;
         font-size: 2rem;
     }
 
     #nav-menu {
         font-size: 1.2rem;
-       display: flex;
-        justify-content: center; 
-        width: 100%;
+        /* justify-content: center;  */
     }
 
     #nav-menu ul li {
@@ -1520,20 +1596,10 @@ label {
     }
 
     #nav-menu ul>li>.sign-up {
-        border: 1px solid #2A353C;
-        border-radius: 25px;
         margin-right: 0.3rem;
     }
 
     /* Main Image overlay text*/
-
-    .overlay-text {
-        padding: 0.5em;
-        margin: 1rem;
-        bottom: 20%;
-        left: 27%;
-        font-size: 1.3rem;
-    }
 
     /* About home page*/
 
@@ -1544,7 +1610,7 @@ label {
     .about-ev p {
         width: 100%;
         padding: 0;
-        margin: 0;
+
     }
 
     .video {
@@ -1557,11 +1623,6 @@ label {
 
     /* Checkout list section home page */
 
-    #list-container {
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .check-out-text {
         margin: 2rem 0 1rem 0;
         align-self: center;
@@ -1569,24 +1630,7 @@ label {
 
     .check-out-list {
         width: 90%;
-        box-shadow: none;
         margin: 1rem 0 8rem 0;
-    }
-
-    .effect {
-        display: none;
-    }
-
-    .effect:hover {
-        display: none;
-    }
-
-    .checklist li {
-        line-height: 1.7;
-    }
-
-    .checklist a:hover {
-        display: none;
     }
 
     /*** Footer content ***/
@@ -1601,7 +1645,6 @@ label {
     }
 
     #social-links {
-        text-align: center;
         width: 100%;
     }
 
@@ -1609,7 +1652,6 @@ label {
         font-size: 1.2rem;
         /* margin: 0 3%; */
         text-align: center;
-        /* padding-right: 0 0.5em; */
     }
 
 
@@ -1629,33 +1671,23 @@ label {
 
     #intro-heading {
         margin: 1.5rem 0 1rem 0;
-        text-align: center;
     }
 
     #intro-heading p {
         /* margin: 0 2rem 0 2rem; */
-        /* margin: 0; */
-        padding: 0;
-        text-align: center;
+        margin: 0;
+        align-self: center;
     }
 
     .misconceptions p {
-        font-weight: 800;
         margin-top: 1.5rem;
     }
-
 
     .benefits p {
         margin-top: 1rem;
     }
 
-    .benefit-list li {
-        list-style-type: square;
-        list-style-position: inside;
-    }
-
     .ev-types h4 {
-        color: #141414;
         font-size: 1.5rem;
     }
 
@@ -1663,24 +1695,20 @@ label {
 
     .topic-container {
         /* gap: 2.5rem 2.8rem; */
-        /* padding: 0 0.5rem 0 3.5rem; */
-
+        grid-template-columns: 15%;
+        width: 90%;
+        /* margin-left: 2rem; */
+        align-items: center;
+        font-size: 1.6rem;
     }
 
      /* .topic-box {
         margin: 1.5rem 1.5rem 2.5rem 1.5rem;
     } */
 
-    .topic-box1,
-    .topic-box2,
-    .topic-box3,
-    .topic-box4 {
-        grid-column: span 2;
-    }
-
     .topic-box1 {
-        padding: 1rem 1.5rem 0;
-        margin: 1rem;
+        padding: 0;
+        margin: 0;
     }
 
     /* .topic-box:nth-child(3),
@@ -1703,33 +1731,19 @@ label {
     }
 
     .options h3 {
-        padding: 4em 0 1.5em 4em;
-        text-align: left;
-
+        margin: 5rem 0 1rem 4rem;
+        text-align: center;
     }
 
     .options p {
-        padding: 0 0 2em 2em;
-        margin: 0 0 1rem 3rem;
-        text-align: left;
+        margin: 0 0 1rem 2rem;
+        text-align: center;
+        padding: 0;
     }
 
-    .options p>span {
-        font-weight: bold;
-    }
 
     /**************** Option container insights page *********************/
 
-    .option-container { 
-        flex-direction: column;
-    }
-
-    .option-charger,
-    .option-wireless,
-    .option-dynamic {
-        display: flex;
-        flex-direction: column;
-    }
 
     .charger {
         margin: 1% 2% 1% 1%;
@@ -1756,6 +1770,7 @@ label {
     .wirless {
         margin: 0 auto;
         /* padding-right: 2em; */
+        float: 100%;
     }
 
     .wirless img {
@@ -1772,27 +1787,28 @@ label {
     .wirless p {
         text-align: center;
         padding: 0 4.8em 1em 1em;
+
     }
 
     .dynamic {
-        margin: 0.5rem;
+        margin: 1.5rem;
         padding-right: 1em;
-        place-content: center;
+        /* place-content: center; */
+        width: 100%;
     }
 
     .dynamic h3 {
-        text-align: center;
-        padding: 0 2em 0 1em;
+        margin: 0 2em 0 1em;
 
     }
 
     .dynamic p {
         text-align: center;
-        padding: 0 2em 0 1em;
+        margin: 0 2em 0 1em;
     }
 
     .dynamic-img {
-        padding:0 0 10em 1em;
+        /* margin:0 0 10em 1em; */
         margin: 0 auto;
     }
 
