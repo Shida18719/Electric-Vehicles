@@ -724,26 +724,18 @@ label {
     text-align: center;
 }
 
-
 /***** Media Queries ruleset from 576px - 1280px *****/
-
-
-/** For larger to medium screens sizes from 1280px and down **/
-
+/*****************************************************/
+/**  Media Query for large screen sizes from 1280px wide and down **/
 /* Header and logo */
-
 @media screen and (max-width: 1280px) {
 
-    /** Header and Navigation links **/
-
     /* Navigation links */
-
     #nav-menu {
         margin-right: 2.5rem;
     }
 
     /* Main Image overlay text*/
-
     .overlay-text {
         left: 7%;
     }
@@ -758,7 +750,6 @@ label {
     }
 
     .about-ev p {
-        /* padding: 0 4em 1em 4em; */
         padding: 1em 0;
     }
 
@@ -776,22 +767,18 @@ label {
     }
 
     /* Checkout section home page */
-
     .check-out-text {
         margin: 0 0.5rem;
         flex-wrap: wrap;
-        /* padding: 0 0.5em 0 1em; */
     }
 
     .check-out-list {
         width: 40%;
         margin-top: 1.8rem;
-        /* margin: 3rem 3rem 8rem 0; */
     }
 
     /** Footer content **/
     /********************/
-
     footer {
         z-index: 2;
     }
@@ -803,28 +790,21 @@ label {
     #social-links i {
         place-content: center;
     }
-
     /**********Insight Page ***********/
-
     /* Cover text */
-
     .cover-text {
-        /* bottom: 6rem; */
-        /* right: 6rem; */
         right: 7%;
         margin: 1.5rem;
         padding: 1em;
     }
 
-    /** topic content **/
-
+    /** topic content insights page **/
     .topic-container {
         grid-template-columns: 47% 47%;
     }
 
     .topic-box1 {
         margin-right: 2rem;
-
     }
 
     .intro p {
@@ -843,29 +823,23 @@ label {
         padding-top: 0.6em;
     }
 
-    /***************** Topic container *************/
-
+    /***************** Topic container insights page *************/
     .topic-box1 {
         margin: 1.3rem;
     }
-
     .topic-box:nth-child(2) {
         margin: 3rem 0.5rem 0 0;
     }
 
     .topic-box:nth-child(5) {
-        /* margin-right: 2rem; */
         margin: 0 5%;
     }
 
     .topic-box:nth-child(6) {
-        /* margin-left: 3rem; */
         margin: 4% 5%;
     }
 
-    /************* Flex section content insights page **************/
-    /** Option container insights page **/
-
+    /************* Flex Option section content insights page **************/
     .charger-img {
         margin: 1rem 1rem 0 1rem;
     }
@@ -877,14 +851,12 @@ label {
     .wirless img {
         margin-left: 4rem;
     }
-
     .dynamic {
         margin: 4rem 2rem;
     }
 
     .dynamic h3 {
         margin: 2rem 0 1rem 2rem;
-
     }
 
     .dynamic p {
@@ -896,7 +868,6 @@ label {
     }
 
     /**** Sign Up Form Page Content ****/
-
     .signup-form {
         padding: 1.5em 1.6em 0.5em 1.6em;
         width: 40%;
@@ -906,89 +877,60 @@ label {
         margin-bottom: 1rem;
     }
 }
-/** For medium screen sizes from 992px wide and down **/
-/* Media Query for Tablets Ipads portrait, laptops mode */
+/******* Media Query for medium screen sizes from 992px wide and down *******/
 @media screen and (max-width: 992px) {
 
- /** Header and Navigation links **/
+    /** Header and Navigation links **/
     /* Navigation links */
     #nav-menu {
         margin-right: 2rem;
     }
-
     #logo {
-        margin-left: 2rem;  
+        margin-left: 2rem;
     }
-
     #nav-menu ul li {
         margin-right: 1rem;
     }
-
     /* Main Image overlay text*/
-
     .overlay-text {
-        /* bottom: 20%;
-        left: 13%; */
         font-size: 1.2rem;
         text-shadow: 0px 0px 2px #F4F4F9;
         left: 5%;
     }
-
     /* About home page*/
     #about {
         padding: 1rem;
         margin-top: 0;
     }
-
     .aim {
         padding: 1rem;
     }
-
-    .about-ev h2 {
-        margin-bottom: 0.5rem;
-    }
-
-     .about-ev p {
-        /* padding: 0 4em 1em 4em; */
-        padding: 1em 0;
-    } 
-
     #contact-link {
         padding: 4em 0 4.5em 0;
     }
-
     .video {
-        /* padding: 1em 0 1em 0; */
         margin-top: 1rem;
         padding: 1em 0 0 0;
     }
-
     .video-frame {
         margin: 2%;
     }
-
-    /* Checkout section home page */
-
+    /******* Checkout list section home page ********/
     .check-out-text {
         line-height: 1.6;
         margin: 0 0.5rem 1rem 1rem;
-        /* font-size: 1.3rem; */
     }
 
     .check-out-list {
         margin: 4rem 3rem 7rem 0;
         font-size: 1.1rem;
-        width: 40%;
     }
 
     .checklist li {
         line-height: 1.5;
     }
-
-    /** Footer content **/
-    /********************/
+    /********* Footer content ********/
     footer div {
-        /* margin: 1.3% 3%; */
         font-size: 1.2rem;
     }
 
@@ -999,52 +941,32 @@ label {
 
     #social-links i {
         font-size: 1.9rem;
-        /* margin: 0 1.2rem 1rem 1.2rem; */
-        /* padding: 0.8em 1.5em 1em 0; */
         margin: 1.5rem 3rem 2rem 3rem;
     }
-
     /**********Insight Page ***********/
-
+    /* Background image cover text */
     .cover-text {
-        /* padding: 0.5em;
-        margin: 2rem;
-        bottom: 6rem; */
-        /* right: 6.4rem; */
         right: 5%;
         font-size: 1.2rem;
-        /* text-shadow: 0px 0px 2px #F4F4F9; */
+        text-shadow: 0px 0px 2px #F4F4F9;
     }
 
     /*** Topic content insights page ***/
     #intro-heading {
-        margin: 4rem 2rem 1rem 2rem;  
+        margin: 4rem 2rem 1rem 2rem;
     }
-
-    /* #intro-heading p {
-        margin: 1rem;
-    } */
-
     #chart-header {
         margin-left: 0;
         margin-top: 2rem;
         padding-bottom: 1.3rem;
     }
-
     #chart-bar iframe {
         overflow-y: hidden;
         margin: 0 2rem 0 0;
     }
-
-    /** Topic container insights page**/
-
-    .topic-container {
-        /* gap: 0.1rem 0; */
-    }
-
+    /******** Topic container insights page ********/
     .topic-box {
         margin: 0;
-        /* height: auto; */
     }
 
     .topic-box1 {
@@ -1053,7 +975,7 @@ label {
     }
 
     .topic-box:nth-child(2) {
-        /* margin: 2% 5%; */
+        margin: 2% 5%;
     }
 
     .topic-box:nth-child(3) {
@@ -1063,51 +985,41 @@ label {
     .topic-box:nth-child(4) {
         margin: 4% 5%;
     }
+
     /*** Option content insight page ***/
     .options {
         text-align: center;
     }
 
-    /*** Flex section content insight page ***/
-    /********* Option content insight page ***********/
-
+    /*** Flex Option section content insight page ***/
     .option-container {
         flex-direction: column;
     }
-
     .option-charger,
     .option-wireless,
     .option-dynamic {
         display: flex;
         flex-direction: column;
     }
-
     .charger h3 {
         margin-bottom: 0.5rem;
         text-align: center;
     }
-
     .charger ul li {
         text-align: center;
         margin-bottom: 1rem;
     }
-
     .wirless {
         margin: 2rem 4rem;
-        /* padding-right: 2em; */
     }
-
     .wirless img {
         align-self: center;
         margin-right: 4rem;
     }
-
     .wirless h3 {
         text-align: center;
         margin: 2rem 3rem 0 1rem;
-
     }
-
     .wirless p {
         text-align: center;
         margin: 0 2.8rem 1rem 2.8rem;
@@ -1121,7 +1033,6 @@ label {
     .dynamic h3 {
         text-align: center;
         margin: 0 2rem 0 1rem;
-
     }
 
     .dynamic p {
@@ -1133,53 +1044,7 @@ label {
         margin: 0 0 10rem 0;
     }
 
-    /* .charger {
-        margin: 2%;
-    }
-
-    .charger h3 {
-        margin: 1.4% 1% 2.5%;
-        align-items: center;
-    }
-
-    .charger-img {
-        margin-right: 2%;
-    }
-
-    .wirless {
-        margin-top: 10%;
-    }
-
-    .wirless img {
-        margin-left: 7%;
-    }
-
-    .wirless h3 {
-        margin: 10% 0 0.5% 10%;
-    }
-
-    .wirless p {
-        margin: 0 1% 2% 10%;
-    }
-
-    .dynamic {
-        margin: 10% 1% 15% 1%;   
-    }
-
-    .dynamic h3 {
-        margin: 3% 1.4% 0.5% 15%;
-    }
-
-    .dynamic p {
-        margin: 5% 1% 4% 12%;
-    }
-
-    .dynamic-img {
-     margin: 0 3.5% 7% 0.5%;
-    } */
-
     /**** Sign Up Form Page Content*****/
-
     .signup-form {
         width: 70%;
         left: 10%;
@@ -1197,22 +1062,13 @@ label {
     }
 
     /** Start of Footer content **/
-
-    footer div {
-        /* margin: 0.2% 3%; */
-    }
-
     #social-links i {
         margin-bottom: 2rem;
-        /* margin: 1.5rem 2rem 2rem 2rem; */
-
     }
-
 }
 
 
 /**  Media Query for small screen sizes from 768px wide and down **/
-
 @media screen and (max-width: 768px) {
 
     /* Headings and logo */
@@ -1224,7 +1080,6 @@ label {
         flex-wrap: nowrap;
         width: 100%;
     }
-
     #logo {
         text-align: center;
         margin-top: 0;
@@ -1246,17 +1101,11 @@ label {
         border-radius: 25px;
         margin-right: 0.3rem;
     }
-
-    /************ Main Image overlay text************/
+    /*** Main Image overlay text***/
     .overlay-text {
-        /* padding: 0.5em;
-        margin: 1rem;
-        bottom: 20%;
-        left: 27%; */
         font-size: 1.3rem;
         left: 3%;
     }
-
     /* About home page*/
     #about {
         margin-top: 2rem;
@@ -1284,9 +1133,7 @@ label {
     .video-frame {
         width: 100%;
     }
-
     /*********** Checkout list section home page **********/
-
     #list-container {
         flex-direction: column;
         justify-content: center;
@@ -1318,47 +1165,30 @@ label {
     .checklist a:hover {
         display: none;
     }
-
     /******** Footer content ********/
-
     footer {
         flex-direction: column;
     }
 
     footer div {
-         margin: 0 auto;   
+        margin: 0 auto;
         text-align: center;
         width: 50%;
-        font-size: 1.2rem;
     }
-
     #social-links {
         width: 100%;
     }
-
     #social-links i {
         font-size: 1.5rem;
         text-align: center;
-        /* margin: 1rem 1rem 4rem 0;; */
-        /* padding-right: 0 0.5em; */
     }
-
-
     /**********Insight Page ***********/
-
-    /* Background image */
-
+    /* Background image cover text */
     .cover-text {
         font-size: 1.rem;
-        /* padding: 0.3em 0 1em 1.1em;
-        margin: 1em;
-        bottom: 19%;
-        right: 12%; */
         right: 3%;
     }
-
     /*** Topic content insights page ***/
-
     #intro-heading {
         margin: 2.5rem 0 1rem 0;
         text-align: center;
@@ -1368,28 +1198,7 @@ label {
     #chart-header {
         align-self: center;
     }
-
-    #chart-bar iframe {
-        overflow-y: hidden;
-        margin: 0 2rem 0 0;
-    }
-
-    /* .misconceptions p {
-        font-weight: 800;
-        margin-top: 1.5rem;
-    } */
-
-    /* .benefits p {
-        margin-top: 1rem;
-        text-align: left;
-    }
-
-    .ev-types h4 {
-        color: #141414;
-        font-size: 1.5rem;
-    } */
-
-    /** Topic container **/
+    /******* Topic container insights page *******/
     .topic-container {
         gap: 2rem 2.8rem;
         grid-template-columns: 25%;
@@ -1397,7 +1206,6 @@ label {
         margin: 0 auto;
         font-size: 1.3rem;
     }
-
     .topic-box1,
     .topic-box2,
     .topic-box3,
@@ -1417,7 +1225,7 @@ label {
     }
 
     .topic-box:nth-child(2) {
-        margin: 0 1rem 0 1rem;;
+        margin: 0 1rem 0 1rem;
     }
 
     .topic-box:nth-child(3) {
@@ -1425,124 +1233,59 @@ label {
         padding: 0;
     }
 
-    .topic-box:nth-child(4) {
+    .topic-box:nth-child(4), .topic-box:nth-child(5) {
         padding: 0;
     }
-
-    .topic-box:nth-child(5) {
-        padding: 0;
-        
-    }
-
     .topic-box:nth-child(6) {
         margin: 2rem 2rem 4rem 2rem;
         padding: 0;
-        /* font-size: 1.3rem; */
     }
-
     /*** Option content insight page ***/
-
-    .options {
-        text-align: center;
-    }
-
     .options h3 {
-       margin-top: 1rem;
+        margin-top: 1rem;
         padding: 0;
-
     }
-
-    .options p {
-        /* margin: 0 0 1rem 3rem; */
-        /* text-align: left; */
-    }
-
     .options p>span {
         font-weight: bold;
     }
-
     /**************** Option container insights page *********************/
-
-    .option-container {
-        flex-direction: column;
-    }
-
-    .option-charger,
-    .option-wireless,
-    .option-dynamic {
-        display: flex;
-        flex-direction: column;
-    }
-
     .charger {
         margin: 1% 0 1% 2%;
         flex: 100%;
     }
-
-    .charger h3 {
-        margin-bottom: 0.5rem;
-        text-align: center;
-    }
-
-    .charger ul li {
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
     .charger-img {
         /* align-self: center;
-        margin-bottom: 10%; */
         /* width: 100%; */
-
     }
 
     .wirless {
-        /* margin: 0 auto; */
         align-self: center;
     }
 
     .wirless img {
-        /* align-self: center; */
         width: 100%;
     }
 
     .wirless h3 {
-        text-align: center;
         margin: 0 3rem 0 1rem;
-
     }
-
-    .wirless p {
-        text-align: center;
-        margin: 0 2.8rem 1rem 2.8rem;
-    }
-
-    .dynamic {
-        margin: 0.5rem 1rem 0 3rem;
-        place-content: center;
-    }
-
-    .dynamic h3 {
+    /* .dynamic h3 {
         text-align: center;
     }
 
     .dynamic p {
-        text-align: center;
         margin: 0 2rem 0 3rem;
-    }
+    } */
 
     .dynamic-img {
         /* margin-bottom: 20rem; */
         /* width: 100%; */
     }
 
-    */
     /**** Sign Up Form Page Content*****/
-
     .signup-form {
         width: 80%;
         left: 10%;
-        /* padding: 2em 2em 2em 1.6em; */
         margin: 12rem 7rem 5em 0;
     }
 
@@ -1551,245 +1294,137 @@ label {
     }
 
     .signup-form p {
-        margin-bottom: 1.5rem;
         font-size: 1.3rem;
     }
 
-    /* Text input field*/
-
+    /*** Text input field ***/
     label {
         font-size: 1.2rem;
     }
-
 }
 
-    /**  Media Query for small screen sizes from 576px wide and down **/
+/**  Media Query for small screen sizes from 576px wide and down **/
+@media screen and (max-width: 576px) {
 
-    @media screen and (max-width: 576px) {
-
-        /* Headings and logo */
-        #logo {
-            margin-top: 0.5em;
-            font-size: 2rem;
-        }
-        /************* Navigation links **********/
-        #nav-menu {
-            font-size: 1.2rem;
-        }
-
-        #nav-menu ul li {
-            margin: 0.2rem;
-        }
-
-        #nav-menu ul>li>.sign-up {
-            margin-right: 0.3rem;
-        }
-
-        /* Main Image overlay text*/
-        /* About home page*/
-
-        .about-ev h2 {
-            margin-top: 1rem;
-        }
-
-        .video {
-            margin: 1.6rem 0;
-        }
-
-        /************ Checkout list section home page *********/
-        .check-out-text {
-            align-self: center;
-        }
-
-        /* .check-out-list {
-            width: 90%;
-            margin: 1rem 0 8rem 0;
-        } */
-
-        /********* Footer content ********/
-
-        footer div {
-            /* margin: 1% 3%; */
-            width: 70%;
-            font-size: 1.2rem;
-        }
-
-        /* #social-links {
-            width: 100%;
-        }  */
-
-        #social-links i {
-            font-size: 1.3rem;
-            margin: 0.5% 3%;
-            
-        }
-
-
-        /**********Insight Page ***********/
-
-        /* Background image */
-
-        /* .cover-text {
-            font-size: 1.3rem;
-            padding: 0.3em 0 1em 1.1em;
-            margin: 1em;
-            bottom: 19%;
-            right: 12%;
-        } */
-
-        /*** Topic content insights page ***/
-
-        #intro-heading {
-            margin: 1.5rem 0 1rem 0;
-        }
-
-        #intro-heading p {
-            /* margin: 0 2rem 0 2rem; */
-            /* margin: 0;
-            align-self: center; */
-        }
-
-        .misconceptions p {
-            margin-top: 1rem;
-        }
-
-        .benefits p {
-            margin-top: 1rem;
-        }
-
-        .ev-types h4 {
-            font-size: 1rem;
-        }
-
-        /** Topic container **/
-
-         /* .topic-container {
-            /* gap: 2.5rem 2.8rem; */
-            /* grid-template-columns: 15%;
-            width: 90%; */
-            /* margin-left: 2rem; *
-            align-items: center;
-            font-size: 1.6rem;
-        }  */
-
-        .topic-box1 {
-            margin: 2rem 1rem 0 0.5rem;;
-        }
-
-        .topic-box:nth-child(3) {
-            margin: 1rem 1.5rem 1rem 0.5rem;
-            padding: 0;
-        }
-
-        .topic-box:nth-child(6) {
-        margin: 2rem 1.5rem 3rem 1.5rem; 
-    }  
-
-
-        /******* Option content insight page ******/
-
-        .options h3 {
-            /* margin: 3rem 0 1rem 4rem; */
-            text-align: center;
-            font-size: 1.4rem;
-        }
-
-        .options p {
-            margin: 1rem 1rem 3rem 1rem;
-            padding: 0;
-            text-align: left;
-        }
-
-
-        /**************** Option container insights page *********************/
-
-
-        .charger {
-            /* margin: 1% 2% 1% 1%; */
-            /* padding-top: 1%; */
-            /* margin: 0 auto; */
-            
-        }
-
-        .charger h3 {
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-
-        .charger ul li {
-            text-align: center;
-            padding-right: 1%;
-        }
-
-        .charger-img {
-            width: 100%;
-            /* margin-bottom: 10%;  */
-        }
-
-        .wirless {
-            margin: 0 auto;
-            /* padding-right: 2em; */
-            /* float: 100%; */
-        }
-
-        .wirless img {
-            /* margin-top: 3rem; */
-            width: 80%;
-        }
-
-        .wirless h3 {
-            margin-top: 2rem;
-        }
-
-        .wirless p {
-            margin: 1rem 1rem 1rem 1.5rem;
-        }
-
-        .dynamic {
-            /* margin: 1.5rem; */
-           
-        }
-
-        .dynamic h3 {
-            /* margin: 0 2em 0 1em; */
-        }
-
-        .dynamic p {
-            margin: 1rem 1rem 1rem 1.5rem;
-            text-align: left;
-        }
-
-        .dynamic-img {
-            margin-left: 3rem;
-        }
-
-        /**** Sign Up Form Page Content*****/
-
-        .signup-form {
-            width: 80%;
-            left: 10%;
-            /* padding: 2em 2em 2em 1.6em; */
-            margin: 12rem 7rem 5em 0;
-        }
-
-        .signup-form h2 {
-            font-size: 2rem;
-        }
-
-        .signup-form p {
-            margin-bottom: 1.5rem;
-            text-align: left;
-            font-size: 1.3rem;
-        }
-
-        /* Text input field*/
-
-        label {
-            font-size: 1.2rem;
-        }
-
-
-
+    /* Headings and logo */
+    #logo {
+        margin-top: 0.5em;
+        font-size: 2rem;
     }
 
+    /************* Navigation links **********/
+    #nav-menu {
+        font-size: 1.2rem;
+    }
+    #nav-menu ul li {
+        margin: 0.2rem;
+    }
+    /* About home page*/
+    .video {
+        margin: 1.6rem 0;
+    }
+    /************ Checkout list section home page *********/
+    .check-out-text {
+        align-self: center;
+    }
 
+    /********* Footer content ********/
+    footer div {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    #social-links i {
+        font-size: 1.3rem;
+        margin: 0.5% 3%;
+    }
+    /**********Insight Page ***********/
+    /*** Topic content insights page ***/
+    #intro-heading {
+        margin: 1.5rem 0 1rem 0;
+    }
+    .misconceptions p {
+        margin-top: 1rem;
+    }
+
+    .benefits p {
+        margin-top: 1rem;
+    }
+    .ev-types h4 {
+        font-size: 1rem;
+    }
+
+    /** Topic container insights page **/
+    .topic-box1 {
+        margin: 2rem 1rem 0 0.5rem;
+    }
+
+    .topic-box:nth-child(3) {
+        margin: 1rem 1.5rem 1rem 0.5rem;
+    }
+
+    .topic-box:nth-child(6) {
+        margin: 2rem 1.5rem 3rem 1.5rem;
+    }
+    /******* Option content insight page ******/
+    .options h3 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .options p {
+        margin: 1rem 1rem 3rem 1rem;
+        padding: 0;
+        text-align: left;
+    }
+    /**************** Option container insights page *********************/
+    .charger {
+        /* margin: 1% 2% 1% 1%; */
+        /* padding-top: 1%; */
+    }
+
+    .charger h3 {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .charger ul li {
+        text-align: center;
+        padding-right: 1%;
+    }
+    .charger-img {
+        width: 100%;
+    }
+    .wirless {
+        margin: 0 auto;
+    }
+
+    .wirless img {
+        width: 80%;
+    }
+
+    .wirless h3 {
+        margin-top: 2rem;
+    }
+    .wirless p {
+        margin: 1rem 1rem 1rem 1.5rem;
+    }
+    .dynamic {
+        /* margin: 1.5rem; */
+    }
+
+    .dynamic h3 {
+        /* margin: 0 2em 0 1em; */
+    }
+
+    .dynamic p {
+        margin: 1rem 1rem 1rem 1.5rem;
+        text-align: left;
+    }
+    .dynamic-img {
+        margin-left: 3rem;
+    }
+    /**** Sign Up Form Page Content*****/
+    .signup-form p {
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+}
