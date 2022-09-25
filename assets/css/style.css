@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Open+Sans&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,6 @@
 
 html {
     font-size: 100%;
-    /* height: 100%; */
 }
 
 body {
@@ -42,18 +42,11 @@ body {
     text-decoration: none;
 }
 
-/* .evi {
-    margin-left: 5.5rem;
-    padding-top: 1.5rem;
-
-} */
-
 #logo {
     margin: 1rem 0 0 4rem;
     font-size: 2.5rem;
     color: #045839;
     font-family: Merriweather, Lato, sans-serif;
-    /* margin-top: -3.8rem; */
 }
 
 /* Navigation links */
@@ -74,12 +67,12 @@ body {
     list-style-type: none;
     display: inline-block;
     margin: 1rem;
+    /* line-height: 5rem; */
 }
 
 #nav-menu a {
     text-decoration: none;
     color: #141414;
-    /* font-weight:; */
 }
 
 #nav-menu a:hover {
@@ -155,6 +148,7 @@ h2 {
 }
 
 .aim {
+    padding: 2rem;
     text-align: center;
 }
 
@@ -185,8 +179,9 @@ h2 {
     width: 100%;
     height: 500px;
     text-align: center;
-    padding: 3em 5em;
-    margin: 0 auto;
+    /* padding: 3em 5em;
+    margin: 0 auto; */
+    margin: 5rem auto;
 }
 
 .video-frame {
@@ -196,6 +191,7 @@ h2 {
 video iframe {
     width: 60%;
     border: none;
+    height: 500px;
 }
 
 
@@ -216,6 +212,7 @@ video iframe {
     letter-spacing: .2rem;
     line-height: 1.5;
     font-weight: bold;
+    padding-left: 2rem;
     margin-bottom: 4rem;
 }
 
@@ -276,7 +273,7 @@ footer {
     width: 100%;
     background-color: #2A353C;
     color: #F4F4F9;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     bottom: 0;
     left: 0;
@@ -285,7 +282,9 @@ footer {
 }
 
 footer div {
-    margin: 1.3% 3%;
+    /* margin: 1.3% 3%; */
+    width: 20%;
+    margin: 32px 30px 0 30px;
 }
 
 #social-links {
@@ -320,7 +319,8 @@ footer div {
 }
 
 #insights-image {
-    height: 100%;
+    /* height: 100%; */
+    height: 37.5rem;
     max-width: 100%;
     background: url("../images/imain-image.jpg") no-repeat center center;
     background-color: #B8DBD9;
@@ -347,7 +347,8 @@ footer div {
     background-color: #141414;
     opacity: 0.8;
 
-    bottom: 2.8%;
+    /* bottom: 2.8%; */
+    bottom: 9%;
     right: 13.6%;
     text-shadow: 1px 1px 2px #F4F4F9;
     box-sizing: border-box;
@@ -364,7 +365,6 @@ footer div {
 
 #intro-heading p {
     margin: 1rem;
-
 }
 
 #chart-header {
@@ -418,7 +418,7 @@ footer div {
     min-height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 45% 45%;
     /* grid-auto-rows: minmax(1fr, auto); */
     grid-template-rows: 1fr;
     gap: 0.5rem 0.5rem;
@@ -427,7 +427,7 @@ footer div {
 }
 
 .topic-box {
-    margin: 1.5rem 1.5rem 2rem 1.5rem;
+    margin: 1.5rem 1.5rem 2rem 2rem;
 }
 
 .topic-box3,
@@ -445,13 +445,17 @@ footer div {
 
 .topic-box1 {
     margin: auto 0;
+    margin-right: 2rem;
+    /* height: 700px; */
     /* margin: 1.4rem; */
 }
 
 .topic-box:nth-child(2) {
     border-style: none;
     align-self: center;
-    margin: 5rem 0 0 1rem;
+    /* margin: 5rem 0 0 1rem; */
+    margin: auto 0;
+    margin-left: 2rem;
 }
 
 .topic-box:nth-child(3) {
@@ -508,6 +512,7 @@ footer div {
     font-size: 1.8rem;
     text-align: center;
     color: #141414;
+    margin-top: -4rem;
 }
 
 .options p {
@@ -527,8 +532,9 @@ footer div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 60vh;
+    /* min-height: 80vh; */
     width: 100%;
+    height: fit-content;
 }
 
 .option-charger,
@@ -539,6 +545,10 @@ footer div {
     min-height: 37.25%;
     width: 100%;
 }
+
+/* figure {
+    width: 80%;
+} */
 
 .charger {
     margin: 1%;
@@ -565,11 +575,17 @@ footer div {
 }
 
 .charger-img {
-    width: 100%;
+    width: 450px;
+    /* max-width: 100%; */
     height: auto;
     /* margin-left: 15%; */
     align-self: center;
     margin-bottom: 3rem;
+}
+
+.wirless-img-wrapper {
+    /* margin-left: 6rem; */
+    /* margin-left: 30%; */
 }
 
 .wirless {
@@ -580,6 +596,9 @@ footer div {
 .wirless img {
     align-self: center;
     margin-left: 8rem;
+    width: 450px;
+    /* width: 100%; */
+    /* height: auto; */
 
 }
 
@@ -618,8 +637,9 @@ footer div {
 
 .dynamic-img {
     margin: 3rem 0 9rem 0;
-    max-width: 100%;
-    height: auto;
+    /* width: 100%; */
+    width: 450px;
+    /* height: auto; */
     align-self: center;
     /* margin-top: 3rem; */
 }
@@ -637,10 +657,11 @@ footer div {
 .signup-form {
     background-color: #141414;
     opacity: 0.8;
-    width: 35.7%;
+    width: 40%;
     position: absolute;
     left: 10%;
-    padding: 2em 1.6em 0.5em 1.6em;
+    /* padding: 2em 1.6em 0.5em 1.6em; */
+    padding: 1.5rem;
     margin: 11.38rem 0.1rem 0 0;
 }
 
@@ -673,7 +694,6 @@ footer div {
 
 label {
     color: #B8DBD9;
-    /* margin: 0.7142rem 11.0714rem 0.357rem 0; */
 }
 
 .text-input:hover {
@@ -716,63 +736,57 @@ label {
 
     /** Header and Navigation links **/
 
-    /* .header {
-         padding-top: 1em; 
-    } */
-
-    /* .evi {
-        margin-left: 5rem;
-        padding-top: 1em;
-    } */
-
-    #logo {
-        margin-left: 2.5rem;
-    }
-
     /* Navigation links */
 
-     #nav-menu {
+    #nav-menu {
         margin-right: 2.5rem;
     }
 
     /* Main Image overlay text*/
 
     .overlay-text {
-        bottom: 20%;
-        left: 10%;
+        left: 7%;
     }
 
     /** About home page **/
     #about {
-        padding: 3em 3em 0 3em;
+        padding: 2em 2em 0 2em;
     }
 
     .about-ev h2 {
-        padding-bottom: 1em;
+        margin-bottom: 0.5rem;
     }
 
     .about-ev p {
-        padding: 0 4em 1em 4em;
+        /* padding: 0 4em 1em 4em; */
+        padding: 1em 0;
     }
 
     .video {
-        padding-top: 2em;
+        margin-top: 2rem;
+        height: 580px;
     }
 
     .video-frame {
         margin: 2.5%;
     }
 
+    .video iframe {
+        width: 80%;
+    }
+
     /* Checkout section home page */
 
     .check-out-text {
-        margin-left: 1.5rem;
+        margin: 0 0.5rem;
         flex-wrap: wrap;
-        padding: 0 0.5em 0 1em;
+        /* padding: 0 0.5em 0 1em; */
     }
 
     .check-out-list {
+        width: 40%;
         margin-top: 1.8rem;
+        /* margin: 3rem 3rem 8rem 0; */
     }
 
     /** Footer content **/
@@ -783,13 +797,11 @@ label {
     }
 
     footer div {
-        margin: 0.2% 3%;
+        width: 30%;
     }
 
     #social-links i {
         place-content: center;
-        margin: 1.5rem;
-        padding: 0 1em 0.2em 0;
     }
 
     /**********Insight Page ***********/
@@ -797,13 +809,27 @@ label {
     /* Cover text */
 
     .cover-text {
-        bottom: 6rem;
-        right: 6rem;
+        /* bottom: 6rem; */
+        /* right: 6rem; */
+        right: 7%;
         margin: 1.5rem;
         padding: 1em;
     }
 
     /** topic content **/
+
+    .topic-container {
+        grid-template-columns: 47% 47%;
+    }
+
+    .topic-box1 {
+        margin-right: 2rem;
+
+    }
+
+    .intro p {
+        font-size: 90%;
+    }
 
     #intro-heading {
         margin: 2rem 0 1rem 0;
@@ -813,16 +839,11 @@ label {
         margin: 1rem;
     }
 
-    #chart-bar iframe {
-        overflow-y: hidden;
-        margin: 0 3rem 0 0;
-    }
-
     .list li {
         padding-top: 0.6em;
     }
 
-    /** Topic container **/
+    /***************** Topic container *************/
 
     .topic-box1 {
         margin: 1.3rem;
@@ -833,15 +854,16 @@ label {
     }
 
     .topic-box:nth-child(5) {
-        margin-right: 2rem;
+        /* margin-right: 2rem; */
+        margin: 0 5%;
     }
 
     .topic-box:nth-child(6) {
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
+        margin: 4% 5%;
     }
 
-    /*** Flex section content insights page ***/
-
+    /************* Flex section content insights page **************/
     /** Option container insights page **/
 
     .charger-img {
@@ -869,9 +891,9 @@ label {
         margin: 0 0 2rem 2rem;
     }
 
-      .dynamic-img {
-         margin: 1rem 3rem 8rem 0; 
-    } 
+    .dynamic-img {
+        margin: 1rem 3rem 8rem 0;
+    }
 
     /**** Sign Up Form Page Content ****/
 
@@ -881,59 +903,64 @@ label {
     }
 
     .signup-form h2 {
-        margin-bottom: 1rem;   
+        margin-bottom: 1rem;
     }
 }
-
-
 /** For medium screen sizes from 992px wide and down **/
-
 /* Media Query for Tablets Ipads portrait, laptops mode */
-
 @media screen and (max-width: 992px) {
 
-    /* header figure .evi {
-        margin-left: 4.5rem;
-    } */
-
-    .header {
-        line-height: 4rem;
+ /** Header and Navigation links **/
+    /* Navigation links */
+    #nav-menu {
+        margin-right: 2rem;
     }
 
     #logo {
-        /* margin-left: 2rem; */
-        margin: 2rem 0 0 2rem;
+        margin-left: 2rem;  
     }
 
-    /* Navigation links */
-
     #nav-menu ul li {
-        /* margin-right: 1rem; */
-        margin: 2rem 1rem 0 4rem;
+        margin-right: 1rem;
     }
 
     /* Main Image overlay text*/
 
     .overlay-text {
-        bottom: 20%;
-        left: 13%;
+        /* bottom: 20%;
+        left: 13%; */
+        font-size: 1.2rem;
+        text-shadow: 0px 0px 2px #F4F4F9;
+        left: 5%;
     }
 
     /* About home page*/
     #about {
-        margin-top: 7.8%;
+        padding: 1rem;
+        margin-top: 0;
     }
 
-    #contact-link {
-        padding: 4em 0 4.5em 0;
+    .aim {
+        padding: 1rem;
     }
 
     .about-ev h2 {
         margin-bottom: 0.5rem;
     }
 
+     .about-ev p {
+        /* padding: 0 4em 1em 4em; */
+        padding: 1em 0;
+    } 
+
+    #contact-link {
+        padding: 4em 0 4.5em 0;
+    }
+
     .video {
-        padding: 1em 0 1em 0;
+        /* padding: 1em 0 1em 0; */
+        margin-top: 1rem;
+        padding: 1em 0 0 0;
     }
 
     .video-frame {
@@ -945,11 +972,10 @@ label {
     .check-out-text {
         line-height: 1.6;
         margin: 0 0.5rem 1rem 1rem;
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
     }
 
     .check-out-list {
-        /* margin: 0 5rem 0.5rem 0; */
         margin: 4rem 3rem 7rem 0;
         font-size: 1.1rem;
         width: 40%;
@@ -962,7 +988,8 @@ label {
     /** Footer content **/
     /********************/
     footer div {
-        margin: 1.3% 3%;
+        /* margin: 1.3% 3%; */
+        font-size: 1.2rem;
     }
 
     #social-links {
@@ -972,48 +999,36 @@ label {
 
     #social-links i {
         font-size: 1.9rem;
-        margin: 0 1.2rem 1rem 1.2rem;
-        padding: 0.8em 1.5em 1em 0;
+        /* margin: 0 1.2rem 1rem 1.2rem; */
+        /* padding: 0.8em 1.5em 1em 0; */
+        margin: 1.5rem 3rem 2rem 3rem;
     }
 
     /**********Insight Page ***********/
 
     .cover-text {
-        padding: 0.5em;
+        /* padding: 0.5em;
         margin: 2rem;
-        bottom: 6rem;
-        right: 6.4rem;
+        bottom: 6rem; */
+        /* right: 6.4rem; */
+        right: 5%;
+        font-size: 1.2rem;
+        /* text-shadow: 0px 0px 2px #F4F4F9; */
     }
 
     /*** Topic content insights page ***/
+    #intro-heading {
+        margin: 4rem 2rem 1rem 2rem;  
+    }
 
-    /* .topic-container {
-        min-height: 100vh;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 1fr;
-        gap: 0.5rem 0.5rem;
-        align-items: center;
-        justify-content: center;
+    /* #intro-heading p {
+        margin: 1rem;
     } */
 
-
-
-
-    #intro-heading {
-        margin: 1.5rem 0 1rem 0;
-        /* margin-top: 1.5em; */
-    }
-
-    #intro-heading p {
-        margin: 1rem;
-    }
-
     #chart-header {
-        align-self: center;
         margin-left: 0;
-        margin-top: 8rem;
+        margin-top: 2rem;
+        padding-bottom: 1.3rem;
     }
 
     #chart-bar iframe {
@@ -1029,32 +1044,34 @@ label {
 
     .topic-box {
         margin: 0;
+        /* height: auto; */
     }
 
     .topic-box1 {
-        margin: 1.8rem 0.5rem 0 0;
         flex-wrap: wrap;
+        margin: 1.5% 5%;
     }
 
     .topic-box:nth-child(2) {
-        margin: -5rem 0 0 1rem;
+        /* margin: 2% 5%; */
     }
 
-    .topic-box:nth-child(6) {
-        margin-left: 5rem;
+    .topic-box:nth-child(3) {
+        margin: 4% 5%;
     }
-    
 
-      /*** Option content insight page ***/
-      .options {
+    .topic-box:nth-child(4) {
+        margin: 4% 5%;
+    }
+    /*** Option content insight page ***/
+    .options {
         text-align: center;
-        margin-top:-7rem;
     }
 
     /*** Flex section content insight page ***/
     /********* Option content insight page ***********/
 
-    .option-container { 
+    .option-container {
         flex-direction: column;
     }
 
@@ -1063,11 +1080,6 @@ label {
     .option-dynamic {
         display: flex;
         flex-direction: column;
-    }
-
-    .charger {
-        margin: 1% 0 1% 2%;
-        flex: 100%;
     }
 
     .charger h3 {
@@ -1080,21 +1092,14 @@ label {
         margin-bottom: 1rem;
     }
 
-    .charger-img {
-        align-self: center;
-        margin-left: 50%;
-        margin-bottom: 7%;
-        
-    }
-
     .wirless {
-        margin: 2rem  4rem;
+        margin: 2rem 4rem;
         /* padding-right: 2em; */
     }
 
     .wirless img {
         align-self: center;
-        margin-right: 4em;
+        margin-right: 4rem;
     }
 
     .wirless h3 {
@@ -1127,10 +1132,6 @@ label {
     .dynamic-img {
         margin: 0 0 10rem 0;
     }
-
-
-
-
 
     /* .charger {
         margin: 2%;
@@ -1180,7 +1181,7 @@ label {
     /**** Sign Up Form Page Content*****/
 
     .signup-form {
-        width: 45%;
+        width: 70%;
         left: 10%;
         padding: 3rem 1.6rem 0.5rem 1.6rem;
         margin: 12rem 7rem 8em 0;
@@ -1198,12 +1199,13 @@ label {
     /** Start of Footer content **/
 
     footer div {
-        margin: 0.2% 3%;
+        /* margin: 0.2% 3%; */
     }
 
     #social-links i {
-         margin-bottom:  0.5rem;
-        
+        margin-bottom: 2rem;
+        /* margin: 1.5rem 2rem 2rem 2rem; */
+
     }
 
 }
@@ -1214,7 +1216,6 @@ label {
 @media screen and (max-width: 768px) {
 
     /* Headings and logo */
-
     .header {
         min-height: 7vh;
         line-height: 3.571rem;
@@ -1224,19 +1225,15 @@ label {
         width: 100%;
     }
 
-    /* header figure .evi {
-        display: none;
-    } */
-
-     #logo {
+    #logo {
         text-align: center;
         margin-top: 0;
     }
-
+    /************* Navigation links **********/
     #nav-menu {
         font-size: 1.3rem;
-       display: flex;
-        justify-content: center; 
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
 
@@ -1250,20 +1247,28 @@ label {
         margin-right: 0.3rem;
     }
 
-    /* Main Image overlay text*/
-
+    /************ Main Image overlay text************/
     .overlay-text {
-        padding: 0.5em;
+        /* padding: 0.5em;
         margin: 1rem;
         bottom: 20%;
-        left: 27%;
+        left: 27%; */
         font-size: 1.3rem;
+        left: 3%;
     }
 
     /* About home page*/
+    #about {
+        margin-top: 2rem;
+    }
+
+    .aim {
+        padding: 0;
+    }
 
     .about-ev h2 {
         margin-top: 1rem;
+        font-size: 1.5rem;
     }
 
     .about-ev p {
@@ -1276,11 +1281,11 @@ label {
         margin: 1.5rem 0;
     }
 
-    iframe {
+    .video-frame {
         width: 100%;
     }
 
-    /* Checkout list section home page */
+    /*********** Checkout list section home page **********/
 
     #list-container {
         flex-direction: column;
@@ -1289,6 +1294,7 @@ label {
 
     .check-out-text {
         margin: 2rem 0 1rem 0;
+        font-size: 1.5rem;
     }
 
     .check-out-list {
@@ -1313,22 +1319,28 @@ label {
         display: none;
     }
 
-    /*** Footer content ***/
+    /******** Footer content ********/
+
+    footer {
+        flex-direction: column;
+    }
 
     footer div {
-        margin: 1.3% 3%;
+         margin: 0 auto;   
+        text-align: center;
+        width: 50%;
         font-size: 1.2rem;
     }
 
     #social-links {
-        text-align: center;
-        width: 65%;
+        width: 100%;
     }
 
     #social-links i {
-        font-size: 1.2rem;
-        margin: 0;
-        padding-right: 0 0.5em;
+        font-size: 1.5rem;
+        text-align: center;
+        /* margin: 1rem 1rem 4rem 0;; */
+        /* padding-right: 0 0.5em; */
     }
 
 
@@ -1337,58 +1349,54 @@ label {
     /* Background image */
 
     .cover-text {
-        font-size: 1.3rem;
-        padding: 0.3em 0 1em 1.1em;
+        font-size: 1.rem;
+        /* padding: 0.3em 0 1em 1.1em;
         margin: 1em;
         bottom: 19%;
-        right: 12%;
+        right: 12%; */
+        right: 3%;
     }
 
     /*** Topic content insights page ***/
 
     #intro-heading {
-        margin: 1.5rem 0 1rem 0;
+        margin: 2.5rem 0 1rem 0;
         text-align: center;
+        font-size: 1.5rem;
     }
 
-    #intro-heading p {
-        /* margin: 0 2rem 0 2rem; */
-        padding: 0;
-        text-align: center;
+    #chart-header {
+        align-self: center;
     }
 
-    .misconceptions p {
+    #chart-bar iframe {
+        overflow-y: hidden;
+        margin: 0 2rem 0 0;
+    }
+
+    /* .misconceptions p {
         font-weight: 800;
         margin-top: 1.5rem;
-    }
+    } */
 
-
-    .benefits p {
+    /* .benefits p {
         margin-top: 1rem;
         text-align: left;
-    }
-
-    .benefit-list li {
-        list-style-type: square;
-        list-style-position: inside;
     }
 
     .ev-types h4 {
         color: #141414;
         font-size: 1.5rem;
-    }
+    } */
 
     /** Topic container **/
-
     .topic-container {
-        /* gap: 2.5rem 2.8rem; */
-        /* padding: 0 0.5rem 0 3.5rem; */
-        width: 100%;
+        gap: 2rem 2.8rem;
+        grid-template-columns: 25%;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.3rem;
     }
-
-     /* .topic-box {
-        margin: 1.5rem 1.5rem 2.5rem 1.5rem;
-    } */
 
     .topic-box1,
     .topic-box2,
@@ -1397,58 +1405,49 @@ label {
         grid-column: span 2;
     }
 
-    .topic-container {
-        /* gap: 2.5rem 2.8rem; */
-        grid-template-columns: 25%;
-        width: 90%;
-        margin-left: 5rem;
-    }
-
     .topic-box3,
     .topic-box4,
     .topic-box5,
     .topic-box6 {
         border: 0;
-}
+    }
 
     .topic-box1 {
         margin: 3rem 1.5rem 0 0.5rem;
-    } 
+    }
 
     .topic-box:nth-child(2) {
-        margin-top: -9rem;
+        margin: 0 1rem 0 1rem;;
     }
 
     .topic-box:nth-child(3) {
-        margin: 3rem 2rem 3rem 3rem;
-        padding: 0;  
-    }   
+        margin: 1rem 2rem 1rem 3rem;
+        padding: 0;
+    }
 
     .topic-box:nth-child(4) {
-       padding: 0;   
-    }  
-    
+        padding: 0;
+    }
+
     .topic-box:nth-child(5) {
-        padding: 0;   
-        margin: 3rem 1rem 3rem 2rem; 
-     }   
+        padding: 0;
+        
+    }
 
     .topic-box:nth-child(6) {
-        margin: 3rem 2rem 3rem 2rem; 
-        padding: 0; 
-    }   
-
+        margin: 2rem 2rem 4rem 2rem;
+        padding: 0;
+        /* font-size: 1.3rem; */
+    }
 
     /*** Option content insight page ***/
 
     .options {
         text-align: center;
-        margin-top:-5rem;
     }
 
     .options h3 {
-        /* padding: 4em 0 1.5em 4em; */
-        /* text-align: left; */
+       margin-top: 1rem;
         padding: 0;
 
     }
@@ -1464,7 +1463,7 @@ label {
 
     /**************** Option container insights page *********************/
 
-    .option-container { 
+    .option-container {
         flex-direction: column;
     }
 
@@ -1491,10 +1490,10 @@ label {
     }
 
     .charger-img {
-        align-self: center;
-        margin-left: 36%;
-        margin-bottom: 10%;
-        
+        /* align-self: center;
+        margin-bottom: 10%; */
+        /* width: 100%; */
+
     }
 
     .wirless {
@@ -1503,13 +1502,13 @@ label {
     }
 
     .wirless img {
-        align-self: center;
-        margin-right: 4em;
+        /* align-self: center; */
+        width: 100%;
     }
 
     .wirless h3 {
         text-align: center;
-        margin: 2rem 3rem 0 1rem;
+        margin: 0 3rem 0 1rem;
 
     }
 
@@ -1525,8 +1524,6 @@ label {
 
     .dynamic h3 {
         text-align: center;
-        margin: 0 2rem 0 1rem;
-
     }
 
     .dynamic p {
@@ -1535,10 +1532,11 @@ label {
     }
 
     .dynamic-img {
-        margin: 0 0 20rem rem;
-        margin: 0 auto;
-    } */
+        /* margin-bottom: 20rem; */
+        /* width: 100%; */
+    }
 
+    */
     /**** Sign Up Form Page Content*****/
 
     .signup-form {
@@ -1554,7 +1552,6 @@ label {
 
     .signup-form p {
         margin-bottom: 1.5rem;
-        text-align: left;
         font-size: 1.3rem;
     }
 
@@ -1564,282 +1561,235 @@ label {
         font-size: 1.2rem;
     }
 
-
-
-    /**  Media Query for small screen sizes from 480px wide and down **/
-
-@media screen and (max-width: 480px) {
-
-     /* Headings and logo */
-
-     /* .header {
-        min-height: 7vh;
-        line-height: 3.571rem;
-        flex-direction: column;
-        place-content: center;
-        flex-wrap: nowrap;
-        width: 100%;
-    } */
-
-     #logo {
-        margin: 0.5em 0 0 0;
-        font-size: 2rem;
-    }
-
-    #nav-menu {
-        font-size: 1.2rem;
-        /* justify-content: center;  */
-    }
-
-    #nav-menu ul li {
-        margin: 0.2rem;
-    }
-
-    #nav-menu ul>li>.sign-up {
-        margin-right: 0.3rem;
-    }
-
-    /* Main Image overlay text*/
-
-    /* About home page*/
-
-    .about-ev h2 {
-        margin-top: 1rem;
-    }
-
-    .about-ev p {
-        width: 100%;
-        padding: 0;
-
-    }
-
-    .video {
-        margin: 1.6rem 0;
-    }
-
-    iframe {
-        width: 100%;
-    }
-
-    /* Checkout list section home page */
-
-    .check-out-text {
-        margin: 2rem 0 1rem 0;
-        align-self: center;
-    }
-
-    .check-out-list {
-        width: 90%;
-        margin: 1rem 0 8rem 0;
-    }
-
-    /*** Footer content ***/
-    footer {
-        flex-direction: column;
-    }
-
-    footer div {
-        margin: 1% 3%;
-        font-size: 1.2rem;
-        text-align: center;
-    }
-
-    #social-links {
-        width: 100%;
-    }
-
-    #social-links i {
-        font-size: 1.2rem;
-        /* margin: 0 3%; */
-        text-align: center;
-    }
-
-
-    /**********Insight Page ***********/
-
-    /* Background image */
-
-    .cover-text {
-        font-size: 1.3rem;
-        padding: 0.3em 0 1em 1.1em;
-        margin: 1em;
-        bottom: 19%;
-        right: 12%;
-    }
-
-    /*** Topic content insights page ***/
-
-    #intro-heading {
-        margin: 1.5rem 0 1rem 0;
-    }
-
-    #intro-heading p {
-        /* margin: 0 2rem 0 2rem; */
-        margin: 0;
-        align-self: center;
-    }
-
-    .misconceptions p {
-        margin-top: 1.5rem;
-    }
-
-    .benefits p {
-        margin-top: 1rem;
-    }
-
-    .ev-types h4 {
-        font-size: 1.5rem;
-    }
-
-    /** Topic container **/
-
-    .topic-container {
-        /* gap: 2.5rem 2.8rem; */
-        grid-template-columns: 15%;
-        width: 90%;
-        /* margin-left: 2rem; */
-        align-items: center;
-        font-size: 1.6rem;
-    }
-
-     /* .topic-box {
-        margin: 1.5rem 1.5rem 2.5rem 1.5rem;
-    } */
-
-    .topic-box1 {
-        padding: 0;
-        margin: 0;
-    }
-
-    /* .topic-box:nth-child(3),
-    .topic-box:nth-child(4),
-    .topic-box:nth-child(5),
-    .topic-box:nth-child(6) {
-        padding: 0em;
-    }
-
-    / .topic-box:nth-child(6) {
-        margin: 2rem 4rem 3rem 3rem;
-        
-    }  */
-
-
-    /*** Option content insight page ***/
-
-    .options {
-        text-align: center;
-    }
-
-    .options h3 {
-        margin: 5rem 0 1rem 4rem;
-        text-align: center;
-    }
-
-    .options p {
-        margin: 0 0 1rem 2rem;
-        text-align: center;
-        padding: 0;
-    }
-
-
-    /**************** Option container insights page *********************/
-
-
-    .charger {
-        margin: 1% 2% 1% 1%;
-        padding-top: 1%;
-        flex: 100%;
-    }
-
-    .charger h3 {
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
-    .charger ul li {
-        text-align: center;
-        padding-right: 1%;
-    }
-
-    .charger-img {
-        align-self: center;
-        margin-left: 36%;
-        margin-bottom: 10%; 
-    }
-
-    .wirless {
-        margin: 0 auto;
-        /* padding-right: 2em; */
-        float: 100%;
-    }
-
-    .wirless img {
-        align-self: center;
-        padding-right: 4em;
-    }
-
-    .wirless h3 {
-        text-align: center;
-        padding: 0 3em 0 1em;
-
-    }
-
-    .wirless p {
-        text-align: center;
-        padding: 0 4.8em 1em 1em;
-
-    }
-
-    .dynamic {
-        margin: 1.5rem;
-        padding-right: 1em;
-        /* place-content: center; */
-        width: 100%;
-    }
-
-    .dynamic h3 {
-        margin: 0 2em 0 1em;
-
-    }
-
-    .dynamic p {
-        text-align: center;
-        margin: 0 2em 0 1em;
-    }
-
-    .dynamic-img {
-        /* margin:0 0 10em 1em; */
-        margin: 0 auto;
-    }
-
-    /**** Sign Up Form Page Content*****/
-
-    .signup-form {
-        width: 80%;
-        left: 10%;
-        /* padding: 2em 2em 2em 1.6em; */
-        margin: 12rem 7rem 5em 0;
-    }
-
-    .signup-form h2 {
-        font-size: 2rem;
-    }
-
-    .signup-form p {
-        margin-bottom: 1.5rem;
-        text-align: left;
-        font-size: 1.3rem;
-    }
-
-    /* Text input field*/
-
-    label {
-        font-size: 1.2rem;
-    }
-
-
-
 }
 
+    /**  Media Query for small screen sizes from 576px wide and down **/
 
-}
+    @media screen and (max-width: 576px) {
+
+        /* Headings and logo */
+        #logo {
+            margin-top: 0.5em;
+            font-size: 2rem;
+        }
+        /************* Navigation links **********/
+        #nav-menu {
+            font-size: 1.2rem;
+        }
+
+        #nav-menu ul li {
+            margin: 0.2rem;
+        }
+
+        #nav-menu ul>li>.sign-up {
+            margin-right: 0.3rem;
+        }
+
+        /* Main Image overlay text*/
+        /* About home page*/
+
+        .about-ev h2 {
+            margin-top: 1rem;
+        }
+
+        .video {
+            margin: 1.6rem 0;
+        }
+
+        /************ Checkout list section home page *********/
+        .check-out-text {
+            align-self: center;
+        }
+
+        /* .check-out-list {
+            width: 90%;
+            margin: 1rem 0 8rem 0;
+        } */
+
+        /********* Footer content ********/
+
+        footer div {
+            /* margin: 1% 3%; */
+            width: 70%;
+            font-size: 1.2rem;
+        }
+
+        /* #social-links {
+            width: 100%;
+        }  */
+
+        #social-links i {
+            font-size: 1.3rem;
+            margin: 0.5% 3%;
+            
+        }
+
+
+        /**********Insight Page ***********/
+
+        /* Background image */
+
+        /* .cover-text {
+            font-size: 1.3rem;
+            padding: 0.3em 0 1em 1.1em;
+            margin: 1em;
+            bottom: 19%;
+            right: 12%;
+        } */
+
+        /*** Topic content insights page ***/
+
+        #intro-heading {
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        #intro-heading p {
+            /* margin: 0 2rem 0 2rem; */
+            /* margin: 0;
+            align-self: center; */
+        }
+
+        .misconceptions p {
+            margin-top: 1rem;
+        }
+
+        .benefits p {
+            margin-top: 1rem;
+        }
+
+        .ev-types h4 {
+            font-size: 1rem;
+        }
+
+        /** Topic container **/
+
+         /* .topic-container {
+            /* gap: 2.5rem 2.8rem; */
+            /* grid-template-columns: 15%;
+            width: 90%; */
+            /* margin-left: 2rem; *
+            align-items: center;
+            font-size: 1.6rem;
+        }  */
+
+        .topic-box1 {
+            margin: 2rem 1rem 0 0.5rem;;
+        }
+
+        .topic-box:nth-child(3) {
+            margin: 1rem 1.5rem 1rem 0.5rem;
+            padding: 0;
+        }
+
+        .topic-box:nth-child(6) {
+        margin: 2rem 1.5rem 3rem 1.5rem; 
+    }  
+
+
+        /******* Option content insight page ******/
+
+        .options h3 {
+            /* margin: 3rem 0 1rem 4rem; */
+            text-align: center;
+            font-size: 1.4rem;
+        }
+
+        .options p {
+            margin: 1rem 1rem 3rem 1rem;
+            padding: 0;
+            text-align: left;
+        }
+
+
+        /**************** Option container insights page *********************/
+
+
+        .charger {
+            /* margin: 1% 2% 1% 1%; */
+            /* padding-top: 1%; */
+            /* margin: 0 auto; */
+            
+        }
+
+        .charger h3 {
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .charger ul li {
+            text-align: center;
+            padding-right: 1%;
+        }
+
+        .charger-img {
+            width: 100%;
+            /* margin-bottom: 10%;  */
+        }
+
+        .wirless {
+            margin: 0 auto;
+            /* padding-right: 2em; */
+            /* float: 100%; */
+        }
+
+        .wirless img {
+            /* margin-top: 3rem; */
+            width: 80%;
+        }
+
+        .wirless h3 {
+            margin-top: 2rem;
+        }
+
+        .wirless p {
+            margin: 1rem 1rem 1rem 1.5rem;
+        }
+
+        .dynamic {
+            /* margin: 1.5rem; */
+           
+        }
+
+        .dynamic h3 {
+            /* margin: 0 2em 0 1em; */
+        }
+
+        .dynamic p {
+            margin: 1rem 1rem 1rem 1.5rem;
+            text-align: left;
+        }
+
+        .dynamic-img {
+            margin-left: 3rem;
+        }
+
+        /**** Sign Up Form Page Content*****/
+
+        .signup-form {
+            width: 80%;
+            left: 10%;
+            /* padding: 2em 2em 2em 1.6em; */
+            margin: 12rem 7rem 5em 0;
+        }
+
+        .signup-form h2 {
+            font-size: 2rem;
+        }
+
+        .signup-form p {
+            margin-bottom: 1.5rem;
+            text-align: left;
+            font-size: 1.3rem;
+        }
+
+        /* Text input field*/
+
+        label {
+            font-size: 1.2rem;
+        }
+
+
+
+    }
+
+
