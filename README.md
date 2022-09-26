@@ -25,7 +25,7 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 
 # User Stories
-***
+
 ### Client Goals: 
 
 + To create a user friendly website where the contents are easily accessible. 
@@ -38,10 +38,8 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 + To create a mailing whereby users can be kept informed and in so do guaranteeing future web traffic.  
 
- 
 
 ### First Time Visitor Goal: 
-
 
 + I want to learn more about electric vehicle and how it can help me become climate positive.  
 
@@ -54,9 +52,7 @@ This website aims to educate and demystify some of the myths surrounding early a
 + I want to be able to be kept informed on new developments via the website, the social media contacts and the mailing list. 
 
 
-
 ### Returning Visitor Goals: 
-
 
 + I want to be able to see updates on innovations and timeframe for availability. 
 
@@ -66,28 +62,92 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 + I want the website to arouse my interest and in so doing allow further investigation on the topic. 
 
- 
 
 ### Frequent Visitor Goals:
   
-
 + I want to be able to lease or purchase an electric vehicle as a result of the information provided on the website. 
 
 ## Features
 ***
 ## Existing Features
 ***
-+ ## Navigation bar
++ ### Navigation bar
 
   * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, insights and Sign Up page and is identical in each page to allow user easy navigation.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
   * The navigation bar is in a centered cloumn on small screen sizes
 
-    <!-- ![EVInnovation](./READMEimages/nav-bar.png) -->
+
+
   ![Nav Menu](./READMEimages/nav-bar.png)
   ![Nav Menu](./READMEimages/smallnav-bar.png)
 
-  
++ ### The landing page
+
+  * The landing page includes an image of an electric vehicle charging with text overlay that .
+  * This section introduces the user to the goal of the website.
+
+     * ####  Landing page image
+
+   ![Landing Page](./READMEimages/landing-page-image.png)
+    
++ ### About Section
+     
+   * The about section introduces the user to the objectives and purpose of the website.
+   * The section made a brief description about EV and the acronym of electric vehicle (EV).
+   * This section has a contact us clickable botton that takes user to the sign up page.
+   * The section introduces the user to types of electric vehicle and why it is a better choice in a short video of two minutes, thirthy seconds by Energy Source.
+   * The section encourages user to be climate positive.  
+        
+
+    ![About](./READMEimages/about-section.png)
+
+
+    +  ###  Check List Content Section
+
+       * The user can see the interactive menu, a check list of the insights page content. The list has a transition effect when hover.  
+       * User can be taken to insights page when any of the menu is clicked.  
+
+       ![Check List](./READMEimages/checklist-section.png)
+
+       [Small Check List Image](./READMEimages/sm-checklist-section.png)
+
+
+    + ### Footer
+
+      * The footer is featured on the pages of the website. It includes links to the relevant social media sites to the center right and the logo on the left side. The links will open to a new tab to allow easy navigation for the user.
+      * The logo and the social media links is displayed in vertically aligned order on small screen sizes.
+      * The footer is valuable to the user as they can interact and keep connected with others with similar interest via social media.
+      * The user can stay up to date with news and insights on the EV industry.
+      * The footer is also a channel to create and promote awareness about EVInnovation to more users. 
+
+
+      ![Footer](./READMEimages/footer-image.png)
+
+      [Small Footer Image](./READMEimages/sm-footer-image.png)
+
+
+    ### The Insights Page
+
+     * The insight page includes an image of an electric vehicle and a charger at the top part of the page, a with text overlay that promotes the future of electric vehicle to the user.
+     * This section provides the user with detailed information surrounding electric vehicle.
+     * The user can read and learn about benefits and types of electric vehicle.
+     * The user can see the sales chart showing the accelerated growth over the past few years. 
+     * The user can learn about the charging options available.
+     * The insights page can help the user change their perspectives towards electric vehicle, why it's important to the environment.
+     * The page can enlightened user about the incentives available to drivers. 
+     * The page is displayed in rows and columns layout for big screen size, and displayed vertically on small screen sizes.
+     * The insights page is responsive on all screen size.
+
+      ![Insights Page](./READMEimages/insights-page-image.png)
+
+
+
+
+
+
+
+
 
 
 
