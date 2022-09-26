@@ -1,13 +1,16 @@
 # EVInnovation Website
 View the live project here [url](), link goes here
 
-The EVInnovation website is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors to find reliable information pertaining to Electric Vehicle news, insights and update and new innovations.
+The EVInnovation website is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors to find reliable information pertaining to Electric Vehicle news, insights, update and new innovations.
 
 This website is targeted towards drivers, individuals, businesses and curious minds who loves to learn about electric vehicles.
 
-Imirresponsive image goes here
+                                               Imirresponsive image goes here
 
-##Initial Discussion 
+***
+
+
+## Initial Discussion 
 
 This site will be targeted to drivers, anyone considering driving a vehicle, companies looking to become climate positive, such as changing fleets to environmentally friendly. 
 
@@ -17,10 +20,64 @@ Electric Vehicle is an inevitable innovation that will eventually be adapted by 
 
 Various Government agencies and research bodies have confined that electric vehicles are more climate positive than petrol and diesel vehicles. However, there seems to be barriers to the adoption of electric vehicle such as not enough charge points, range issues and convenience. 
 
-This website looks at some of those barriers and innovations in the work to address these. Statistics are showing increase sales in electric vehicle and car manufactures are continuously working to make this an attractive proposition. This website aims to educate and demystify some of the myths surrounding early adoption. At very least the website aim to make electric vehicle a viable option and something to consider now or the near future. 
+This website looks at some of those barriers and innovations in the work to address these. Statistics are showing increase sales in electric vehicle and car manufactures are continuously working to make this an attractive proposition. 
+This website aims to educate and demystify some of the myths surrounding early adoption. At very least the website aim to make electric vehicle a viable option and something to consider now or the near future. 
+
+
+# User Stories
+***
+### Client Goals: 
+
++ To create a user friendly website where the contents are easily accessible. 
+
++ To create a website that can be viewed on a range of device monitor sizes. 
+
++ To educate the user on electric vehicle and how it can help the environment. 
+
++ To preview new innovations in electric vehicle technology with the aim of keeping the interested in the topic. 
+
++ To create a mailing whereby users can be kept informed and in so do guaranteeing future web traffic.  
+
+ 
+
+### First Time Visitor Goal: 
+
+
++ I want to learn more about electric vehicle and how it can help me become climate positive.  
+
++ I want to be persuading to consider electric vehicle as a viable option for my next car purchase or lease. 
+
++ I want the website to demystify any doubts I am having about electric vehicle.   
+
++ I want to navigate the website with ease, finding the contents interesting, educative and helpful. 
+
++ I want to be able to be kept informed on new developments via the website, the social media contacts and the mailing list. 
 
 
 
+### Returning Visitor Goals: 
+
+
++ I want to be able to see updates on innovations and timeframe for availability. 
+
++ I want to read about government incentives to make it a viable option for me. 
+
++ I want to be able to read about positive measureable effect of electric vehicle and at some point join the crusade. 
+
++ I want the website to arouse my interest and in so doing allow further investigation on the topic. 
+
+ 
+
+### Frequent Visitor Goals:
+  
+
++ I want to be able to lease or purchase an electric vehicle as a result of the information provided on the website. 
+
+## Features
+***
+## Existing Features
+***
++ Navigation bar
 
 
 
