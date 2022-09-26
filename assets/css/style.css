@@ -334,7 +334,6 @@ footer div {
 .cover-text h3 {
     color: #B8DBD9;
 }
-
 .cover-text {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
@@ -370,14 +369,20 @@ footer div {
 #chart-header {
     padding-bottom: 1.5em;
     color: #141414;
-    font-size: 900;
+    font-size: 1.5rem;
 }
 
-.chart-bar iframe {
+.chart-bar  {
     overflow: hidden;
     margin: 1rem;
+    width: 100%;
+    height: 27.14rem;
 }
 
+.chart {
+    width: 90%; 
+    height: 27.14rem;
+}
 .why-ev,
 .misconceptions,
 .benefits,
@@ -419,7 +424,6 @@ footer div {
     width: 100%;
     display: grid;
     grid-template-columns: 45% 45%;
-    /* grid-auto-rows: minmax(1fr, auto); */
     grid-template-rows: 1fr;
     gap: 0.5rem 0.5rem;
     align-items: center;
@@ -446,8 +450,6 @@ footer div {
 .topic-box1 {
     margin: auto 0;
     margin-right: 2rem;
-    /* height: 700px; */
-    /* margin: 1.4rem; */
 }
 
 .topic-box:nth-child(2) {
@@ -521,7 +523,7 @@ footer div {
     margin: 0 2rem 1rem 2rem;
 }
 
-.options p>span {
+.options p>span, .ev-types p>span {
     font-weight: bold;
 }
 
@@ -1185,7 +1187,7 @@ label {
     /**********Insight Page ***********/
     /* Background image cover text */
     .cover-text {
-        font-size: 1.rem;
+        font-size: 1rem;
         right: 3%;
     }
     /*** Topic content insights page ***/
@@ -1302,7 +1304,6 @@ label {
         font-size: 1.2rem;
     }
 }
-
 /**  Media Query for small screen sizes from 576px wide and down **/
 @media screen and (max-width: 576px) {
 

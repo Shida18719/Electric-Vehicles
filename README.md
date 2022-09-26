@@ -77,7 +77,17 @@ This website aims to educate and demystify some of the myths surrounding early a
 ***
 ## Existing Features
 ***
-+ Navigation bar
++ ## Navigation bar
+
+  * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, insights and Sign Up page and is identical in each page to allow user easy navigation.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  * The navigation bar is in a centered cloumn on small screen sizes
+
+    <!-- ![EVInnovation](./READMEimages/nav-bar.png) -->
+  ![Nav Menu](./READMEimages/nav-bar.png)
+  ![Nav Menu](./READMEimages/smallnav-bar.png)
+
+  
 
 
 
@@ -91,7 +101,7 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Rashidat Adekoya,
 
@@ -198,4 +208,4 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 
 ---
 
-Happy coding!
+Happy coding! -->
