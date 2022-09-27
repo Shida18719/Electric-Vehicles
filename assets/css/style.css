@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Open+Sans&family=Roboto&display=swap');
-
+/* Base reset */
 * {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
-
 html {
     font-size: 100%;
 }
-
 body {
     font-family: 'Open sans', sans-serif;
     color: #2A353C;
@@ -50,7 +48,6 @@ body {
 }
 
 /* Navigation links */
-
 .header-menu {
     display: flex;
     flex-direction: column;
@@ -90,10 +87,7 @@ body {
 .active {
     border-bottom: 3px solid #045839;
 }
-
-
-/* Home Main Image and overlay text*/
-
+/* Home Page Main Image and overlay text*/
 #image-container {
     position: relative;
     width: 100%;
@@ -140,8 +134,7 @@ h2 {
     letter-spacing: 0.25rem;
 }
 
-/* About home page*/
-
+/* About section - home page*/
 #about {
     min-height: 37.5vh;
     /* margin-top: 7.5%; */
@@ -195,7 +188,7 @@ video iframe {
 }
 
 
-/* Checkout section home page */
+/* Checkout list content section home page */
 
 #list-container {
     min-height: 80vh;
@@ -308,9 +301,7 @@ footer div {
 
 
 /**********Insight Page ***********/
-
 /* Background image */
-
 #bgc-image {
     position: relative;
     height: 37.5rem;
@@ -418,7 +409,6 @@ footer div {
 }
 
 /** Topic container **/
-
 .topic-container {
     min-height: 100vh;
     width: 100%;
@@ -528,7 +518,6 @@ footer div {
 }
 
 /********* Option container insights page ***********/
-
 .option-container {
     display: flex;
     flex-wrap: wrap;
