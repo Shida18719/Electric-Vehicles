@@ -34,6 +34,7 @@ body {
     /* margin-top: 0.3rem; */
     overflow: hidden;
     box-shadow: 0 0 7px #2A353C;
+    font-family:  Lato, Merriweather, sans-serif;
 }
 
 .header-menu a {
@@ -44,7 +45,7 @@ body {
     margin: 1rem 0 0 4rem;
     font-size: 2.5rem;
     color: #045839;
-    font-family: Merriweather, Lato, sans-serif;
+    /* font-family:  Lato, Merriweather, sans-serif; */
 }
 
 /* Navigation links */
