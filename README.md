@@ -103,17 +103,17 @@ This website aims to educate and demystify some of the myths surrounding early a
     ![About](./READMEimages/about-section.png)
 
 
-    +  ###  Check List Content Section
++  ###  Check List Content Section
 
        * The user can see the interactive menu, a check list of the insights page content. The list has a transition effect when hover.  
        * User can be taken to insights page when any of the menu is clicked.  
 
-       ![Check List](./READMEimages/checklist-section.png)
+    ![Check List](./READMEimages/checklist-section.png)
 
-       [Small Check List Image](./READMEimages/sm-checklist-section.png)
+    [Small Check List Image](./READMEimages/sm-checklist-section.png)
 
 
-    + ### Footer
++ ### Footer
 
       * The footer is featured on the pages of the website. It includes links to the relevant social media sites to the center right and the logo on the left side. The links will open to a new tab to allow easy navigation for the user.
       * The logo and the social media links is displayed in vertically aligned order on small screen sizes.
@@ -122,12 +122,12 @@ This website aims to educate and demystify some of the myths surrounding early a
       * The footer is also a channel to create and promote awareness about EVInnovation to more users. 
 
 
-      ![Footer](./READMEimages/footer-image.png)
+    ![Footer](./READMEimages/footer-image.png)
 
-      [Small Footer Image](./READMEimages/sm-footer-image.png)
+    [Small Footer Image](./READMEimages/sm-footer-image.png)
 
 
-    ### The Insights Page
++  ### The Insights Page
 
      * The insight page includes an image of an electric vehicle and a charger at the top part of the page, a with text overlay that promotes the future of electric vehicle to the user.
      * This section provides the user with detailed information surrounding electric vehicle.
@@ -137,11 +137,27 @@ This website aims to educate and demystify some of the myths surrounding early a
      * The insights page can help the user change their perspectives towards electric vehicle, why it's important to the environment.
      * The page can enlightened user about the incentives available to drivers. 
      * The page is displayed in rows and columns layout for big screen size, and displayed vertically on small screen sizes.
-     * The insights page is responsive on all screen size.
+     * The insights page can be responsive on all screen size.
+     * There is a transition effect on some parts of the insight page, from the why Ev to the types of EV. 
 
-      ![Insights Page](./READMEimages/insights-page-image.png)
 
+    [Insights Page Large Screen Display](./READMEimages/insights-page-image.png)
 
+    [Insights Page Small Screen Display](./READMEimages/insights-page-small-img.png)
+
+    ![Insights Page Large Screen Display](./READMEimages/insights-page-display.png)
+
++   ###  The Sign Up Page
+
+      *  This page will allow the user to get signed up to EVInnovation to join the mailing list. The user will be able to recieve news and updates EV and the industry.
+      *  The form contains fields for the users name and email address where user will be asked to submit their full name and email address.
+      * The user submits the form using the subscribe button. Users must fill in the name and email to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+
+      ![Sign Up Page Large Screen Display](./READMEimages/sign-up-form.png)
+
++  ### Thank You Page.
+
+      * A thank you message will be send to the user for submitting the form and lets them know there registration was successful.    
 
 
 
