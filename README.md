@@ -149,15 +149,50 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 +   ###  The Sign Up Page
 
-      *  This page will allow the user to get signed up to EVInnovation to join the mailing list. The user will be able to recieve news and updates EV and the industry.
-      *  The form contains fields for the users name and email address where user will be asked to submit their full name and email address.
+      * This page will allow the user to get signed up to EVInnovation to join the mailing list. The user will be able to recieve news and updates on relevant information on EV and the industry.
+      * The form contains fields for the users name and email address where user will be asked to submit their full name and email address.
       * The user submits the form using the subscribe button. Users must fill in the name and email to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+      * The user is free to unsubscribe if they are no longer interested.
 
       ![Sign Up Page Large Screen Display](./READMEimages/sign-up-form.png)
 
 +  ### Thank You Page.
 
       * A thank you message will be send to the user for submitting the form and lets them know there registration was successful.    
+
+
+## Future Features
+   * To use JavaScript to add a sandwich menu navigation bar formobile screen size.
+   * Add google map to different electric vehicle charging location.
+   * Add direct links of Electric vehicle dealers charging area.
+   * A link to government legislation.
+   * A link to carbon footprint monitor websites. An example is ecolgi.com.
+   * EV models comparison and recommendation page.
+
+
+# Typography and Color Scheme
+
+## Typography
+
++ Google Fonts was used for the following:
+
++ Lato is used for headings on the site, with a secondary of serif font.
+
++ Open sans is used for the body text on the site, with a secondary sans-serif font.
+
++ Roboto is used for the overlay-text, a sans-serif font.
+
++ Merriweather is used for the list on the home page, with a secondary of Roboto and sans-serif.
+
+## Color Scheme
+
++ EVInnovation website uses color palette of nature. The color palette was created using the [Coolors](https://coolors.co/141414-2a353c-b8dbd9-f4f4f9-04724d) website.
++ The colors used are #141414(Eerie Black), #2A353C(Gunmetal), #B8DBD9(Powder Blue), #F4F4F9(Ghost White) and #04724D(Dark Spring Green)
+
+ ![Color Scheme](./READMEimages/color-scheme.png)
+
+## Wireframes
+
 
 
 

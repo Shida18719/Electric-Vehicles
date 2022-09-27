@@ -45,7 +45,6 @@ body {
     margin: 1rem 0 0 4rem;
     font-size: 2.5rem;
     color: #045839;
-    /* font-family:  Lato, Merriweather, sans-serif; */
 }
 
 /* Navigation links */
@@ -1074,18 +1073,18 @@ label {
     }
     #logo {
         text-align: center;
-        margin-top: 0;
+        margin: 0 auto;
     }
     /************* Navigation links **********/
     #nav-menu {
         font-size: 1.3rem;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         width: 100%;
     }
 
     #nav-menu ul li {
-        margin-inline: 0.3rem;
+        margin-inline: 1.8rem;
     }
 
     #nav-menu ul>li>.sign-up {
@@ -1299,7 +1298,7 @@ label {
 
     /* Headings and logo */
     #logo {
-        margin-top: 0.5em;
+        /* margin-top: 0.5em; */
         font-size: 2rem;
     }
 
