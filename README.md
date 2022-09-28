@@ -193,7 +193,23 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 ## Wireframes
 
- ![Wireframe DEsktop Home Page](https://i.imgur.com/djO4LYY.png)
+ [Desktop Home Page Wireframe](./READMEimages/desktop-homepage-wireframe.png)
+
+ [Desktop Insights page Wireframe](./READMEimages/desktop-insightspage-wireframe.png)
+
+ [Desktop Sign Up Page Wireframe](./READMEimages/desktop-sign-uppage-wireframe.png)
+
+ [Medium Screen Size Home Page Wireframe](./READMEimages/medium-screensize-homepage-wireframe.png)
+
+ [Medium Screen Size Insights Page Wireframe](./READMEimages/medium-screensize-insightspage-wireframe.png)
+
+ [Mobile Screen Size Home Page Wireframe](./READMEimages/mobile-screensize-homepage-wireframe.png)
+
+ [Mobile Screen size Insights Page Wireframe](./READMEimages/insightspage-mobile-screensize-wireframe.png)
+
+ [Mobile Screen Size Sign Up Page Wireframe](./READMEimages/mobile-screensize-signuppage-wireframe.png)
+
+ [First Design Wireframe](./READMEimages/first-design-wireframe(2).png)
 
 
 # Technology
@@ -223,9 +239,53 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 * [Google Fonts](https://fonts.google.com/) - Where used to import the fonts used on the website.
 
-* [WebAIM](https://webaim.org/resources/contrastchecker/)- Was usedfor checking color contrast for accessibility.
+* [WebAIM](https://webaim.org/resources/contrastchecker/)- Was used for checking color contrast for accessibility.
 
 # Testing
+
+## Troubleshooting & peer code review
+
+Testing was ongoing throughout the build of this website. I used Google Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along and also asked other on the slack channel to have a look and give me their opinion.
+
+The following issues were raised during my mid project meeting with my mentor:
+
+* The insights page images and overlay text were not very responsive on smaller screen size. I have used pixels and padding on the overlay text. My mentor advice I should think about the units I was using for sizing and measurement to make the site responsive. Examples, is using percentages for fuidity on containers that I would like to scale, compare to using pixels. And the use of so much padding. That has now been fixed with the use of percentages, padding and margin.   
+
+* The charger and the dynamic image always clinging to either the left or right side when resized for responsiveness. This was resolved after taking off margin-left and margin-right used when styling.
+
+Some of the suggestion raised on slack channel:
+
+* MiaRasmussen_5P, advice that I change the font size used across different screen sizes to improve readability.
+* I had issues with some text content running in vertical height when resizes for smaller screen. This was resolved with padding set to zero.
+
+## Code validation
+
+The [W3C HTML](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) validator were used to validate this project.
+
+* HTML 
+
+   + 
+* CSS
+
+  + 
+
+## Lighthouse
+
+I used Lighthouse on Google Chrome Developer Tools to test for the performance, accessibility, best practices and SEO of the website.
+* Home page lighthouse testing - mobile ~ desktop
+
+* Insights Page lighthouse testing - mobile ~ desktop
+
+* Sign Up page lighthouse testing - mobile ~ desktop
+
+## Test cases
+
+I performed differnt testing on my website using differnt browsers (google chrome, safari, mozilla firefox) and the devices (iPhone 12, motorola, ipad).
+
+I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
+* The insights page jumps or shift every time it's pushed.
+
 
 
 
