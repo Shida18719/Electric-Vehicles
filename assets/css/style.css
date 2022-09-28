@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Open+Sans&family=Roboto&display=swap');
+
 /* Base reset */
 * {
     margin: 0;
@@ -6,9 +7,11 @@
     border: none;
     box-sizing: border-box;
 }
+
 html {
     font-size: 100%;
 }
+
 body {
     font-family: 'Open sans', sans-serif;
     color: #2A353C;
@@ -31,10 +34,9 @@ body {
     width: 100%;
     background-color: #B8DBD9;
     z-index: 5;
-    /* margin-top: 0.3rem; */
     overflow: hidden;
     box-shadow: 0 0 7px #2A353C;
-    font-family:  Lato, Merriweather, sans-serif;
+    font-family: Lato, Merriweather, sans-serif;
 }
 
 .header-menu a {
@@ -64,7 +66,6 @@ body {
     list-style-type: none;
     display: inline-block;
     margin: 1rem;
-    /* line-height: 5rem; */
 }
 
 #nav-menu a {
@@ -87,6 +88,7 @@ body {
 .active {
     border-bottom: 3px solid #045839;
 }
+
 /* Home Page Main Image and overlay text*/
 #image-container {
     position: relative;
@@ -137,7 +139,6 @@ h2 {
 /* About section - home page*/
 #about {
     min-height: 37.5vh;
-    /* margin-top: 7.5%; */
 }
 
 .aim {
@@ -172,8 +173,6 @@ h2 {
     width: 100%;
     height: 500px;
     text-align: center;
-    /* padding: 3em 5em;
-    margin: 0 auto; */
     margin: 5rem auto;
 }
 
@@ -187,9 +186,7 @@ video iframe {
     height: 500px;
 }
 
-
 /* Checkout list content section home page */
-
 #list-container {
     min-height: 80vh;
     width: 100%;
@@ -257,16 +254,13 @@ video iframe {
     font-size: 1.6rem;
 }
 
-
 /** Footer content **/
 /********************/
-
 footer {
     height: 12%;
     width: 100%;
     background-color: #2A353C;
     color: #F4F4F9;
-    /* position: fixed; */
     display: flex;
     bottom: 0;
     left: 0;
@@ -290,7 +284,7 @@ footer div {
 }
 
 #social-links i {
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin: 2rem 3rem;
     color: #F4F4F9;
 }
@@ -298,7 +292,6 @@ footer div {
 #social-links i:hover {
     color: #045839;
 }
-
 
 /**********Insight Page ***********/
 /* Background image */
@@ -325,6 +318,7 @@ footer div {
 .cover-text h3 {
     color: #B8DBD9;
 }
+
 .cover-text {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
@@ -345,9 +339,7 @@ footer div {
 }
 
 /*** Topic content insights page ***/
-
 #intro-heading {
-    margin: 1rem 0 0.5rem 0;
     text-align: center;
     margin: 3rem 0 1rem 0;
     color: #141414;
@@ -358,22 +350,24 @@ footer div {
 }
 
 #chart-header {
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
     color: #141414;
     font-size: 1.5rem;
 }
 
-.chart-bar  {
-    overflow: hidden;
+.chart-bar {
+    overflow-y: hidden;
     margin: 1rem;
-    width: 100%;
+    width: 90%;
     height: 27.14rem;
 }
 
-.chart {
-    width: 90%; 
+#chart-bar iframe {
+    width: 90%;
     height: 27.14rem;
+    overflow-y: hidden;
 }
+
 .why-ev,
 .misconceptions,
 .benefits,
@@ -437,18 +431,17 @@ footer div {
     grid-column: span 2;
 }
 
-.topic-box1 {
+/* .topic-box1 {
     margin: auto 0;
     margin-right: 2rem;
-}
+} */
 
-.topic-box:nth-child(2) {
+/* .topic-box:nth-child(2) {
     border-style: none;
     align-self: center;
-    /* margin: 5rem 0 0 1rem; */
     margin: auto 0;
     margin-left: 2rem;
-}
+} */
 
 .topic-box:nth-child(3) {
     justify-self: center;
@@ -489,7 +482,6 @@ footer div {
 }
 
 /*** Option content insight page ***/
-
 .option-area {
     /* min-height: 52.5%; */
     width: 100%;
@@ -513,7 +505,8 @@ footer div {
     margin: 0 2rem 1rem 2rem;
 }
 
-.options p>span, .ev-types p>span {
+.options p>span,
+.ev-types p>span {
     font-weight: bold;
 }
 
@@ -540,7 +533,6 @@ footer div {
 /* figure {
     width: 80%;
 } */
-
 .charger {
     margin: 1%;
     /* margin-top: 1%; */
@@ -636,7 +628,6 @@ footer div {
 }
 
 /**** Sign Up Form Page Content*****/
-
 .form-section {
     min-height: 75rem;
     background: url("../images/charging-bg-image.jpg");
@@ -651,7 +642,6 @@ footer div {
     width: 40%;
     position: absolute;
     left: 10%;
-    /* padding: 2em 1.6em 0.5em 1.6em; */
     padding: 1.5rem;
     margin: 11.38rem 0.1rem 0 0;
 }
@@ -672,7 +662,6 @@ footer div {
 }
 
 /* Text input field*/
-
 .text-input {
     background: transparent;
     color: #B8DBD9;
@@ -726,7 +715,7 @@ label {
         margin-right: 2.5rem;
     }
 
-    /* Main Image overlay text*/
+    /* Home page Main Image overlay text*/
     .overlay-text {
         left: 7%;
     }
@@ -781,6 +770,7 @@ label {
     #social-links i {
         place-content: center;
     }
+
     /**********Insight Page ***********/
     /* Cover text */
     .cover-text {
@@ -818,8 +808,10 @@ label {
     .topic-box1 {
         margin: 1.3rem;
     }
+
     .topic-box:nth-child(2) {
-        margin: 3rem 0.5rem 0 0;
+        /* margin: 3rem 0.5rem 0 0; */
+        margin: 0 0.5rem 0 0;
     }
 
     .topic-box:nth-child(5) {
@@ -842,6 +834,7 @@ label {
     .wirless img {
         margin-left: 4rem;
     }
+
     .dynamic {
         margin: 4rem 2rem;
     }
@@ -868,6 +861,7 @@ label {
         margin-bottom: 1rem;
     }
 }
+
 /******* Media Query for medium screen sizes from 992px wide and down *******/
 @media screen and (max-width: 992px) {
 
@@ -876,36 +870,45 @@ label {
     #nav-menu {
         margin-right: 2rem;
     }
+
     #logo {
         margin-left: 2rem;
     }
+
     #nav-menu ul li {
         margin-right: 1rem;
     }
-    /* Main Image overlay text*/
+
+    /* Home page Main Image overlay text*/
     .overlay-text {
         font-size: 1.2rem;
         text-shadow: 0px 0px 2px #F4F4F9;
         left: 5%;
     }
+
     /* About home page*/
     #about {
         padding: 1rem;
         margin-top: 0;
     }
+
     .aim {
         padding: 1rem;
     }
+
     #contact-link {
         padding: 4em 0 4.5em 0;
     }
+
     .video {
         margin-top: 1rem;
         padding: 1em 0 0 0;
     }
+
     .video-frame {
         margin: 2%;
     }
+
     /******* Checkout list section home page ********/
     .check-out-text {
         line-height: 1.6;
@@ -920,6 +923,7 @@ label {
     .checklist li {
         line-height: 1.5;
     }
+
     /********* Footer content ********/
     footer div {
         font-size: 1.2rem;
@@ -934,6 +938,7 @@ label {
         font-size: 1.9rem;
         margin: 1.5rem 3rem 2rem 3rem;
     }
+
     /**********Insight Page ***********/
     /* Background image cover text */
     .cover-text {
@@ -946,15 +951,19 @@ label {
     #intro-heading {
         margin: 4rem 2rem 1rem 2rem;
     }
+
     #chart-header {
         margin-left: 0;
         margin-top: 2rem;
         padding-bottom: 1.3rem;
     }
+
     #chart-bar iframe {
         overflow-y: hidden;
+        overflow-x: hidden;
         margin: 0 2rem 0 0;
     }
+
     /******** Topic container insights page ********/
     .topic-box {
         margin: 0;
@@ -986,33 +995,48 @@ label {
     .option-container {
         flex-direction: column;
     }
+
     .option-charger,
     .option-wireless,
     .option-dynamic {
         display: flex;
         flex-direction: column;
     }
+
     .charger h3 {
         margin-bottom: 0.5rem;
         text-align: center;
     }
+
     .charger ul li {
         text-align: center;
         margin-bottom: 1rem;
     }
+
+    /* .charger-img {
+        align-self: center;
+        margin-right: 4rem;
+        margin-top: 3rem;
+    } */
+
     .wirless {
         margin: 2rem 4rem;
     }
+
     .wirless img {
         align-self: center;
         margin-right: 4rem;
+        margin-top: 3rem;
     }
+
     .wirless h3 {
         text-align: center;
         margin: 2rem 3rem 0 1rem;
     }
+
     .wirless p {
-        text-align: center;
+        /* text-align: center; */
+        align-items: center;
         margin: 0 2.8rem 1rem 2.8rem;
     }
 
@@ -1035,6 +1059,7 @@ label {
         margin: 0 0 10rem 0;
     }
 
+    /**** End of Insight Page Content*****/
     /**** Sign Up Form Page Content*****/
     .signup-form {
         width: 70%;
@@ -1058,7 +1083,6 @@ label {
     }
 }
 
-
 /**  Media Query for small screen sizes from 768px wide and down **/
 @media screen and (max-width: 768px) {
 
@@ -1071,10 +1095,12 @@ label {
         flex-wrap: nowrap;
         width: 100%;
     }
+
     #logo {
         text-align: center;
         margin: 0 auto;
     }
+
     /************* Navigation links **********/
     #nav-menu {
         font-size: 1.3rem;
@@ -1092,11 +1118,13 @@ label {
         border-radius: 25px;
         margin-right: 0.3rem;
     }
+
     /*** Main Image overlay text***/
     .overlay-text {
         font-size: 1.3rem;
         left: 3%;
     }
+
     /* About home page*/
     #about {
         margin-top: 2rem;
@@ -1124,6 +1152,7 @@ label {
     .video-frame {
         width: 100%;
     }
+
     /*********** Checkout list section home page **********/
     #list-container {
         flex-direction: column;
@@ -1156,9 +1185,11 @@ label {
     .checklist a:hover {
         display: none;
     }
+
     /******** Footer content ********/
     footer {
         flex-direction: column;
+        width: 140%;
     }
 
     footer div {
@@ -1166,19 +1197,23 @@ label {
         text-align: center;
         width: 50%;
     }
+
     #social-links {
         width: 100%;
     }
+
     #social-links i {
         font-size: 1.5rem;
         text-align: center;
     }
+
     /**********Insight Page ***********/
     /* Background image cover text */
     .cover-text {
         font-size: 1rem;
         right: 3%;
     }
+
     /*** Topic content insights page ***/
     #intro-heading {
         margin: 2.5rem 0 1rem 0;
@@ -1189,14 +1224,16 @@ label {
     #chart-header {
         align-self: center;
     }
+
     /******* Topic container insights page *******/
     .topic-container {
-        gap: 2rem 2.8rem;
-        grid-template-columns: 25%;
+        /* gap: 2rem 2.8rem;
+        grid-template-columns: 25%; */
         width: 90%;
         margin: 0 auto;
         font-size: 1.3rem;
     }
+
     .topic-box1,
     .topic-box2,
     .topic-box3,
@@ -1224,28 +1261,34 @@ label {
         padding: 0;
     }
 
-    .topic-box:nth-child(4), .topic-box:nth-child(5) {
+    .topic-box:nth-child(4),
+    .topic-box:nth-child(5) {
         padding: 0;
     }
+
     .topic-box:nth-child(6) {
         margin: 2rem 2rem 4rem 2rem;
         padding: 0;
     }
+
     /*** Option content insight page ***/
     .options h3 {
         margin-top: 1rem;
         padding: 0;
     }
+
     .options p>span {
         font-weight: bold;
     }
+
     /**************** Option container insights page *********************/
     .charger {
         margin: 1% 0 1% 2%;
         flex: 100%;
     }
+
     .charger-img {
-        /* align-self: center;
+        align-items: center;
         /* width: 100%; */
     }
 
@@ -1254,12 +1297,13 @@ label {
     }
 
     .wirless img {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .wirless h3 {
         margin: 0 3rem 0 1rem;
     }
+
     /* .dynamic h3 {
         text-align: center;
     }
@@ -1269,7 +1313,7 @@ label {
     } */
 
     .dynamic-img {
-        /* margin-bottom: 20rem; */
+        /* margin-left: 4rem; */
         /* width: 100%; */
     }
 
@@ -1293,6 +1337,7 @@ label {
         font-size: 1.2rem;
     }
 }
+
 /**  Media Query for small screen sizes from 576px wide and down **/
 @media screen and (max-width: 576px) {
 
@@ -1306,13 +1351,16 @@ label {
     #nav-menu {
         font-size: 1.2rem;
     }
+
     #nav-menu ul li {
         margin: 0.2rem;
     }
+
     /* About home page*/
     .video {
         margin: 1.6rem 0;
     }
+
     /************ Checkout list section home page *********/
     .check-out-text {
         align-self: center;
@@ -1323,15 +1371,18 @@ label {
         width: 70%;
         font-size: 1.2rem;
     }
+
     #social-links i {
         font-size: 1.3rem;
         margin: 0.5% 3%;
     }
+
     /**********Insight Page ***********/
     /*** Topic content insights page ***/
     #intro-heading {
         margin: 1.5rem 0 1rem 0;
     }
+
     .misconceptions p {
         margin-top: 1rem;
     }
@@ -1339,6 +1390,7 @@ label {
     .benefits p {
         margin-top: 1rem;
     }
+
     .ev-types h4 {
         font-size: 1rem;
     }
@@ -1355,16 +1407,25 @@ label {
     .topic-box:nth-child(6) {
         margin: 2rem 1.5rem 3rem 1.5rem;
     }
+
     /******* Option content insight page ******/
+
+    .options {
+        margin-left: 3rem;
+    }
+
     .options h3 {
         text-align: center;
         font-size: 1.4rem;
+        margin: 1rem;
     }
+
     .options p {
         margin: 1rem 1rem 3rem 1rem;
         padding: 0;
         text-align: left;
     }
+
     /**************** Option container insights page *********************/
     .charger {
         /* margin: 1% 2% 1% 1%; */
@@ -1378,11 +1439,14 @@ label {
 
     .charger ul li {
         text-align: center;
-        padding-right: 1%;
+        /* padding-right: 1%; */
     }
+
     .charger-img {
         width: 100%;
+        /* margin-left: 2rem; */
     }
+
     .wirless {
         margin: 0 auto;
     }
@@ -1394,9 +1458,12 @@ label {
     .wirless h3 {
         margin-top: 2rem;
     }
+
     .wirless p {
-        margin: 1rem 1rem 1rem 1.5rem;
+        margin: 1rem 0.5rem 1rem 1.5rem;
+        font-size: 1.3rem;
     }
+
     .dynamic {
         /* margin: 1.5rem; */
     }
@@ -1409,9 +1476,11 @@ label {
         margin: 1rem 1rem 1rem 1.5rem;
         text-align: left;
     }
+
     .dynamic-img {
         margin-left: 3rem;
     }
+
     /**** Sign Up Form Page Content*****/
     .signup-form p {
         margin-bottom: 1.5rem;
