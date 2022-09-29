@@ -461,8 +461,6 @@ footer div {
 
 .topic-box:nth-child(5) {
     box-shadow: 0.75rem 0.75rem 0.3rem #B8DBD9;
-    /* align-self: center;
-    margin-left: 4rem; */
     padding: 1em;
     justify-self: center;
     margin: 2rem 4rem 3rem 3rem;
@@ -493,7 +491,6 @@ footer div {
 }
 
 .options h3 {
-    /* padding: 5em 0 1.5em 0; */
     padding: 1.5em 0 1.5em 0;
     font-size: 1.8rem;
     text-align: center;
@@ -864,7 +861,6 @@ label {
 
     /**** Sign Up Form Page Content ****/
     .signup-form {
-        /* padding: 1.5em 1.6em 0.5em 1.6em; */
         width: 50%;
     }
 
@@ -901,21 +897,21 @@ label {
         margin: 0 1rem 0.7rem 1rem;
     }
 
-    /* Home page Main Image overlay text*/
-    /* #insights-image {
+    Home page Main Image overlay text*/
+     #insights-image {
         height: 20.64rem;
         max-width: 100%;
-        background: url("../images/insightspage-bgimg-smaller-screen.webp") no-repeat center center;
+        background-image: url("../images/insightspage-bgimg-smaller-screen.webp") no-repeat;
         background-color: #B8DBD9;
         background-size: cover;
         object-fit: cover;
         background-attachment: fixed;
-    } */
-    .overlay-text {
+    }
+    /* .overlay-text {
         font-size: 1.2rem;
         text-shadow: 0px 0px 2px #F4F4F9;
         left: 5%;
-    }
+    } */
 
     /* About home page*/
     #about {
@@ -1293,8 +1289,6 @@ label {
     /******* Topic container insights page *******/
     .topic-container {
         /* gap: 2rem 2.8rem;
-        grid-template-columns: 25%; */
-        width: 90%;
         /* margin: 0 auto; */
         font-size: 1.3rem;
     }
@@ -1305,14 +1299,6 @@ label {
     .topic-box4 {
         grid-column: span 2;
     }
-
-    /* .topic-box3,
-    .topic-box4,
-    .topic-box5,
-    .topic-box6 {
-        border: 0;
-    } */
-
     .topic-box1 {
         /* margin: 3rem 1.5rem 0 0.5rem; */
         width: 100%;

@@ -241,6 +241,8 @@ This website aims to educate and demystify some of the myths surrounding early a
 
 * [WebAIM](https://webaim.org/resources/contrastchecker/)- Was used for checking color contrast for accessibility.
 
+* [BIRME](https://www.birme.net/) - Was used to covert image into Webp format.
+
 # Testing
 
 ## Troubleshooting & peer code review
@@ -272,15 +274,29 @@ The [W3C HTML](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/cs
 ## Lighthouse
 
 I used Lighthouse on Google Chrome Developer Tools to test for the performance, accessibility, best practices and SEO of the website.
+
 * Home page lighthouse testing - mobile ~ desktop
+
+![Home page mobile lighthouse testing](./READMEimages/homepage-mobile-lighthousetest.png)
+
+![Home page desktop lighthouse testing](./READMEimages/homepage-desktop-lighthouse-testing.png)
 
 * Insights Page lighthouse testing - mobile ~ desktop
 
-* Sign Up page lighthouse testing - mobile ~ desktop
+![Insights page mobile lighthouse testing](./READMEimages/insightspage-mobile-lighthousetest.png)
+
+![Insights page mobile lighthouse re-test](./READMEimages/homepage-mobile-lighthousetest.png)
+
+* Sign Up page lighthouse testing - mobile ~ desktop 
+
+![Sign Up page mobile lighthouse testing](./READMEimages/signup-page-mobile-lighthousetest.png)
+
+![Sign Up page desktop lighthouse testing](./READMEimages/signup-page-desktop-lighthouse-testing.png)
+
 
 ## Test cases
 
-I performed differnt testing on my website using differnt browsers (google chrome, safari, mozilla firefox) and the devices (iPhone 12, motorola, ipad).
+I performed differnt testing on my website using differnt browsers (google chrome, safari, mozilla firefox) and the devices, such as (iPhone 12, motorola and Apple ipad).
 
 I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
