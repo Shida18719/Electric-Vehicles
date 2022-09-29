@@ -903,15 +903,13 @@ label {
 
     /* Home page Main Image overlay text*/
     #insights-image {
-        /* height: 37.5rem;
-        max-width: 100%; */
-        /* background: url("../images/imain-image.jpg") no-repeat center center; */
-    
+        height: 37.5rem;
+        max-width: 100%;
         background: url("../images/insightspage-bgimg-smaller-screen.webp") no-repeat center center;
-        /* background-color: #B8DBD9;
+        background-color: #B8DBD9;
         background-size: cover;
         object-fit: cover;
-        background-attachment: fixed; */
+        background-attachment: fixed;
     }
     .overlay-text {
         font-size: 1.2rem;
