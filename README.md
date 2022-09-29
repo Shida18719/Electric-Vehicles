@@ -265,11 +265,15 @@ Some of the suggestion raised on slack channel:
 The [W3C HTML](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) validator were used to validate this project.
 
 * HTML 
+  + [HTML Validator For Home Page](./READMEimages/homepage-html-validation.png)
 
-   + 
+   + [HTML Validator For Insights Page](./READMEimages/insightspage-html-validator.png)
+
+   + [HTML Validator For Sign Up Page](./READMEimages/signup-page-html-validator.png)
+
 * CSS
 
-  + 
+  + [CSS Validator For style.css file](./READMEimages/css-style-validator.png)
 
 ## Lighthouse
 
@@ -287,6 +291,8 @@ I used Lighthouse on Google Chrome Developer Tools to test for the performance, 
 
 ![Insights page mobile lighthouse re-test](./READMEimages/homepage-mobile-lighthousetest.png)
 
+![Insights page desktop lighthouse testing](./READMEimages/insights-page-desktop-lighthouse.png)
+
 * Sign Up page lighthouse testing - mobile ~ desktop 
 
 ![Sign Up page mobile lighthouse testing](./READMEimages/signup-page-mobile-lighthousetest.png)
@@ -300,7 +306,24 @@ I performed differnt testing on my website using differnt browsers (google chrom
 
 I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
+## Fixed bugs
+
 * The insights page jumps or shift every time it's pushed.
+
+## Testing Users Stories
+
++ As a visiting user, I want to be able to navigate easily across the website to learn more about EV
+A user can navigate all three pages from home page header, it is at the top of  all the pages. Also a contact us link to the sign up page and the interactive check list at the bottom part of home page links to the insights page.
+
+![Users Navigation](./READMEimages/user-navigation.png)
+
++ As a visiting user, I want to learn more about electric vehicle and how it can help me become climate positive. 
+
+![About Electric Vehicle](./READMEimages/user-stories-whatis-ev.png)
+
+![Learn more about Electric Vehicle](./READMEimages/insights-page-display.png)
+
++ As a visiting user, I would like to join EVinnovation mailing list
 
 
 

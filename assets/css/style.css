@@ -1027,22 +1027,19 @@ label {
 
     /*** Flex Option section content insight page ***/
     .option-container {
-        /* flex-direction: column; */
         flex-direction: none;
     }
 
     .option-charger,
     .option-wireless,
     .option-dynamic {
-        /* display: flex;
-        flex-direction: column; */
         text-align:center;
         width:100%;
         display:block;
         margin:auto;
     }
 
-    /* .charger h3 {
+    .charger h3 {
         margin-bottom: 0.5rem;
         text-align: center;
     }
@@ -1092,7 +1089,7 @@ label {
     /* .dynamic p {
         text-align: center;
         margin: 0 2rem 0 3rem;
-    } */ */
+    } */
 
     .dynamic-img {
         /* margin: 0 0 10rem 0; */
@@ -1120,18 +1117,17 @@ label {
 
     /** Start of Footer content **/
     #social-links i {
-        /* margin-bottom: 2rem; */
         margin: 1.5rem 2rem 2rem 2rem; 
     }
 }
 
 /**  Media Query for small screen sizes from 768px wide and down **/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
 
     /* Headings and logo */
     .header {
         min-height: 7vh;
-        /* line-height: 3.571rem; */
+        line-height: 2.571rem;
         flex-direction: column;
         place-content: center;
         flex-wrap: nowrap;
@@ -1141,6 +1137,7 @@ label {
     #logo {
         text-align: center;
         margin: 0 auto;
+        margin-top: 1rem;
     }
 
     /************* Navigation links **********/
@@ -1189,6 +1186,7 @@ label {
 
     .video {
         margin: 1.5rem 0;
+        /* margin: 4rem 0; */
     }
 
     .video-frame {
@@ -1252,27 +1250,28 @@ label {
     /**********Insight Page ***********/
     /* Background image cover text */
 
-    #bgc-image {
+    /* #bgc-image {
         position: relative;
         height: 20.64rem;
         width: 100%;
         overflow: hidden;
-    }
-    Home page Main Image overlay text*/
-    #insights-image {
+    } */
+    /*Home page Main Image overlay text*/
+    /* #insights-image {
        height: 20.64rem;
        max-width: 100%;
        background-image: url("../images/insightspage-bgimg-smaller-screen.webp") no-repeat;
-       /* background-color: #B8DBD9;
+       background-color: #B8DBD9;
        background-size: cover;
        object-fit: cover;
-       background-attachment: fixed; */
-   }
-   /* .overlay-text {
+       background-attachment: fixed !important;
+   } */
+
+    .overlay-text {
        font-size: 1.2rem;
        text-shadow: 0px 0px 2px #F4F4F9;
        left: 5%;
-   } */
+   } 
     .cover-text {
         font-size: 1rem;
         right: 3%;
@@ -1291,8 +1290,6 @@ label {
 
     /******* Topic container insights page *******/
     .topic-container {
-        /* gap: 2rem 2.8rem;
-        /* margin: 0 auto; */
         font-size: 1.3rem;
     }
 
@@ -1314,21 +1311,6 @@ label {
         width: 100%;
         padding: 0 2rem;
     }
-
-    /* .topic-box:nth-child(3) {
-        margin: 1rem 2rem 1rem 3rem;
-        padding: 0;
-    }
-
-    .topic-box:nth-child(4),
-    .topic-box:nth-child(5) {
-        padding: 0;
-    }
-
-    .topic-box:nth-child(6) {
-        margin: 2rem 2rem 4rem 2rem;
-        padding: 0;
-    } */
 
     .topic-box:nth-child(3), .topic-box:nth-child(4), .topic-box:nth-child(5), .topic-box:nth-child(6) {
         width: 100%;
@@ -1352,13 +1334,10 @@ label {
 
     /**************** Option container insights page *********************/
     .charger {
-        /* margin: 1% 0 1% 2%;
-        flex: 100%; */
         margin: 0;
     }
 
     .charger-img {
-        /* align-items: center; */
         width: 100%;
     }
     .wirless-img-wrapper {
@@ -1567,4 +1546,13 @@ label {
         margin-bottom: 1.5rem;
         text-align: left;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .video {
+    margin: 3rem 0 4rem 0;
+    /* margin: 4rem 0; */
+ 
+    
+}
 }
