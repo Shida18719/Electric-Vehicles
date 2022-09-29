@@ -303,7 +303,9 @@ footer div {
 #insights-image {
     height: 37.5rem;
     max-width: 100%;
-    background: url("../images/imain-image.jpg") no-repeat center center;
+    /* background: url("../images/imain-image.jpg") no-repeat center center; */
+
+    background: url("../images/insights-page-bgimage.webp") no-repeat center center;
     background-color: #B8DBD9;
     background-size: cover;
     object-fit: cover;
@@ -975,14 +977,12 @@ label {
 
     #social-links {
         text-align: center;
-        /* width: 80%; */
     }
 
     #social-links i {
         font-size: 2.4rem;
         margin: 1.5rem 3rem 2rem 3rem;
     }
-
     /**********Insight Page ***********/
     /* Background image cover text */
     .cover-text {
