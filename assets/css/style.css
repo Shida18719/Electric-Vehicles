@@ -1422,10 +1422,6 @@ label {
 
 /**  Media Query for small screen sizes from 576px wide and down **/
 @media screen and (max-width: 576px) {
-    .header {
-        line-height: 3.8rem;
-    }
-
     /* Headings and logo */
     #logo {
         /* margin-top: 0.5em; */
