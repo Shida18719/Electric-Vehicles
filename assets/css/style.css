@@ -902,15 +902,15 @@ label {
     }
 
     /* Home page Main Image overlay text*/
-    #insights-image {
-        height: 37.5rem;
+    /* #insights-image {
+        height: 20.64rem;
         max-width: 100%;
         background: url("../images/insightspage-bgimg-smaller-screen.webp") no-repeat center center;
         background-color: #B8DBD9;
         background-size: cover;
         object-fit: cover;
         background-attachment: fixed;
-    }
+    } */
     .overlay-text {
         font-size: 1.2rem;
         text-shadow: 0px 0px 2px #F4F4F9;
