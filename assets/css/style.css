@@ -348,7 +348,6 @@ footer div {
 
 #chart-bar iframe {
     width: 100%;
-    /* width: 106%; */
     height: 28.5rem;
     overflow: hidden !important;
     margin-bottom: 9%;
@@ -1029,7 +1028,7 @@ label {
 }
 
 /**  Media Query for small screen sizes from 768px wide and down **/
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     /* Headings and logo */
     .header {
@@ -1154,29 +1153,6 @@ label {
 
     /**********Insight Page ***********/
     /* Background image cover text */
-
-    /* #bgc-image {
-        position: relative;
-        height: 20.64rem;
-        width: 100%;
-        overflow: hidden;
-    } */
-    /*Home page Main Image overlay text*/
-    /* #insights-image {
-       height: 20.64rem;
-       max-width: 100%;
-       background-image: url("../images/insightspage-bgimg-smaller-screen.webp") no-repeat;
-       background-color: #B8DBD9;
-       background-size: cover;
-       object-fit: cover;
-       background-attachment: fixed !important;
-   } */
-
-    .overlay-text {
-       font-size: 1.2rem;
-       text-shadow: 0px 0px 2px #F4F4F9;
-       left: 5%;
-   } 
     .cover-text {
         font-size: 1rem;
         right: 3%;
@@ -1299,7 +1275,7 @@ label {
     }
 
     #nav-menu ul li {
-        margin: 0.2rem 0.2rem 0.8rem 0.2rem;
+        margin: 0.2rem;
     }
 
     /* About home page*/

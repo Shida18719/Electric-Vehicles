@@ -1,5 +1,5 @@
 # EVInnovation Website
-View the live project here [url](), link goes here
+View the live project here [url](https://shida18719.github.io/Electric-Vehicles/), link goes here
 
 The EVInnovation website is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors to find reliable information pertaining to Electric Vehicle news, insights, update and new innovations.
 
@@ -154,11 +154,7 @@ This website aims to educate and demystify some of the myths surrounding early a
       * The user submits the form using the subscribe button. Users must fill in the name and email to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
       * The user is free to unsubscribe if they are no longer interested.
 
-      ![Sign Up Page Large Screen Display](./READMEimages/sign-up-form.png)
-
-+  ### Thank You Page.
-
-      * A thank you message will be send to the user for submitting the form and lets them know there registration was successful.    
+      ![Sign Up Page Large Screen Display](./READMEimages/sign-up-form.png)    
 
 
 ## Future Features
