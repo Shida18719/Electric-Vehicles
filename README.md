@@ -289,6 +289,10 @@ I used Lighthouse on Google Chrome Developer Tools to test for the performance, 
 
 ![Insights page mobile lighthouse testing](./READMEimages/insightspage-mobile-lighthousetest.png)
 
+Suggestions:
+
+  * Serve images in next-gen formats. Lighthouse suggests using image formats of WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have converted the insights page background image to webp format using Birme. Also re-sized the image to improve load time.
+
 ![Insights page mobile lighthouse re-test](./READMEimages/homepage-mobile-lighthousetest.png)
 
 ![Insights page desktop lighthouse testing](./READMEimages/insights-page-desktop-lighthouse.png)
@@ -308,11 +312,11 @@ I also went through each page using google chrome developer tools to ensure that
 
 ## Fixed bugs
 
-* The insights page jumps or shift every time it's pushed.
+
 
 ## Testing Users Stories
 
-+ As a visiting user, I want to be able to navigate easily across the website to learn more about EV
++ As a visiting user, I want to be able to navigate easily across the website to find more information.
 A user can navigate all three pages from home page header, it is at the top of  all the pages. Also a contact us link to the sign up page and the interactive check list at the bottom part of home page links to the insights page.
 
 ![Users Navigation](./READMEimages/user-navigation.png)
@@ -323,7 +327,30 @@ A user can navigate all three pages from home page header, it is at the top of  
 
 ![Learn more about Electric Vehicle](./READMEimages/insights-page-display.png)
 
-+ As a visiting user, I would like to join EVinnovation mailing list
++ As a visiting user, I will like to join the mailing list for new update.
+   * I want to be kept informed on new developments via the website.
+     The sign up page provides a form that users can fill in their names and email address, then click on the sbscribe button to join the mailing list.
+
+![Join Mailing List](./READMEimages/user-stories-join-mailinglist.png)
+
+## Fixed bugs
+ * Heading and navigation bar not properly aligned on small screen size. Which was hidding part of the sign up button away. This doesn't make for a good user experience as the sign up boutton is one of the Call To Action of the website. This was resolve by taking out the margin left that was inherited from the media query above it.
+
+ * Some issue with image not displaying on the browser, but would display in the editor. After several attempt of fixing the file path, I raised the issue on slack, I was advice by Suzzy_Bee to drag the images folder into the asset folder,  
+
+
+
+
+
+## Known Bugs
+
+* The insights page jumps or shift some times when  it's pushed.
+* I discovered there is an openning and closing HTML from the chart that shows up within mine when testing and debbuging on Google chrome dev tool.
+
+ ![Known bug](./READMEimages/known-bug.png)
+
+* A scroll bar on the side of the chart after removing the "no scroll" attribute from HTML as this was displaying error after the HTML validator test. I raised this on slack, and I was advised to use the "overflow hidden" attribute instead, but this hasn't yet being resolved.
+
 
 
 

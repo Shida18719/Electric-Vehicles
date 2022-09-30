@@ -116,15 +116,12 @@ body {
     font-size: 1.5rem;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.25rem;
-
     padding: 1em;
     margin: 1rem;
-
     position: absolute;
     color: #B8DBD9;
     background-color: rgba(0, 0, 0, 0.4);
     text-shadow: 1px 1px 2px #F4F4F9;
-
     bottom: 9%;
     left: 12%;
 }
@@ -301,8 +298,6 @@ footer div {
 #insights-image {
     height: 37.5rem;
     max-width: 100%;
-    /* background: url("../images/imain-image.jpg") no-repeat center center; */
-
     background: url("../images/insights-page-bgimage.webp") no-repeat center center;
     background-color: #B8DBD9;
     background-size: cover;
@@ -343,7 +338,6 @@ footer div {
 }
 
 #chart-header {
-   /* margin-bottom: 1rem; */
     color: #141414;
     font-size: 1.5rem;
     padding-bottom: 1em;
@@ -1072,7 +1066,7 @@ label {
 
     .wirless p {
         /* text-align: center; */
-        align-items: center;
+        /* align-items: center; */
         /* margin: 0 2.8rem 1rem 2.8rem;
     }
 
@@ -1127,7 +1121,7 @@ label {
     /* Headings and logo */
     .header {
         min-height: 7vh;
-        line-height: 2.571rem;
+        /* line-height: 2.571rem; */
         flex-direction: column;
         place-content: center;
         flex-wrap: nowrap;
