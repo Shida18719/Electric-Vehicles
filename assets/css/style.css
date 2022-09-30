@@ -1025,7 +1025,7 @@ label {
     #social-links i {
         margin: 1.5rem 2rem 2rem 2rem; 
     }
-}
+
 
 /**  Media Query for small screen sizes from 768px wide and down **/
 @media screen and (max-width: 768px) {
