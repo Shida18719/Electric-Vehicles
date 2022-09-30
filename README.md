@@ -1,11 +1,11 @@
 # EVInnovation Website
-View the live project here [url](https://shida18719.github.io/Electric-Vehicles/), link goes here
+View the live project here [EVInnovation](https://shida18719.github.io/Electric-Vehicles/), link goes here
 
 The EVInnovation website is designed to be responsive and accessible on a range of devices, making it easy to navigate for visitors to find reliable information pertaining to Electric Vehicle news, insights, update and new innovations.
 
 This website is targeted towards drivers, individuals, businesses and curious minds who loves to learn about electric vehicles.
 
-  [](https://ui.dev/amiresponsive?url=https://shida18719.github.io/Electric-Vehicles/)                                         
+ [EVInnovation](./READMEimages/amiresponsive-image.png))                                         
 
 ***
 
