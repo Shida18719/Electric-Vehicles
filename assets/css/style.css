@@ -9,7 +9,6 @@
 }
 
 html {
-    /* font-size: 100%; */
     scroll-behavior: smooth;
 }
 
@@ -17,7 +16,7 @@ body {
     font-family: 'Open sans', sans-serif;
     color: #2A353C;
     background-color: #F4F4F9;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-size: 1.4rem;
 }
 
@@ -344,9 +343,6 @@ footer div {
 }
 .chart-bar {
     overflow: hidden !important;
-    /* margin: 1rem; */
-    /* width: 100%;
-    height: 27.14rem; */
     padding: 1em;
 }
 
@@ -354,7 +350,6 @@ footer div {
     width: 100%;
     /* width: 106%; */
     height: 28.5rem;
-    /* height: 27.14rem; */
     overflow: hidden !important;
     margin-bottom: 9%;
 }
@@ -406,7 +401,7 @@ footer div {
 }
 
 .topic-box {
-    margin: 1rem 1.5rem 1rem 2rem;
+    margin: 1.5rem 1.5rem 2rem 2rem;
 }
 
 .topic-box3,
@@ -507,7 +502,6 @@ footer div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    /* width: 100%; */
     height: fit-content;
 }
 
@@ -517,7 +511,6 @@ footer div {
     display: flex;
     place-items: center;
     min-height: 37.25%;
-    /* width: 100%; */
 }
 
 .charger {
@@ -537,22 +530,13 @@ footer div {
     list-style-type: none;
     text-align: center;
     line-height: 1.6;
-    /* padding-right: 5%; */
-    /* margin-right: 1rem; */
 }
 
 .charger-img {
     width: 450px;
-    /* max-width: 100%; */
     height: auto;
-    /* margin-left: 15%; */
     align-self: center;
     margin-bottom: 3rem;
-}
-
-.wirless-img-wrapper {
-    /* margin-left: 6rem; */
-    /* margin-left: 30%; */
 }
 
 .wirless {
@@ -564,9 +548,6 @@ footer div {
     align-self: center;
     margin-left: 8rem;
     width: 450px;
-    /* width: 100%; */
-    /* height: auto; */
-
 }
 
 .wirless h3 {
@@ -604,11 +585,8 @@ footer div {
 
 .dynamic-img {
     margin: 3rem 0 9rem 0;
-    /* width: 100%; */
     width: 450px;
-    /* height: auto; */
     align-self: center;
-    /* margin-top: 3rem; */
 }
 
 /**** Sign Up Form Page Content*****/
@@ -631,7 +609,6 @@ footer div {
 }
 
 .signup-form h2 {
-    /* color: #2A353C; */
     color: #B8DBD9;
     font-family: Lato, sans-serif;
     margin-bottom: 1.25rem;
@@ -780,10 +757,6 @@ label {
         margin: 2rem 0 1rem 0;
     }
 
-    #intro-heading p {
-        /* margin: 1rem; */
-    }
-
     .list li {
         padding-top: 0.6em;
     }
@@ -795,7 +768,6 @@ label {
 
     .topic-box:nth-child(2) {
         margin: 3rem 0.5rem 0 0;
-        /* margin: 0 0.5rem 0 0; */
     }
 
     .topic-box:nth-child(5) {
@@ -813,12 +785,7 @@ label {
         padding: 1em 0 1em 0;
     }
     .charger-img {
-        /* margin: 1rem 1rem 0 1rem; */
         margin-bottom: 3rem;
-    }
-
-    .wirless {
-        /* margin-top: 2rem; */
     }
 
     .wirless p {
@@ -827,14 +794,11 @@ label {
     .wirless-img-wrapper {
         margin-left: 5rem;
     }
-    .wirless img {
-        /* margin-left: 4rem; */
-    }
+    
     .option-dynamic {
         margin: 2.5rem 0;
     }
     .dynamic {
-        /* margin: 4rem 2rem; */
         margin-bottom: 6.5rem;
         margin-right: 2rem;
     }
@@ -885,9 +849,16 @@ label {
     }
 
     #nav-menu ul li {
-        /* margin-right: 1rem; */
         margin: 0 1rem 0.7rem 1rem;
     }
+
+      /* Main Image overlay text*/
+      .overlay-text {
+        font-size: 1.2rem;
+        text-shadow: 0px 0px 2px #F4F4F9;
+        left: 5%;
+    }
+
     /* About home page*/
     #about {
         padding: 1rem;
@@ -908,7 +879,6 @@ label {
     .video {
         margin-top: 1rem;
         padding: 1em 0 0 0;
-        /* height: 540px; */
     }
 
     .video-frame {
@@ -916,16 +886,17 @@ label {
     }
 
     /******* Checkout list section home page ********/
+    #list-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .check-out-text {
-        /* line-height: 1.6;
-        margin: 0 0.5rem 1rem 1rem; */
         text-align: center;
         margin: 2rem 0 1rem 0;
     }
 
     .check-out-list {
-        /* margin: 4rem 3rem 7rem 0;
-        font-size: 1.1rem; */
         width: 90%;
         box-shadow: 0 0 0.5rem #141414;
         margin: 1rem 0 10rem 0;
@@ -1015,14 +986,9 @@ label {
     }
 
     /*** Option content insight page ***/
-    .options {
-        /* text-align: center; */
-    }
-
-    /*** Flex Option section content insight page ***/
-    .option-container {
+      .option-container {
         flex-direction: none;
-    }
+    } 
 
     .option-charger,
     .option-wireless,
@@ -1033,65 +999,12 @@ label {
         margin:auto;
     }
 
-    .charger h3 {
-        margin-bottom: 0.5rem;
-        text-align: center;
-    }
-
-    .charger ul li {
-        text-align: center;
-        margin-bottom: 1rem;
-    } */
-
-    /* .charger-img {
-        align-self: center;
-        margin-right: 4rem;
-        margin-top: 3rem;
-    } */
-
-     /* .wirless {
-        margin: 2rem 4rem;
-    }
-
-     .wirless img {
-        align-self: center;
-        margin-right: 4rem;
-        margin-top: 3rem;
-    } 
-
-    .wirless h3 {
-        text-align: center;
-        margin: 2rem 3rem 0 1rem;
-    } 
-
-    .wirless p {
-        /* text-align: center; */
-        /* align-items: center; */
-        /* margin: 0 2.8rem 1rem 2.8rem;
-    }
-
-    .dynamic {
-        margin: 0.5rem 0 1rem 0;
-        place-content: center;
-    } */
-
-    /* .dynamic h3 {
-        text-align: center;
-        margin: 0 2rem 0 1rem;
-    } */
-
-    /* .dynamic p {
-        text-align: center;
-        margin: 0 2rem 0 3rem;
-    } */
-
     .dynamic-img {
-        /* margin: 0 0 10rem 0; */
         align-items: center;
-
     }
-
-    /**** End of Insight Page Content*****/
+/**** End of Insight Page Content*****/
+    }
+    
     /**** Sign Up Form Page Content*****/
     .signup-form {
         width: 80%;
@@ -1121,7 +1034,6 @@ label {
     /* Headings and logo */
     .header {
         min-height: 7vh;
-        /* line-height: 2.571rem; */
         flex-direction: column;
         place-content: center;
         flex-wrap: nowrap;
@@ -1180,7 +1092,6 @@ label {
 
     .video {
         margin: 1.5rem 0;
-        /* margin: 4rem 0; */
     }
 
     .video-frame {
@@ -1285,6 +1196,7 @@ label {
     /******* Topic container insights page *******/
     .topic-container {
         font-size: 1.3rem;
+        width: 90%;
     }
 
     .topic-box1,
@@ -1294,14 +1206,12 @@ label {
         grid-column: span 2;
     }
     .topic-box1 {
-        /* margin: 3rem 1.5rem 0 0.5rem; */
         width: 100%;
         margin: 0 5%;
         padding: 0 2rem;
     }
 
     .topic-box:nth-child(2) {
-        /* margin: 0 1rem 0 1rem; */
         width: 100%;
         padding: 0 2rem;
     }
@@ -1345,25 +1255,8 @@ label {
         width: 100%;
     }
 
-    .wirless img {
-        /* width: 100%; */
-    }
-
     .wirless h3 {
         margin: 0 3rem 0 1rem;
-    }
-
-    /* .dynamic h3 {
-        text-align: center;
-    }
-
-    .dynamic p {
-        margin: 0 2rem 0 3rem;
-    } */
-
-    .dynamic-img {
-        /* margin-left: 4rem; */
-        /* width: 100%; */
     }
 
     .dynamic-img, .wirless-img, .charger-img {
@@ -1397,7 +1290,6 @@ label {
 @media screen and (max-width: 576px) {
     /* Headings and logo */
     #logo {
-        /* margin-top: 0.5em; */
         font-size: 2rem;
     }
 
@@ -1449,19 +1341,6 @@ label {
         font-size: 1rem;
     }
 
-    /* * Topic container insights page *
-    .topic-box1 {
-        margin: 2rem 1rem 0 0.5rem;
-    }
-
-    .topic-box:nth-child(3) {
-        margin: 1rem 1.5rem 1rem 0.5rem;
-    }
-
-    .topic-box:nth-child(6) {
-        margin: 2rem 1.5rem 3rem 1.5rem;
-    } */
-
     /******* Option content insight page ******/
 
     .options {
@@ -1481,11 +1360,6 @@ label {
     }
 
     /**************** Option container insights page *********************/
-    .charger {
-        /* margin: 1% 2% 1% 1%; */
-        /* padding-top: 1%; */
-    }
-
     .charger h3 {
         margin-bottom: 1rem;
         text-align: center;
@@ -1493,21 +1367,7 @@ label {
 
     .charger ul li {
         text-align: center;
-        /* padding-right: 1%; */
     }
-
-    /* .charger-img {
-        width: 100%;
-        /* margin-left: 2rem; */
-    /* }
-
-    .wirless {
-        margin: 0 auto;
-    }
-
-    .wirless img {
-        width: 80%;
-    } */ */
 
     .wirless h3 {
         margin-top: 2rem;
@@ -1518,22 +1378,10 @@ label {
         font-size: 1.3rem;
     }
 
-    .dynamic {
-        /* margin: 1.5rem; */
-    }
-
-    .dynamic h3 {
-        /* margin: 0 2em 0 1em; */
-    }
-
     .dynamic p {
         margin: 1rem 1rem 1rem 1.5rem;
         text-align: left;
     }
-
-    /* .dynamic-img {
-        margin-left: 3rem;
-    } */
 
     /**** Sign Up Form Page Content*****/
     .signup-form p {
@@ -1545,7 +1393,6 @@ label {
 @media screen and (max-width: 400px) {
     .video {
     margin: 3rem 0 4rem 0;
-    /* margin: 4rem 0; */
  
     
 }

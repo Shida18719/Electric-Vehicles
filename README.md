@@ -351,13 +351,74 @@ I performed differnt testing on my website using differnt browsers (google chrom
 
 I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
 
-  * Test link on every page. Each worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+  * Test the link on every page. Each worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
 
-  * The sign up form work correctly. As I tried submitting the form with just one input, leaving the the other input empty, with the push of the subscribe button.  I was prompted to fill out the remaining field 
+  * The sign up form work correctly. As I tried submitting the form with just one input after the other, leaving the the other input empty, with the push of the subscribe button.  I was prompted to fill out the remaining field.
+
+  * 
 
 
+# Deployment 
+
+This site was deployed to GitHub pages via Gitpod. The steps to deploy are as follows:
+
+* Gitpod
+
+    + Log into GitHub.
+    + Create a repository
+    + Click on the green Gitpod button at the top of the page, this loads the editor.
+    + Click on the button that says More Actions.
+    + Click Open in Browser.
+    + Right click the big box on the left with your repository name.
+    + Click new file.
+    + Then create an index.html file.
+    + Go to the top of the index file, and typein "!" and enter. This will make a start template.
+    + Make a basic structure for your index page.
+    + Click on terminal at the bottom of the page to start your commit message.
+    + type 'git add .'
+    + Then for your first commit type in 'git commit -m "Initial commit".
+    + The type 'git push'.
+    + Your code has now been pushed and saved onto your GitHub repository.
 
 
+* GitHub pages
+
+   + Log into GitHub.
+   + Find the repository for this project Electric Vehicles.
+   + Go to the settings link.
+   + Click on the Pages link on the left side of the navigation bar.
+   + In the Source section, choose main from the drop down select branch menu.
+   + Click Save. Your live GitHub pages site is now deployed and the URL shown at the top of the page.
+
+   # Credits
+
+    ## Code Used
+
+   [W3Schools](https://www.w3schools.com/css/default.asp)
+
+   ## Content
+   
+    + All text content have been writen by me.
+    + The icons in the footer were taken from [Font Awesome](https://fontawesome.com/v5/search)
+
+    ## Media
+       
+    + Background image on the home page and the charger image on the insights page was taken from [Unsplash](https://unsplash.com/s/photos/electric-car)
+    + Video on the home page was taken from [Energy Saving Trust](https://energysavingtrust.org.uk/) 
+    + Backgroud image, wireless and the dynamicimage on the Insights page were taken from [Adobe Stock](https://stock.adobe.com/uk/)
+    + The chart used on insights page was taken from [Rac](https://www.rac.co.uk/drive/electric-cars/)
+  
+  ## Acknowledgments
+
+  I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+  + My family, for their uderstanding.
+  + The slack community, for always being there.
+  + [MiaRasmussen_5P](https://github.com/MiaRasmussen05), for her great support and time looking into the project all through.
+  + [Chris_Williams_5P](https://github.com/Chr15w1986), for the time spent figuring out why the images on the site are not displayed on the browser.
+  + My mentor jubril_mentor, for helping me understand where I was going wrong
+  + [Okurut_5p](https://github.com/kedi1991/), for is advice and suggestions during this projects. 
+  + [Kera Cudmore/Kera Cudmore_lead](https://github.com/kera-cudmore) for doing a 'Creating your first README webinar' it helped me so incredibly much.
 
 
 
