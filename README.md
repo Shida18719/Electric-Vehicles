@@ -5,7 +5,7 @@ The EVInnovation website is designed to be responsive and accessible on a range 
 
 This website is targeted towards drivers, individuals, businesses and curious minds who loves to learn about electric vehicles.
 
-                                               Imirresponsive image goes here
+  [](https://ui.dev/amiresponsive?url=https://shida18719.github.io/Electric-Vehicles/)                                         
 
 ***
 
@@ -304,17 +304,9 @@ Suggestions:
 ![Sign Up page desktop lighthouse testing](./READMEimages/signup-page-desktop-lighthouse-testing.png)
 
 
-## Test cases
+## Test case
 
-I performed differnt testing on my website using differnt browsers (google chrome, safari, mozilla firefox) and the devices, such as (iPhone 12, motorola and Apple ipad).
-
-I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
-
-## Fixed bugs
-
-
-
-## Testing Users Stories
+  ## Testing Users Stories
 
 + As a visiting user, I want to be able to navigate easily across the website to find more information.
 A user can navigate all three pages from home page header, it is at the top of  all the pages. Also a contact us link to the sign up page and the interactive check list at the bottom part of home page links to the insights page.
@@ -336,21 +328,32 @@ A user can navigate all three pages from home page header, it is at the top of  
 ## Fixed bugs
  * Heading and navigation bar not properly aligned on small screen size. Which was hidding part of the sign up button away. This doesn't make for a good user experience as the sign up boutton is one of the Call To Action of the website. This was resolve by taking out the margin left that was inherited from the media query above it.
 
- * Some issue with image not displaying on the browser, but would display in the editor. After several attempt of fixing the file path, I raised the issue on slack, I was advice by Suzzy_Bee to drag the images folder into the asset folder,  
+ * Some issue with image not displaying on the browser, but would display in the editor. After several attempt of fixing the file path, I raised the issue on slack, I was advice by Suzzy_Bee to drag the images folder into the asset folder, it worked firstime. However, same issue occured again. Chris_Williams 5P helped look into it and suggested, the image size was too large. This was fixed by compressing the image using Tinypng.
 
-
-
-
+ * Text overlay not responsive, the overlay box will slide rather than resize to fit. This was fixed using percentages to position the overlay.
 
 ## Known Bugs
 
-* The insights page jumps or shift some times when  it's pushed.
+* The insights page jumps or swirlve some times when  it's pushed. Few suggestions pointed at removing unused codes. But this hasn't really worked.
+
+![Movable Fixed Hdeader bug](./READMEimages/movable-fixed-header.png)
 * I discovered there is an openning and closing HTML from the chart that shows up within mine when testing and debbuging on Google chrome dev tool.
 
  ![Known bug](./READMEimages/known-bug.png)
 
 * A scroll bar on the side of the chart after removing the "no scroll" attribute from HTML as this was displaying error after the HTML validator test. I raised this on slack, and I was advised to use the "overflow hidden" attribute instead, but this hasn't yet being resolved.
 
+* Issue with not able to display backgroung=d image on image Apple products. I raised this on slack, the suggest I got from Jo_ci was that "It seems some Apple devices don't handle the shorthand" correctly. I used the background-image syntax in the media query. Image displayed on ipad, but not on smaller screen size.
+
+## Full Testing
+
+I performed differnt testing on my website using differnt browsers (google chrome, safari, mozilla firefox and MicroSoft Edge) and the devices, such as (iPhone 12, motorola and Apple ipad).
+
+I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
+  * Test link on every page. Each worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+
+  * The sign up form work correctly. As I tried submitting the form with just one input, leaving the the other input empty, with the push of the subscribe button.  I was prompted to fill out the remaining field 
 
 
 
