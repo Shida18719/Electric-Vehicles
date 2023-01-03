@@ -994,8 +994,24 @@ label {
     .option-dynamic {
         text-align:center;
         width:100%;
-        display:block;
+        display:grid;
         margin:auto;
+    }
+
+    .wirless h3 {
+        text-align: center;
+    }
+
+    .wirless-img-wrapper {
+        margin-right: 12.5rem;
+    }
+
+    .wirless img {
+        align-items: center;
+    }
+
+    .dynamic h3 {
+        text-align: center; 
     }
 
     .dynamic-img {
