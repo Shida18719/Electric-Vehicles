@@ -664,6 +664,70 @@ label {
     text-align: center;
 }
 
+/* Display change Proerties */
+/**********Feedback *****/
+
+.thank-you {
+    /* min-height: 75rem; */
+}
+
+.flip-wrapper {
+    min-height: 75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-container:hover .flip-card {
+    transform: rotateY(180deg); 
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  }
+    
+  .flip-front, .flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 10px;
+  }
+  
+  .flip-front {
+    background-color: #63b0ac;
+    /* background: linear-gradient(#08aeea, #2af598 #f8da61, #ff5acd); */
+    color: #2A353C;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 2;
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; 
+  }
+  
+  .flip-back {
+    z-index: 1;
+    background-color: #045839;
+    color: #F4F4F9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    font-size: 2.5rem;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+
+  .flip-container {
+    perspective: 1000px;
+  }
+
+
 /***** Media Queries ruleset from 576px - 1280px *****/
 /*****************************************************/
 /**  Media Query for large screen sizes from 1280px wide and down **/
@@ -1380,12 +1444,24 @@ label {
         margin-bottom: 1.5rem;
         text-align: left;
     }
+
+    .flip-wrapper {
+        min-height: 55rem;
+    }
+    
+    .flip-card {
+        width: 300px;
+        height: 300px;
+      }
+
+      .flip-front, .flip-back {
+        font-size: 1.5rem;
+      }
 }
 
 @media screen and (max-width: 400px) {
     .video {
     margin: 3rem 0 4rem 0;
- 
-    
 }
+
 }
