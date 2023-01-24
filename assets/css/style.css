@@ -664,12 +664,8 @@ label {
     text-align: center;
 }
 
-/* Display change Proerties */
+/* Display change Proerties for flip card*/
 /**********Feedback *****/
-
-.thank-you {
-    /* min-height: 75rem; */
-}
 
 .flip-wrapper {
     min-height: 75rem;
